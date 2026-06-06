@@ -1,0 +1,29 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Evidence </title>
+	
+ <link href="~/css/mycss.css" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a   href="/Order/Index">Order</a>
+            </li>
+        </ul>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+    <div>
+
+    </div>
+    <script src="~/lib/jquery/jquery.js"></script>
+    
+    @RenderSection("scripts", required: false)
+</body>
+</html>
