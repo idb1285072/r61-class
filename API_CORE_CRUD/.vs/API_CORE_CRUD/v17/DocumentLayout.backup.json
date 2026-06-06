@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LAB104-12U\\Desktop\\2025-02-16\\API_CORE_CRUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2743112A-5BB5-4F0D-A932-4AB778C2BCA9}|MVC_CORE_CRUD\\MVC_CORE_CRUD.csproj|c:\\users\\lab104-12u\\desktop\\2025-02-16\\api_core_crud\\mvc_core_crud\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2743112A-5BB5-4F0D-A932-4AB778C2BCA9}|MVC_CORE_CRUD\\MVC_CORE_CRUD.csproj|solutionrelative:mvc_core_crud\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2743112A-5BB5-4F0D-A932-4AB778C2BCA9}|MVC_CORE_CRUD\\MVC_CORE_CRUD.csproj|c:\\users\\lab104-12u\\desktop\\2025-02-16\\api_core_crud\\mvc_core_crud\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2743112A-5BB5-4F0D-A932-4AB778C2BCA9}|MVC_CORE_CRUD\\MVC_CORE_CRUD.csproj|solutionrelative:mvc_core_crud\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5ADA182-4677-4200-9007-B1A30DEA56DB}|API_CORE_CRUD\\API_CORE_CRUD.csproj|c:\\users\\lab104-12u\\desktop\\2025-02-16\\api_core_crud\\api_core_crud\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5ADA182-4677-4200-9007-B1A30DEA56DB}|API_CORE_CRUD\\API_CORE_CRUD.csproj|solutionrelative:api_core_crud\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5ADA182-4677-4200-9007-B1A30DEA56DB}|API_CORE_CRUD\\API_CORE_CRUD.csproj|c:\\users\\lab104-12u\\desktop\\2025-02-16\\api_core_crud\\api_core_crud\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5ADA182-4677-4200-9007-B1A30DEA56DB}|API_CORE_CRUD\\API_CORE_CRUD.csproj|solutionrelative:api_core_crud\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\LAB104-12U\\Desktop\\2025-02-16\\API_CORE_CRUD\\MVC_CORE_CRUD\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "MVC_CORE_CRUD\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\LAB104-12U\\Desktop\\2025-02-16\\API_CORE_CRUD\\MVC_CORE_CRUD\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "MVC_CORE_CRUD\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T06:04:12.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\LAB104-12U\\Desktop\\2025-02-16\\API_CORE_CRUD\\API_CORE_CRUD\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "API_CORE_CRUD\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\LAB104-12U\\Desktop\\2025-02-16\\API_CORE_CRUD\\API_CORE_CRUD\\Models\\Student.cs",
+              "RelativeToolTip": "API_CORE_CRUD\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T05:51:46.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\LAB104-12U\\Desktop\\2025-02-16\\API_CORE_CRUD\\API_CORE_CRUD\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "API_CORE_CRUD\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\LAB104-12U\\Desktop\\2025-02-16\\API_CORE_CRUD\\API_CORE_CRUD\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "API_CORE_CRUD\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T05:51:43.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\LAB104-12U\\Desktop\\2025-02-16\\API_CORE_CRUD\\MVC_CORE_CRUD\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "MVC_CORE_CRUD\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\LAB104-12U\\Desktop\\2025-02-16\\API_CORE_CRUD\\MVC_CORE_CRUD\\Models\\Student.cs",
+              "RelativeToolTip": "MVC_CORE_CRUD\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T05:50:50.817Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

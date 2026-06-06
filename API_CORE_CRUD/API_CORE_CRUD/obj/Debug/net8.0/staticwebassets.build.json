@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "WIWKYRZIA1amTSTK1ZCDmPlYnb4vQdB/w5cBYolUTZM=",
+  "Source": "API_CORE_CRUD",
+  "BasePath": "_content/API_CORE_CRUD",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

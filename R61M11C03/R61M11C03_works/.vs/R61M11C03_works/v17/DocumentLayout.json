@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\R61\\M11\\R61M11C03\\R61M11C03_works\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4FDDCED-5802-4DE1-B5C1-266D304345A9}|R61M11C03_w01\\R61M11C03_w01.csproj|d:\\r61\\m11\\r61m11c03\\r61m11c03_works\\r61m11c03_w01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4FDDCED-5802-4DE1-B5C1-266D304345A9}|R61M11C03_w01\\R61M11C03_w01.csproj|solutionrelative:r61m11c03_w01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4FDDCED-5802-4DE1-B5C1-266D304345A9}|R61M11C03_w01\\R61M11C03_w01.csproj|d:\\r61\\m11\\r61m11c03\\r61m11c03_works\\r61m11c03_w01\\r61m11c03_w01.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B4FDDCED-5802-4DE1-B5C1-266D304345A9}|R61M11C03_w01\\R61M11C03_w01.csproj|solutionrelative:r61m11c03_w01\\r61m11c03_w01.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4FDDCED-5802-4DE1-B5C1-266D304345A9}|R61M11C03_w01\\R61M11C03_w01.csproj|d:\\r61\\m11\\r61m11c03\\r61m11c03_works\\r61m11c03_w01\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B4FDDCED-5802-4DE1-B5C1-266D304345A9}|R61M11C03_w01\\R61M11C03_w01.csproj|solutionrelative:r61m11c03_w01\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4FDDCED-5802-4DE1-B5C1-266D304345A9}|R61M11C03_w01\\R61M11C03_w01.csproj|d:\\r61\\m11\\r61m11c03\\r61m11c03_works\\r61m11c03_w01\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4FDDCED-5802-4DE1-B5C1-266D304345A9}|R61M11C03_w01\\R61M11C03_w01.csproj|solutionrelative:r61m11c03_w01\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4FDDCED-5802-4DE1-B5C1-266D304345A9}|R61M11C03_w01\\R61M11C03_w01.csproj|d:\\r61\\m11\\r61m11c03\\r61m11c03_works\\r61m11c03_w01\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4FDDCED-5802-4DE1-B5C1-266D304345A9}|R61M11C03_w01\\R61M11C03_w01.csproj|solutionrelative:r61m11c03_w01\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4FDDCED-5802-4DE1-B5C1-266D304345A9}|R61M11C03_w01\\R61M11C03_w01.csproj|d:\\r61\\m11\\r61m11c03\\r61m11c03_works\\r61m11c03_w01\\models\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4FDDCED-5802-4DE1-B5C1-266D304345A9}|R61M11C03_w01\\R61M11C03_w01.csproj|solutionrelative:r61m11c03_w01\\models\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4FDDCED-5802-4DE1-B5C1-266D304345A9}|R61M11C03_w01\\R61M11C03_w01.csproj|d:\\r61\\m11\\r61m11c03\\r61m11c03_works\\r61m11c03_w01\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B4FDDCED-5802-4DE1-B5C1-266D304345A9}|R61M11C03_w01\\R61M11C03_w01.csproj|solutionrelative:r61m11c03_w01\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4FDDCED-5802-4DE1-B5C1-266D304345A9}|R61M11C03_w01\\R61M11C03_w01.csproj|d:\\r61\\m11\\r61m11c03\\r61m11c03_works\\r61m11c03_w01\\security\\tokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4FDDCED-5802-4DE1-B5C1-266D304345A9}|R61M11C03_w01\\R61M11C03_w01.csproj|solutionrelative:r61m11c03_w01\\security\\tokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4FDDCED-5802-4DE1-B5C1-266D304345A9}|R61M11C03_w01\\R61M11C03_w01.csproj|d:\\r61\\m11\\r61m11c03\\r61m11c03_works\\r61m11c03_w01\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4FDDCED-5802-4DE1-B5C1-266D304345A9}|R61M11C03_w01\\R61M11C03_w01.csproj|solutionrelative:r61m11c03_w01\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4FDDCED-5802-4DE1-B5C1-266D304345A9}|R61M11C03_w01\\R61M11C03_w01.csproj|d:\\r61\\m11\\r61m11c03\\r61m11c03_works\\r61m11c03_w01\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4FDDCED-5802-4DE1-B5C1-266D304345A9}|R61M11C03_w01\\R61M11C03_w01.csproj|solutionrelative:r61m11c03_w01\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4FDDCED-5802-4DE1-B5C1-266D304345A9}|R61M11C03_w01\\R61M11C03_w01.csproj|d:\\r61\\m11\\r61m11c03\\r61m11c03_works\\r61m11c03_w01\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4FDDCED-5802-4DE1-B5C1-266D304345A9}|R61M11C03_w01\\R61M11C03_w01.csproj|solutionrelative:r61m11c03_w01\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4FDDCED-5802-4DE1-B5C1-266D304345A9}|R61M11C03_w01\\R61M11C03_w01.csproj|d:\\r61\\m11\\r61m11c03\\r61m11c03_works\\r61m11c03_w01\\migrations\\20250216043821_init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4FDDCED-5802-4DE1-B5C1-266D304345A9}|R61M11C03_w01\\R61M11C03_w01.csproj|solutionrelative:r61m11c03_w01\\migrations\\20250216043821_init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4FDDCED-5802-4DE1-B5C1-266D304345A9}|R61M11C03_w01\\R61M11C03_w01.csproj|d:\\r61\\m11\\r61m11c03\\r61m11c03_works\\r61m11c03_w01\\migrations\\20250216032741_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4FDDCED-5802-4DE1-B5C1-266D304345A9}|R61M11C03_w01\\R61M11C03_w01.csproj|solutionrelative:r61m11c03_w01\\migrations\\20250216032741_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductContext.cs",
+              "DocumentMoniker": "D:\\R61\\M11\\R61M11C03\\R61M11C03_works\\R61M11C03_w01\\Models\\ProductContext.cs",
+              "RelativeDocumentMoniker": "R61M11C03_w01\\Models\\ProductContext.cs",
+              "ToolTip": "D:\\R61\\M11\\R61M11C03\\R61M11C03_works\\R61M11C03_w01\\Models\\ProductContext.cs",
+              "RelativeToolTip": "R61M11C03_w01\\Models\\ProductContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T03:23:30.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "D:\\R61\\M11\\R61M11C03\\R61M11C03_works\\R61M11C03_w01\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "R61M11C03_w01\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "D:\\R61\\M11\\R61M11C03\\R61M11C03_works\\R61M11C03_w01\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "R61M11C03_w01\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T03:36:33.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\R61\\M11\\R61M11C03\\R61M11C03_works\\R61M11C03_w01\\Program.cs",
+              "RelativeDocumentMoniker": "R61M11C03_w01\\Program.cs",
+              "ToolTip": "D:\\R61\\M11\\R61M11C03\\R61M11C03_works\\R61M11C03_w01\\Program.cs",
+              "RelativeToolTip": "R61M11C03_w01\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwBMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T03:14:37.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\R61\\M11\\R61M11C03\\R61M11C03_works\\R61M11C03_w01\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "R61M11C03_w01\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\R61\\M11\\R61M11C03\\R61M11C03_works\\R61M11C03_w01\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "R61M11C03_w01\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T04:39:19.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TokenManager.cs",
+              "DocumentMoniker": "D:\\R61\\M11\\R61M11C03\\R61M11C03_works\\R61M11C03_w01\\Security\\TokenManager.cs",
+              "RelativeDocumentMoniker": "R61M11C03_w01\\Security\\TokenManager.cs",
+              "ToolTip": "D:\\R61\\M11\\R61M11C03\\R61M11C03_works\\R61M11C03_w01\\Security\\TokenManager.cs",
+              "RelativeToolTip": "R61M11C03_w01\\Security\\TokenManager.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIA4wBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T04:08:31.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\R61\\M11\\R61M11C03\\R61M11C03_works\\R61M11C03_w01\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "R61M11C03_w01\\Models\\Category.cs",
+              "ToolTip": "D:\\R61\\M11\\R61M11C03\\R61M11C03_works\\R61M11C03_w01\\Models\\Category.cs",
+              "RelativeToolTip": "R61M11C03_w01\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T04:37:43.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250216043821_init1.cs",
+              "DocumentMoniker": "D:\\R61\\M11\\R61M11C03\\R61M11C03_works\\R61M11C03_w01\\Migrations\\20250216043821_init1.cs",
+              "RelativeDocumentMoniker": "R61M11C03_w01\\Migrations\\20250216043821_init1.cs",
+              "ToolTip": "D:\\R61\\M11\\R61M11C03\\R61M11C03_works\\R61M11C03_w01\\Migrations\\20250216043821_init1.cs",
+              "RelativeToolTip": "R61M11C03_w01\\Migrations\\20250216043821_init1.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T04:38:21.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\R61\\M11\\R61M11C03\\R61M11C03_works\\R61M11C03_w01\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "R61M11C03_w01\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\R61\\M11\\R61M11C03\\R61M11C03_works\\R61M11C03_w01\\Properties\\launchSettings.json",
+              "RelativeToolTip": "R61M11C03_w01\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-16T06:23:46.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "R61M11C03_w01",
+              "DocumentMoniker": "D:\\R61\\M11\\R61M11C03\\R61M11C03_works\\R61M11C03_w01\\R61M11C03_w01.csproj",
+              "RelativeDocumentMoniker": "R61M11C03_w01\\R61M11C03_w01.csproj",
+              "ToolTip": "D:\\R61\\M11\\R61M11C03\\R61M11C03_works\\R61M11C03_w01\\R61M11C03_w01.csproj",
+              "RelativeToolTip": "R61M11C03_w01\\R61M11C03_w01.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-16T06:33:38.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\R61\\M11\\R61M11C03\\R61M11C03_works\\R61M11C03_w01\\appsettings.json",
+              "RelativeDocumentMoniker": "R61M11C03_w01\\appsettings.json",
+              "ToolTip": "D:\\R61\\M11\\R61M11C03\\R61M11C03_works\\R61M11C03_w01\\appsettings.json",
+              "RelativeToolTip": "R61M11C03_w01\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-16T03:21:42.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "D:\\R61\\M11\\R61M11C03\\R61M11C03_works\\R61M11C03_w01\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "R61M11C03_w01\\Controllers\\AccountsController.cs",
+              "ToolTip": "D:\\R61\\M11\\R61M11C03\\R61M11C03_works\\R61M11C03_w01\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "R61M11C03_w01\\Controllers\\AccountsController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wBoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T03:31:45.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250216032741_init.cs",
+              "DocumentMoniker": "D:\\R61\\M11\\R61M11C03\\R61M11C03_works\\R61M11C03_w01\\Migrations\\20250216032741_init.cs",
+              "RelativeDocumentMoniker": "R61M11C03_w01\\Migrations\\20250216032741_init.cs",
+              "ToolTip": "D:\\R61\\M11\\R61M11C03\\R61M11C03_works\\R61M11C03_w01\\Migrations\\20250216032741_init.cs",
+              "RelativeToolTip": "R61M11C03_w01\\Migrations\\20250216032741_init.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T03:27:41.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\R61\\M11\\R61M11C03\\R61M11C03_works\\R61M11C03_w01\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "R61M11C03_w01\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\R61\\M11\\R61M11C03\\R61M11C03_works\\R61M11C03_w01\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "R61M11C03_w01\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T03:24:42.137Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
