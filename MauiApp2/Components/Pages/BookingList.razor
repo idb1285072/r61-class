@@ -1,0 +1,98 @@
+﻿@page "/booking"
+@using MauiApp2.Models
+@using MauiApp2.Service
+
+ @inject BookingService service
+ @inject IJSRuntime jsRuntime
+@{
+    string API_URL = "http://localhost:5047";
+}
+<h3>BookingList</h3>
+<div class="d-flex justify-content-end mb-2">
+    <a class="btn btn-primary btm-sm" href="create">Add New</a>
+</div>
+@if (all is null)
+{
+    <div class="d-flex justify-content-center mt-5">
+        <img src="/Images/loading.gif" />
+    </div>
+}
+@if (all is not null)
+{
+    @if (all.Count() == 0)
+    {
+        <div class="alert alert-info">Booking Data Not Found !</div>
+        return;
+    }
+    @foreach (var client in all)
+    {
+        <div class="card">
+            <div class="card-header d-flex justify-content-between">
+                <div>
+                    <img src="@API_URL/Images/@client.Picture" width="32" class="mr-2" />
+                    Name: @client.ClientName
+                </div>
+                <div>
+                    <a class="btn btn-success" href="/edit/@client.ClientId">Edit</a>
+                   @*    <a class="btn btn-warning" @onclick="@(()=> ConfirmDelete(client.ClientId))">Delete</a> *@
+                </div>
+            </div>
+            <div class="card-body">
+                <table class="table table-bordered table-striped table-sm">
+                    @if (client.BookingEntries is not null)
+                    {
+                        @if (client.BookingEntries?.Count() == 0)
+                        {
+                            <tr>
+                                <td>
+                                    <div class="alert alert-info">Spot Data Not Found !</div>
+                                </td>
+                            </tr>
+
+                        }
+                        else
+                        {
+                            <thead>
+                                <tr>
+                                    <th>SpotId</th>
+                                    <th>SpotName</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (client.BookingEntries is not null)
+                                {
+                                    foreach (var singleEntry in client.BookingEntries)
+                                    {
+                                        <tr>
+                                            <td>@singleEntry.SpotId</td>
+                                            <td>@singleEntry?.Spot?.SpotName</td>
+                                            <td>@singleEntry.BookingEntryId</td>
+                                        </tr>
+                                    }
+                                }
+                            </tbody>
+                        }
+                    }
+                </table>
+            </div>
+        </div>
+    }
+}
+
+
+@code {
+
+    List<Client> all = new List<Client>();
+    protected override async Task OnInitializedAsync()
+    {
+        // return base.OnInitializedAsync();
+        await LoadData();
+        
+
+	}
+	private async Task LoadData()
+	{
+		all=await service.GetClients();
+
+	}
+}
