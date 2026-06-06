@@ -1,0 +1,135 @@
+import { useState } from "react"
+
+export function Create (){
+
+    const [ product , setProduct] = useState({
+        "name": "",
+        "products": [
+            {
+                "name": "",
+                "productNumber": "",
+                "color": "",
+                "standardCost": 0,
+                "listPrice": 0,
+                "size": 0,
+                "weight": 0,
+            }]
+    })
+
+    function clearAll(){
+        setProduct({
+            "name": "",
+        "products": [
+            {
+                "name": "",
+                "productNumber": "",
+                "color": "",
+                "standardCost": 0,
+                "listPrice": 0,
+                "size": 0,
+                "weight": 0,
+            }]
+        })
+    }
+
+    function  createProduct (e) {
+        e.preventDefault()
+        console.log(product);
+
+
+        
+        
+        
+    }
+
+    function addNewPro(){
+        setProduct({
+            ...product,
+            products : [
+                ...product.products,
+                {
+                    "name": "",
+                    "productNumber": "",
+                    "color": "",
+                    "standardCost": 0,
+                    "listPrice": 0,
+                    "size": 0,
+                    "weight": 0,
+                }
+            ]
+        })
+    }
+
+    // const handleChangeCate = (e) =>{
+    //     setProduct({
+    //         ...product,
+    //         [e.target.name] : e.target.value
+    //     })
+    // }
+
+    function handleChangeCate(e){
+        setProduct({
+            ...product,
+            [e.target.name] : e.target.value
+        })
+    }
+
+    const handleProdctChange =( e, i)=>{
+        const { name , value } = e.target
+        const updateProduct = [...product.products]
+        updateProduct[i][name]= value
+
+        setProduct({
+            ...product,
+            products : updateProduct
+        })
+    }
+    
+
+
+
+    return (
+        <>
+        <h2>this is create</h2>
+
+        <form onSubmit={createProduct}>
+            <label htmlFor="cataName">cataName</label>
+            <input type="text" name="name" id="name" value={product.name} onChange={handleChangeCate} />
+
+            <h2>Product</h2>
+            {
+                product.products.map((p,i)=>{
+                    return (
+                    <div key={i}>
+
+                        <label htmlFor={`name-${i}`}>Name</label>
+                        <input type="text" name="name" id={`name-${i}`} value={p.name} onChange={(e)=> handleProdctChange(e,i)} />
+
+                        <label htmlFor={`name-${i}`}>productNumber</label>
+                        <input type="text" name="productNumber" id={`productNumber-${i}`} value={p.productNumber} onChange={(e)=> handleProdctChange(e,i)} />
+
+                        <label htmlFor={`name-${i}`}>color</label>
+                        <input type="text" name="color" id={`color-${i}`} value={p.color} onChange={(e)=> handleProdctChange(e,i)} />
+
+                        <label htmlFor={`name-${i}`}>standardCost</label>
+                        <input type="number" name="standardCost" id={`standardCost-${i}`} value={p.standardCost} onChange={(e)=> handleProdctChange(e,i)} />
+
+                        <label htmlFor={`name-${i}`}>listPrice</label>
+                        <input type="number" name="listPrice" id={`listPrice-${i}`} value={p.listPrice} onChange={(e)=> handleProdctChange(e,i)} />
+
+                        <label htmlFor={`name-${i}`}>size</label>
+                        <input type="number" name="size" id={`size-${i}`} value={p.size} onChange={(e)=> handleProdctChange(e,i)} />
+
+                        <label htmlFor={`name-${i}`}>weight</label>
+                        <input type="number" name="weight" id={`weight-${i}`} value={p.weight} onChange={(e)=> handleProdctChange(e,i)} />
+
+                    </div> )
+                })
+            }
+            <button onClick={addNewPro}>Add Product</button>
+            <button type="submit">Create Product</button>
+        </form>
+      
+        </>
+    )
+}
