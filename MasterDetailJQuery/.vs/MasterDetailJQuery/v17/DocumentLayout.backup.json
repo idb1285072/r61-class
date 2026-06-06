@@ -1,0 +1,182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\R61\\M7\\Students\\MasterDetailJQuery\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8D0AFA47-D275-43D3-9381-F8D9E01BEDCC}|MasterDetailJQuery\\MasterDetailJQuery.csproj|D:\\R61\\M7\\Students\\MasterDetailJQuery\\masterdetailjquery\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D0AFA47-D275-43D3-9381-F8D9E01BEDCC}|MasterDetailJQuery\\MasterDetailJQuery.csproj|solutionrelative:masterdetailjquery\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDb__MsSqlLocaldb/DbOrder/True/SqlTable/dbo.SalesOrderDetails.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDb__MsSqlLocaldb/DbOrder/True/SqlTable/dbo.SalesOrders.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D0AFA47-D275-43D3-9381-F8D9E01BEDCC}|MasterDetailJQuery\\MasterDetailJQuery.csproj|D:\\R61\\M7\\Students\\MasterDetailJQuery\\masterdetailjquery\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D0AFA47-D275-43D3-9381-F8D9E01BEDCC}|MasterDetailJQuery\\MasterDetailJQuery.csproj|solutionrelative:masterdetailjquery\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D0AFA47-D275-43D3-9381-F8D9E01BEDCC}|MasterDetailJQuery\\MasterDetailJQuery.csproj|d:\\r61\\m7\\students\\masterdetailjquery\\masterdetailjquery\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D0AFA47-D275-43D3-9381-F8D9E01BEDCC}|MasterDetailJQuery\\MasterDetailJQuery.csproj|solutionrelative:masterdetailjquery\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D0AFA47-D275-43D3-9381-F8D9E01BEDCC}|MasterDetailJQuery\\MasterDetailJQuery.csproj|D:\\R61\\M7\\Students\\MasterDetailJQuery\\masterdetailjquery\\models\\salesorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D0AFA47-D275-43D3-9381-F8D9E01BEDCC}|MasterDetailJQuery\\MasterDetailJQuery.csproj|solutionrelative:masterdetailjquery\\models\\salesorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D0AFA47-D275-43D3-9381-F8D9E01BEDCC}|MasterDetailJQuery\\MasterDetailJQuery.csproj|d:\\r61\\m7\\students\\masterdetailjquery\\masterdetailjquery\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D0AFA47-D275-43D3-9381-F8D9E01BEDCC}|MasterDetailJQuery\\MasterDetailJQuery.csproj|solutionrelative:masterdetailjquery\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D0AFA47-D275-43D3-9381-F8D9E01BEDCC}|MasterDetailJQuery\\MasterDetailJQuery.csproj|D:\\R61\\M7\\Students\\MasterDetailJQuery\\masterdetailjquery\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8D0AFA47-D275-43D3-9381-F8D9E01BEDCC}|MasterDetailJQuery\\MasterDetailJQuery.csproj|solutionrelative:masterdetailjquery\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D0AFA47-D275-43D3-9381-F8D9E01BEDCC}|MasterDetailJQuery\\MasterDetailJQuery.csproj|D:\\R61\\M7\\Students\\MasterDetailJQuery\\masterdetailjquery\\models\\salesorderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D0AFA47-D275-43D3-9381-F8D9E01BEDCC}|MasterDetailJQuery\\MasterDetailJQuery.csproj|solutionrelative:masterdetailjquery\\models\\salesorderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D0AFA47-D275-43D3-9381-F8D9E01BEDCC}|MasterDetailJQuery\\MasterDetailJQuery.csproj|D:\\R61\\M7\\Students\\MasterDetailJQuery\\masterdetailjquery\\migrations\\202501031222263_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D0AFA47-D275-43D3-9381-F8D9E01BEDCC}|MasterDetailJQuery\\MasterDetailJQuery.csproj|solutionrelative:masterdetailjquery\\migrations\\202501031222263_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbo.SalesOrderDetails [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDb__MsSqlLocaldb/DbOrder/True/SqlTable/dbo.SalesOrderDetails.sql",
+              "ToolTip": "dbo.SalesOrderDetails [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-04T03:54:44.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dbo.SalesOrders [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDb__MsSqlLocaldb/DbOrder/True/SqlTable/dbo.SalesOrders.sql",
+              "ToolTip": "dbo.SalesOrders [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-04T03:44:57.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\R61\\M7\\Students\\MasterDetailJQuery\\MasterDetailJQuery\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MasterDetailJQuery\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\R61\\M7\\Students\\MasterDetailJQuery\\MasterDetailJQuery\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MasterDetailJQuery\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T03:12:15.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SalesOrderDetail.cs",
+              "DocumentMoniker": "D:\\R61\\M7\\Students\\MasterDetailJQuery\\MasterDetailJQuery\\Models\\SalesOrderDetail.cs",
+              "RelativeDocumentMoniker": "MasterDetailJQuery\\Models\\SalesOrderDetail.cs",
+              "ToolTip": "D:\\R61\\M7\\Students\\MasterDetailJQuery\\MasterDetailJQuery\\Models\\SalesOrderDetail.cs",
+              "RelativeToolTip": "MasterDetailJQuery\\Models\\SalesOrderDetail.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T16:16:09.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\R61\\M7\\Students\\MasterDetailJQuery\\MasterDetailJQuery\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MasterDetailJQuery\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\R61\\M7\\Students\\MasterDetailJQuery\\MasterDetailJQuery\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MasterDetailJQuery\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAmwHgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T12:29:53.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\R61\\M7\\Students\\MasterDetailJQuery\\MasterDetailJQuery\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MasterDetailJQuery\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\R61\\M7\\Students\\MasterDetailJQuery\\MasterDetailJQuery\\Controllers\\HomeController.cs*",
+              "RelativeToolTip": "MasterDetailJQuery\\Controllers\\HomeController.cs*",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvxsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T12:29:40.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "D:\\R61\\M7\\Students\\MasterDetailJQuery\\MasterDetailJQuery\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "MasterDetailJQuery\\Migrations\\Configuration.cs",
+              "ToolTip": "D:\\R61\\M7\\Students\\MasterDetailJQuery\\MasterDetailJQuery\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "MasterDetailJQuery\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T12:22:07.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SalesOrder.cs",
+              "DocumentMoniker": "D:\\R61\\M7\\Students\\MasterDetailJQuery\\MasterDetailJQuery\\Models\\SalesOrder.cs",
+              "RelativeDocumentMoniker": "MasterDetailJQuery\\Models\\SalesOrder.cs",
+              "ToolTip": "D:\\R61\\M7\\Students\\MasterDetailJQuery\\MasterDetailJQuery\\Models\\SalesOrder.cs",
+              "RelativeToolTip": "MasterDetailJQuery\\Models\\SalesOrder.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA2wBEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T12:06:40.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "202501031222263_init.cs",
+              "DocumentMoniker": "D:\\R61\\M7\\Students\\MasterDetailJQuery\\MasterDetailJQuery\\Migrations\\202501031222263_init.cs",
+              "RelativeDocumentMoniker": "MasterDetailJQuery\\Migrations\\202501031222263_init.cs",
+              "ToolTip": "D:\\R61\\M7\\Students\\MasterDetailJQuery\\MasterDetailJQuery\\Migrations\\202501031222263_init.cs",
+              "RelativeToolTip": "MasterDetailJQuery\\Migrations\\202501031222263_init.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T12:22:31.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\R61\\M7\\Students\\MasterDetailJQuery\\MasterDetailJQuery\\Web.config",
+              "RelativeDocumentMoniker": "MasterDetailJQuery\\Web.config",
+              "ToolTip": "D:\\R61\\M7\\Students\\MasterDetailJQuery\\MasterDetailJQuery\\Web.config",
+              "RelativeToolTip": "MasterDetailJQuery\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-03T12:17:30.944Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

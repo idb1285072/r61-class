@@ -1,0 +1,258 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<button type="button" class="btn btn-primary float-end" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Add
+</button>
+<div class="container">
+    <table class="table table-bordered" id="cat">
+        <thead>
+            <tr>
+                <td>Category</td>
+                <td>Name</td>
+                <td>Price</td>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <!-- Button trigger modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div>
+                        <h3>Category</h3>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Parent Category</label>
+                            <select id="parentCat" onchange="loadchild()">
+                                <option>Select Category</option>
+                            </select>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Sub Category</label>
+                                <select id="subCat" onchange="loadsubchild()">
+                                    <option>Select sub Category</option>
+                                </select>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Sub Category</label>
+                                    <select id="subsubCat">
+                                        <option>Select sub Category</option>
+                                    </select>
+                                </div>
+                            </div>
+                    <div class="mb-3">
+                        <input type="hidden" class="form-control" id="Id">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="mb-3">
+                        
+                        <label for="name" class="form-label">Price</label>
+                        <input type="number" class="form-control" id="price">
+                    </div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="btnclose">Close</button>
+                    <button type="button" class="btn btn-primary" id="btnsave">Save changes</button>
+                    <button type="button" class="btn btn-primary" id="btnUpdate">Update</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+    <script src="Scripts/jquery-3.7.0.min.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script>
+        $(document).ready(function () {
+            clearAll()
+            load();
+            ParentCategory();
+            $("#btnclose").click(function () {
+                clearAll()
+            })
+            $("#btnsave").click(function () {
+                save()
+            })
+            $("#btnUpdate").click(function () {
+                update()
+            })
+        })
+        function Edit(id) {
+            $.ajax({
+                url: "https://localhost:44362/api/Products/" + id,
+                method: "GET",
+                success: function (response) {
+                    console.log(response)
+                    $("#price").val(response.Price),
+                    $("#name").val(response.Name),
+                        $("#Id").val(response.Id),
+                        $("#parentCat").val(response.CatId)
+                    $("#exampleModal").modal('show')
+                    $("#btnsave").hide()
+                    $("#btnUpdate").show()
+                },
+                error: function (error) {
+                    console.log(error)
+                }
+            })
+        }
+        function Delete(id) {
+            $.ajax({
+                url: "https://localhost:44362/api/Products/" + id,
+                method: "DELETE",
+                success: function (response) {
+                    console.log(response)
+                    clearAll();
+                    load();
+                },
+                error: function (error) {
+                    console.log(error)
+                }
+            })
+        }
+        function clearAll() {
+            $("#name").val(''),
+                $("#Id").val(''),
+                $("#parentCat").val('')
+            $("#price").val('')
+            $('#exampleModal').modal('hide')
+            $("#btnsave").show()
+            $("#btnUpdate").hide()
+        }
+        function ParentCategory() {
+            $.ajax({
+                url: "https://localhost:44362/api/categories/GetParentCategory",
+                method: "GET",
+                success: function (response) {
+                    console.log(response)
+                    var options = $("#parentCat");
+                    $.each(response, function (i, v) {
+                        options.append(new Option(v.Name, v.Id));
+                    })
+
+                },
+                error: function (error) {
+                    console.log(error)
+                }
+            })
+        }
+        function load() {
+            $.ajax({
+                url: "https://localhost:44362/api/Products",
+                method: "GET",
+                success: function (response) {
+                    console.log(response)
+                    let tr = "";
+                    $.each(response, function (i, v) {
+                        tr += `<tr><td>${v.Category.Name}</td>
+                        <td>${v.Name}</td>
+                             <td>${v.Price}</td>
+                             <td><button onclick='Edit(${v.Id})'>Edit</button>|
+                             <button onclick='Delete(${v.Id})'>Delete</button>
+                             </tr>`
+                    })
+                    $("#cat tbody").empty();
+                    $("#cat tbody").append(tr);
+                },
+                error: function (error) {
+                    console.log(error)
+                }
+            })
+        }
+        function save() {
+            var product = {
+                Name: $("#name").val(),
+                CatID: $("#parentCat").val(),
+                Price: $("#price").val()
+            }
+            $.ajax({
+                url: "https://localhost:44362/api/Products",
+                method: "POST",
+                data: product,
+                type: "JSON",
+                success: function (response) {
+                    console.log(response)
+                    load()
+                    clearAll()
+                },
+                error: function (error) {
+                    console.log(error)
+                }
+            })
+        }
+        function update() {
+            var product = {
+                Id: $("#Id").val(),
+                Name: $("#name").val(),
+                CatID: $("#parentCat").val(),
+                Price: $("#price").val()
+            }
+            console.log(product)
+            $.ajax({
+                url: "https://localhost:44362/api/Products/" + $("#Id").val(),
+                method: "PUT",
+                data: product,
+                type: "JSON",
+                success: function (response) {
+                    console.log(response)
+                    load()
+                    clearAll()
+                },
+                error: function (error) {
+                    console.log(error)
+                }
+            })
+        }
+        function loadchild() {
+            $.ajax({
+                url: "https://localhost:44362/api/categories/ChildCategory?PId=" + $("#parentCat").val(),
+                method: "GET",
+                success: function (response) {
+                    console.log(response)
+                    var options = $("#subCat");
+                    console.log(response)
+                    options.empty()
+                    $.each(response, function (i, v) {
+                        options.append(new Option(v.Name, v.Id));
+                    })
+
+                },
+                error: function (error) {
+                    console.log(error)
+                }
+            })
+        }
+
+        function loadsubchild() {
+            $.ajax({
+                url: "https://localhost:44362/api/categories/ChildCategory?PId=" + $("#subCat").val(),
+                method: "GET",
+                success: function (response) {
+                    console.log(response)
+                    var options = $("#subsubCat");
+                    options.empty();
+                    $.each(response, function (i, v) {
+                        options.append(new Option(v.Name, v.Id));
+                    })
+
+                },
+                error: function (error) {
+                    console.log(error)
+                }
+            })
+        }
+    </script>
+}
+
