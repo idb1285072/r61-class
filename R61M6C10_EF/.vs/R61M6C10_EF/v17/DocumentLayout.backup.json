@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|d:\\r61\\m6\\r61m6c10\\r61m6c10_ef\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|d:\\r61\\m6\\r61m6c10\\r61m6c10_ef\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|d:\\r61\\m6\\r61m6c10\\r61m6c10_ef\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|solutionrelative:views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|d:\\r61\\m6\\r61m6c10\\r61m6c10_ef\\controllers\\enrollmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|solutionrelative:controllers\\enrollmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|d:\\r61\\m6\\r61m6c10\\r61m6c10_ef\\views\\enrollments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|solutionrelative:views\\enrollments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|d:\\r61\\m6\\r61m6c10\\r61m6c10_ef\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|solutionrelative:views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|solutionrelative:models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|solutionrelative:models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|d:\\r61\\m6\\r61m6c10\\r61m6c10_ef\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|solutionrelative:controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|d:\\r61\\m6\\r61m6c10\\r61m6c10_ef\\migrations\\202412180431002_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|solutionrelative:migrations\\202412180431002_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|d:\\r61\\m6\\r61m6c10\\r61m6c10_ef\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|solutionrelative:migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|d:\\r61\\m6\\r61m6c10\\r61m6c10_ef\\models\\schoolcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|solutionrelative:models\\schoolcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0FCD5664-4A71-43B7-AD67-095E93067640}|R61M6C10_EF.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Views\\Students\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Students\\Index.cshtml",
+              "ToolTip": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Views\\Students\\Index.cshtml",
+              "RelativeToolTip": "Views\\Students\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T05:26:03.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Views\\Enrollments\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Enrollments\\Create.cshtml",
+              "ToolTip": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Views\\Enrollments\\Create.cshtml",
+              "RelativeToolTip": "Views\\Enrollments\\Create.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACsAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T05:14:24.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Views\\Students\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Students\\Create.cshtml",
+              "ToolTip": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Views\\Students\\Create.cshtml",
+              "RelativeToolTip": "Views\\Students\\Create.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACsAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T05:12:21.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T05:08:16.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnrollmentsController.cs",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Controllers\\EnrollmentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EnrollmentsController.cs",
+              "ToolTip": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Controllers\\EnrollmentsController.cs",
+              "RelativeToolTip": "Controllers\\EnrollmentsController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowCoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T05:07:15.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoursesController.cs",
+              "ToolTip": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "Controllers\\CoursesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T05:06:59.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
+              "ToolTip": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Controllers\\StudentsController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAWwEEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T05:02:08.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "202412180431002_init.cs",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Migrations\\202412180431002_init.cs",
+              "RelativeDocumentMoniker": "Migrations\\202412180431002_init.cs",
+              "ToolTip": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Migrations\\202412180431002_init.cs",
+              "RelativeToolTip": "Migrations\\202412180431002_init.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAgwGYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T04:31:05.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "Migrations\\Configuration.cs",
+              "ToolTip": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T04:30:28.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-18T04:20:18.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SchoolContext.cs",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Models\\SchoolContext.cs",
+              "RelativeDocumentMoniker": "Models\\SchoolContext.cs",
+              "ToolTip": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Models\\SchoolContext.cs",
+              "RelativeToolTip": "Models\\SchoolContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T04:20:01.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Models\\Course.cs",
+              "ToolTip": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Models\\Course.cs",
+              "RelativeToolTip": "Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T04:12:37.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "Models\\Enrollment.cs",
+              "ToolTip": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Models\\Enrollment.cs",
+              "RelativeToolTip": "Models\\Enrollment.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T04:11:35.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "D:\\R61\\M6\\R61M6C10\\R61M6C10_EF\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T04:10:50.421Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
