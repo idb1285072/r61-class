@@ -1,0 +1,123 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+
+<div class="row">
+    <div class="col-md-6">
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Doctor</label>
+
+                <select id="DoctorId">
+                </select>
+
+            </div>
+            
+            <div class="form-group">
+                <label for="exampleInputPassword1">Degree</label>
+                <select id="DegreeId">
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <div class="col-md-6">
+
+    </div>
+</div>
+@section scripts{
+    <script>
+        $(document).ready(function () {
+           /* load()*/
+            loadDoctor()
+            loadDegree()
+            
+
+        })//ready
+        function save() {
+            var obj = {
+
+            }
+            $.ajax({
+                type: 'POST',
+
+                dataType: 'JSON',
+                url: 'https://localhost:44397/api/degree',
+                data: JSON.stringify(obj),
+                /*  data: salesOrder,*/
+                contentType: 'application/json;charset=UTF-8',
+                success: function (data) {
+                    if (data.Success) {
+                        alert(data.Message);
+                        ResetCustomerDetails();
+                        load();
+                    }
+                    else {
+                        alert(data.Message);
+                    }
+                },
+                error: function (error) {
+                    alert("There is problem");
+                    console.log(error)
+                }
+            });
+        }
+
+        
+        function loadDoctor() {
+
+            $.ajax({
+                type: 'GET',
+
+                dataType: 'JSON',
+                url: 'https://localhost:44397/api/Doctors',
+
+                /*  data: salesOrder,*/
+
+                success: function (data) {
+                    $("#DoctorId").empty()
+                    $("#DoctorId").append($("<option>Select Doctor</option>"))
+                    $.each(data, function (i, value) {
+
+                        $("#DoctorId").append($("<option></option>").val(value.Id).html(value.Name));
+                    })
+                },
+                error: function (error) {
+
+                    console.log(error)
+                }
+            });
+        }
+
+        function loadDegree() {
+
+            $.ajax({
+                type: 'GET',
+
+                dataType: 'JSON',
+                url: 'https://localhost:44397/api/Degrees',
+
+                /*  data: salesOrder,*/
+
+                success: function (data) {
+                    $("#DegreeId").empty()
+                    $("#DegreeId").append($("<option>Select Degree</option>"))
+                    $.each(data, function (i, value) {
+
+                        $("#DegreeId").append($("<option></option>").val(value.Id).html(value.Name));
+                    })
+                },
+                error: function (error) {
+
+                    console.log(error)
+                }
+            });
+        }
+      
+    </script>
+}

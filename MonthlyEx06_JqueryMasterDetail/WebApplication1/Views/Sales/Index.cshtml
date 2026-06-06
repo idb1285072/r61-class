@@ -1,0 +1,47 @@
+﻿@model IEnumerable<WebApplication1.Models.SalesOrder>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>SAles Info</h2>
+<hr />
+<div class="">
+    <table width="800px" class="table table-bordered">
+        <thead>
+            <tr>
+                <td>Ordernumber</td>
+                <td>Date</td>
+                <td>Status</td>
+                <td>Picture</td>
+                <td>Customer</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Ordernumber</td>
+                    <td>@item.OrderDate</td>
+                    <td>@Html.Raw(item.ISCompleted?"Completed":"Pending") </td>
+                    <td>
+                       
+                        @if (item.Picture != null)
+                        {
+                            <img src="@Url.Content(item.Picture)" alt="" height="200" width="200" />
+                        }
+                    </td>
+                    <td>@item.Customername</td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", "Sales", new { @item.ID }, null)|
+                        @Html.ActionLink("Delete", "Delete", "Sales", new { @item.ID }, null)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        @Html.Action("LoadOrderDetails",new { orderNumber=item.ID})
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

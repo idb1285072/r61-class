@@ -1,0 +1,147 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div class="row">
+    <div class="col-md-6">
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="hidden" class="form-control" id="id" />
+
+                <input type="text" class="form-control" id="name"
+                       placeholder="Enter Degree">
+
+            </div>
+
+            <button type="button" id="btnsave" class="btn btn-primary">Submit</button>
+            <button type="button" id="btnupdate" class="btn btn-primary">Update</button>
+        </form>
+    </div>
+    <div class="col-md-6">
+        <table class="table table-active" id="display">
+            <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>..</td>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</div>
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            load()
+            $("#btnupdate").hide()
+            $("#btnsave").click(function () {
+                save()
+            })
+            $("#btnupdate").click(function () {
+                update()
+            })
+        })
+        function update() {
+            var obj = {
+                Name: $("#name").val(),
+                Id: $("#id").val(),
+            }
+            $.ajax({
+                type: 'PUT',
+                dataType: 'JSON',
+                url: 'https://localhost:44396/api/Degrees',
+                data: JSON.stringify(obj),
+                /*  data: salesOrder,*/
+                contentType: 'application/json;charset=UTF-8',
+                success: function (data) {
+                    load();
+                },
+                error: function (error) {
+                    alert("There is problem");
+                    console.log(error)
+                }
+            });
+        }
+        function Edit(id) {
+            $.ajax({
+                type: 'GET',
+                dataType: 'JSON',
+                url: 'https://localhost:44396/api/Degrees/'+id,
+                success: function (data) {
+                     $("#name").val(data.Name)
+                    $("#id").val(data.Id)
+                    $("#btnupdate").show()
+                    $("#btnsave").hide()
+                },
+                error: function (error) {
+                    alert("There is problem");
+                    console.log(error)
+                }
+            });
+        }
+        function load() {
+
+            $.ajax({
+                type: 'GET',
+
+                dataType: 'JSON',
+                url: 'https://localhost:44396/api/Degrees',
+                success: function (data) {
+                    let tr = "";
+                    $.each(data, function (i, v) {
+                        tr += `<tr><td>${v.Name}</td>
+                        <td><button onclick='Edit(${v.Id})'>Edit</button>
+                        <button onclick='Delete(${v.Id})'>Delete</button></td>
+                        </tr>`
+                    })
+                    $("#display tbody").empty()
+                    $("#display tbody").append(tr)
+                },
+                error: function (error) {
+                    alert("There is problem");
+                    console.log(error)
+                }
+            });
+        }
+        function save() {
+            var obj = {
+                Name:$("#name").val()
+            }
+            $.ajax({
+                type: 'POST',
+
+                dataType: 'JSON',
+                url: 'https://localhost:44396/api/Degrees',
+                data: JSON.stringify(obj),
+                /*  data: salesOrder,*/
+                contentType: 'application/json;charset=UTF-8',
+                success: function (data) {
+                        load();
+                },
+                error: function (error) {
+                    alert("There is problem");
+                    console.log(error)
+                }
+            });
+        }
+        function Delete(id) {
+            $.ajax({
+                type: 'DELETE',
+                dataType: 'JSON',
+                url: 'https://localhost:44396/api/Degrees/'+id,
+                success: function (data) {
+                    load()
+                },
+                error: function (error) {
+                    alert("There is problem");
+                    console.log(error)
+                }
+            });
+        }
+    </script>
+}
+

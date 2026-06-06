@@ -1,0 +1,15 @@
+WEB_API_CRUD
+-----------------------
+EntityFramework
+CORS
+	App_Start -> WebApiConfig.cs
+	Global.asax -> Application_Start
+Connection String
+Models - migration
+API Controller
+Postman for check
+------------------------
+
+
+MVC_AJAX_CRUD
+------------------------ solution property

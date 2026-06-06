@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "API_CRUD\\API_CRUD.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Ajax_CRUD\\Ajax_CRUD.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

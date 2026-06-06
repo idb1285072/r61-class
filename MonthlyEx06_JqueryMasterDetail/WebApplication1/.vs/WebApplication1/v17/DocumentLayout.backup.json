@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\R61\\Books\\Evidence\\MonthlyEx06_JqueryMasterDetail\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C23F63C-F335-45B7-9612-70695D69F8C7}|WebApplication1.csproj|D:\\R61\\Books\\Evidence\\MonthlyEx06_JqueryMasterDetail\\WebApplication1\\views\\salesdt\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C23F63C-F335-45B7-9612-70695D69F8C7}|WebApplication1.csproj|solutionrelative:views\\salesdt\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C23F63C-F335-45B7-9612-70695D69F8C7}|WebApplication1.csproj|D:\\R61\\Books\\Evidence\\MonthlyEx06_JqueryMasterDetail\\WebApplication1\\controllers\\salesdtcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C23F63C-F335-45B7-9612-70695D69F8C7}|WebApplication1.csproj|solutionrelative:controllers\\salesdtcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C23F63C-F335-45B7-9612-70695D69F8C7}|WebApplication1.csproj|D:\\R61\\Books\\Evidence\\MonthlyEx06_JqueryMasterDetail\\WebApplication1\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C23F63C-F335-45B7-9612-70695D69F8C7}|WebApplication1.csproj|solutionrelative:controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C23F63C-F335-45B7-9612-70695D69F8C7}|WebApplication1.csproj|d:\\r61\\books\\evidence\\monthlyex06_jquerymasterdetail\\webapplication1\\views\\sales\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C23F63C-F335-45B7-9612-70695D69F8C7}|WebApplication1.csproj|solutionrelative:views\\sales\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/WebApplication1.Models.modelEVD/True/SqlTable/dbo.SalesOrders.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\R61\\Books\\Evidence\\MonthlyEx06_JqueryMasterDetail\\WebApplication1\\Views\\Sales\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Sales\\Create.cshtml",
+              "ToolTip": "D:\\R61\\Books\\Evidence\\MonthlyEx06_JqueryMasterDetail\\WebApplication1\\Views\\Sales\\Create.cshtml",
+              "RelativeToolTip": "Views\\Sales\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-13T06:12:11.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.SalesOrders.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/WebApplication1.Models.modelEVD/True/SqlTable/dbo.SalesOrders.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/WebApplication1.Models.modelEVD/True/SqlTable/dbo.SalesOrders.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-13T05:56:45.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\R61\\Books\\Evidence\\MonthlyEx06_JqueryMasterDetail\\WebApplication1\\Views\\SalesDT\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\SalesDT\\Create.cshtml",
+              "ToolTip": "D:\\R61\\Books\\Evidence\\MonthlyEx06_JqueryMasterDetail\\WebApplication1\\Views\\SalesDT\\Create.cshtml*",
+              "RelativeToolTip": "Views\\SalesDT\\Create.cshtml*",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAAAKcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-13T04:54:14.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SalesDTController.cs",
+              "DocumentMoniker": "D:\\R61\\Books\\Evidence\\MonthlyEx06_JqueryMasterDetail\\WebApplication1\\Controllers\\SalesDTController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SalesDTController.cs",
+              "ToolTip": "D:\\R61\\Books\\Evidence\\MonthlyEx06_JqueryMasterDetail\\WebApplication1\\Controllers\\SalesDTController.cs",
+              "RelativeToolTip": "Controllers\\SalesDTController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAswD0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T04:53:24.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SalesController.cs",
+              "DocumentMoniker": "D:\\R61\\Books\\Evidence\\MonthlyEx06_JqueryMasterDetail\\WebApplication1\\Controllers\\SalesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SalesController.cs",
+              "ToolTip": "D:\\R61\\Books\\Evidence\\MonthlyEx06_JqueryMasterDetail\\WebApplication1\\Controllers\\SalesController.cs",
+              "RelativeToolTip": "Controllers\\SalesController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAkwDYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T04:53:06.211Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
