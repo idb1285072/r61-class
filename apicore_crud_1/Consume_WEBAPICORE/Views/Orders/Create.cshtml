@@ -1,0 +1,86 @@
+﻿@model Consume_WEBAPICORE.ViewModels.OrderVM
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Create" id="createPatientForm" enctype="multipart/form-data">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div>
+          @*   <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div> *@
+            <div class="form-group">
+                <label asp-for="CustomerName" class="control-label"></label>
+                    <input asp-for="CustomerName" class="form-control" />
+                    <span asp-validation-for="CustomerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                    <label asp-for="OrderDate" class="control-label"></label>
+                    <input asp-for="OrderDate" class="form-control" />
+                    <span asp-validation-for="OrderDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                    <label asp-for="Image" class="control-label"></label>
+                    <input asp-for="Image" type="file" accept="images/*" class="form-control" />
+                <span asp-validation-for="Image" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                        <input class="form-check-input" asp-for="IsDelivered" /> @Html.DisplayNameFor(model => model.IsDelivered)
+                </label>
+            </div>
+            </div>
+            <div>
+                <h4>Details </h4>
+                <button type="submit" formnovalidate name="act" value="add" class="btn btn-sm btn-secondary float-end">Add </button>
+                <table class="table table-bordered table-info">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Product</th>
+                            <th>Price</th>
+                          <th>...</th>
+                        </tr>
+                    </thead>
+                    <tbody id="appointmentsBody">
+                        @for (var i = 0; i < Model.Details.Count; i++)
+                        {
+                            <tr>
+                                @Html.HiddenFor(x => x.Details[i].Id)
+                                <td>
+                                    @Html.DropDownListFor(x => Model.Details[i].ProductId, (SelectList)ViewBag.ProductId, "Select Product", new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(x => Model.Details[i].ProductId, "", new { @class = "text-danger", style = "font-size:x-small" })
+                                </td>
+                                <td>
+                                    @Html.TextBoxFor(x => Model.Details[i].Price, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(x => Model.Details[i].Price, "", new { @class = "text-danger", style = "font-size:x-small" })
+                                </td>
+                                
+                                <td>
+                                    <button type="button" class="btn btn-danger btn-sm remove-appointment" data-index="@i">Remove</button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <div class="form-group">
+                <input type="submit" name="Save" value="Create" class="btn btn-primary" />
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

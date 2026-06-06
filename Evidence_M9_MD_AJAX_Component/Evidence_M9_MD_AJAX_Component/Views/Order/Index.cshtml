@@ -1,0 +1,73 @@
+﻿@model IEnumerable<Evidence_M9_MD_AJAX_Component.Models.Order>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@* <a href="">Add Order</a> *@
+@Html.ActionLink("Add order","create","Order")
+<button type="submit" background-color="danger">Add</button>
+
+<h2>Order Info</h2>
+<hr />
+<div class="">
+    <table width="800px" class="table table-bordered">
+        <thead>
+            <tr>
+                <td>Ordernumber</td>
+                <td>Date</td>
+                <td>Status</td>
+                <td>Picture</td>
+                <td>Customer</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.OrderNumber</td>
+                    <td>@item.OrderDate</td>
+                    <td>@Html.Raw(item.IsDelivered.Value ? "Completed" : "Pending") </td>
+                    <td>
+
+                        @if (item.Picture != null)
+                        {
+                            <img src="@Url.Content(item.Picture)" alt="" height="200" width="200" />
+                        }
+                    </td>
+                    <td>@item.CustomerName</td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", "Order", new { @item.Id }, null)|
+                        @Html.ActionLink("Delete", "Delete", "Order", new { @item.Id }, null)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td colspan="5">
+                        <table width="800px" class="table table-bordered">
+        <thead>
+            <tr>
+                <td>Product</td>
+                <td>Qty</td>
+                <td>Price</td>
+ 
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var d in item.OrderDetails)
+            {
+                <tr>
+                    <td>@d.Product.Name</td>
+                    <td>@d.Qty</td>
+                    <td>@d.Price </td>
+                    </tr>
+            }
+                    </tbody></table>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
