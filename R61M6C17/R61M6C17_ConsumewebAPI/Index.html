@@ -38,10 +38,9 @@
                                 <select id="parentCat">
                                     <option>Select Category</option>
                                 </select>
-                                
-                                
                             </div>
                             <div class="mb-3">
+                                <input type="hidden" class="form-control" id="Id">
                                 <label for="name" class="form-label">Name</label>
                                 <input type="text" class="form-control" id="name">
                             </div>
@@ -50,8 +49,9 @@
                       
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="btnclose">Close</button>
                         <button type="button" class="btn btn-primary" id="btnsave">Save changes</button>
+                        <button type="button" class="btn btn-primary" id="btnUpdate">Update</button>
                     </div>
                 </div>
             </div>
@@ -61,24 +61,68 @@
     <script src="Scripts/bootstrap.js"></script>
     <script>
         $(document).ready(function () {
+            clearAll()
             load();
             ParentCategory();
+            $("#btnclose").click(function () {
+                clearAll()
+            })
+            $("#btnsave").click(function () {
+                save()
+            })
+            $("#btnUpdate").click(function () {
+                update()
+            })
         })
         function Edit(id) {
-            alert(id)
+            $.ajax({
+                url: "https://localhost:44362/api/categories/"+id,
+                method: "GET",
+                success: function (response) {
+                    console.log(response)
+                    $("#name").val(response.Name),
+                        $("#Id").val(response.Id),
+                        $("#parentCat").val(response.CatId)
+                    $("#exampleModal").modal('show')
+                    $("#btnsave").hide()
+                    $("#btnUpdate").show()
+                },
+                error: function (error) {
+                    console.log(error)
+                }
+            })
         }
         function Delete(id) {
-            alert(id)
+            $.ajax({
+                url: "https://localhost:44362/api/categories/" + id,
+                method: "DELETE",
+                success: function (response) {
+                    console.log(response)
+                    clearAll();
+                    load();
+                },
+                error: function (error) {
+                    console.log(error)
+                }
+            })
+        }
+        function clearAll() {
+            $("#name").val(''),
+                $("#Id").val(''),
+                $("#parentCat").val('')
+            $("#exampleModal").modal('hide')
+            $("#btnsave").show()
+            $("#btnUpdate").hide()
         }
         function ParentCategory() {
             $.ajax({
-                url: "https://localhost:44362/api/categories/ParentCategory",
+                url: "https://localhost:44362/api/categories",
                 method: "GET",
                 success: function (response) {
                     console.log(response)
                     var options = $("#parentCat");
                     $.each(response, function (i, v) {
-                        options.append(new Option(v.Id, v.Name));
+                        options.append(new Option(v.Name,v.Id ));
                     })
                      
                 },
@@ -101,6 +145,7 @@
                             <button onclick='Delete(${v.Id})'>Delete</button>
                             </tr>`
                     })
+                    $("#cat tbody").empty();
                     $("#cat tbody").append(tr);
                 },
                 error: function (error) {
@@ -108,6 +153,48 @@
                 }
             })
         }
+        function save() {
+            var category = {
+                Name: $("#name").val(),
+                ParentID: $("#parentCat").val(),
+            }
+            $.ajax({
+                url: "https://localhost:44362/api/categories",
+                method: "POST",
+                data: category,
+                type:"JSON",
+                success: function (response) {
+                    console.log(response)
+                    load()
+                    clearAll()
+                },
+                error: function (error) {
+                    console.log(error)
+                }
+            })
+        }
+        function update() {
+            var category = {
+                Id: $("#Id").val(),
+                Name: $("#name").val(),
+                ParentID: $("#parentCat").val(),
+            }
+            $.ajax({
+                url: "https://localhost:44362/api/categories",
+                method: "PUT",
+                data: category,
+                type: "JSON",
+                success: function (response) {
+                    console.log(response)
+                    load()
+                    clearAll()
+                },
+                error: function (error) {
+                    console.log(error)
+                }
+            })
+        }
+
     </script>
 </body>
 </html>
