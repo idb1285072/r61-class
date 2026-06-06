@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@if(ViewBag.err!=null)
+            {
+                @ViewBag.err
+            }
+<div>
+    @Html.Action("LoadProduct")
+</div>
+

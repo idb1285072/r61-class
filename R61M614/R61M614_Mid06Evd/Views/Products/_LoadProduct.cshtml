@@ -1,0 +1,73 @@
+﻿@model IEnumerable<R61M614_Mid06Evd.Models.Category>
+@{ 
+    Layout = null;
+}    
+@Html.ActionLink("Create","Create","Products")
+<table class="table table-bordered">
+        <thead>
+            <tr>
+                <td>Category</td>
+                <td>
+                    Picture
+                </td>
+                <td>
+                    Entry Date
+                </td>
+                <td>
+                    Status
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>
+                        @if (item.Picture != null)
+                        {
+                            <img src="@Url.Content(item.Picture)" alt="@item.Name" />
+                        }
+                    </td>
+                    <td>
+                        @item.EntryDate
+                    </td>
+                    <td>
+                        @Html.Raw( @item.IsContinued.Value?"Available":"Unavailable")
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", "Products", new { item.Id }, null)|
+                        @Html.ActionLink("Delete", "Delete", "Products", new { item.Id }, new { @class = "btn btn-primary" })
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="4">
+                        <table class="table table-danger">
+                            <caption>All product of @item.Name</caption>
+                            <tr>
+                                <th>
+                                   Product Name
+                                </th>
+                                <th>
+                                    Price
+                                </th>
+                            </tr>
+                            @foreach (var p in item.Products)
+                            {
+                                <tr>
+                                    <td>
+                                      @p.Name
+                                    </td>
+                                    <td>
+                                        @p.Price
+                                    </td>
+                                </tr>
+                            }
+                        </table>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+

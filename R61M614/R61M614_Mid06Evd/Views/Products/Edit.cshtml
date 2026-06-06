@@ -1,0 +1,122 @@
+﻿@model R61M614_Mid06Evd.Models.Category
+<div class="row">
+    <div class="col-md-8">
+        @using (Html.BeginForm("Edit", "Products", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            @Html.HiddenFor(x => x.Id)
+            @Html.HiddenFor(x => x.Picture)
+            <h2>Edit product</h2>
+            <div class="form-group row mb-1">
+                @Html.LabelFor(x => x.Name, new { @class = "col-form-label col-2" })
+                <div class="col-10">
+                    @Html.EditorFor(x => x.Name, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.Name, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group row mb-1">
+                @Html.LabelFor(x => x.Picture, new { @class = "col-form-label col-2" })
+                <div class="col-10">
+                    @*@Html.TextBoxFor(x => x.Price, new { @class = "form-control" })*@
+                    @*@if (Model.Picture != null)
+                        {
+                            <img src="@Url.Content(Model.Picture)" />
+                        }*@
+                    <div id="entryimg">
+                        <input type="file" name="picture" id="picture" />
+                    </div>
+                    <div id="changediv">
+                        @if (Model.Picture != null)
+                        {
+                            <img src="@Url.Content(Model.Picture)" />
+                        }
+                        <input type="button" value="Change" id="btnchange" />
+                    </div>
+                    @Html.ValidationMessageFor(x => x.Picture, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group row mb-1">
+                @Html.LabelFor(x => x.IsContinued, new { @class = "col-form-label col-2" })
+                <div class="col-10">
+                    @Html.EditorFor(x => x.IsContinued, new { @class = "form-control", type = "date" })
+                    @Html.ValidationMessageFor(x => x.IsContinued, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group row mb-1">
+                @Html.LabelFor(x => x.EntryDate, new { @class = "col-form-label col-2" })
+                <div class="col-10">
+                    @Html.EditorFor(x => x.EntryDate, new { @class = "form-control", type = "file" })
+                    @Html.ValidationMessageFor(x => x.EntryDate, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="col-12 mb-1" style="display:flex">
+
+                <h4>Product</h4>
+                <span style="flex: 1 1 auto"></span>
+                <button formnovalidate class="btn btn-secondary btn-sm" type="submit" name="operation" value="add">Add</button>
+
+            </div>
+            <div class="col-12 mb-1">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Price</th>
+
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @for (var i = 0; i < Model.Products.Count; i++)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.HiddenFor(x => Model.Products[i].CatId, new { @class = "form-control" })
+                                    @Html.HiddenFor(x => Model.Products[i].Id, new { @class = "form-control" })
+                                    @Html.EditorFor(x => Model.Products[i].Name, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(x => Model.Products[i].Name, "", new { @class = "text-danger" })
+
+
+                                </td>
+
+                                <td>
+                                    @Html.EditorFor(x => Model.Products[i].Price, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(x => Model.Products[i].Price, "", new { @class = "text-danger" })
+                                </td>
+                                <td>
+                                    <button formnovalidate class="btn btn-danger btn-sm" type="submit" name="operation" value="del_@i">Remove</button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <div class="form-group row mb-1 text-end">
+
+                <div class="col-10 offset-2">
+                    <button type="submit" class="btn btn-primary" name="operation" value="update">Update</button>
+                </div>
+            </div>
+        }
+    </div>
+    <div class="col-md-4">
+        <img src="~/Pictures/@ViewBag.CurrentPic" />
+    </div>
+</div>
+
+@section scripts {
+
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#entryimg").hide()
+            $("#btnchange").click(function () {
+                $("#picture").click()
+                $("#entryimg").show()
+                $("#changediv").hide()
+            })
+        })
+    </script>
+}
+
