@@ -1,0 +1,30 @@
+﻿@model IEnumerable< R61M6C3wORKS.Models.Course>
+@{
+    ViewBag.Title = "Index";
+}
+@Html.ActionLink("Add","Create","Course")
+<h2>all Course</h2>
+@if (Model.Count() > 0)
+{
+<div class="row">
+    @foreach (var item in Model)
+    {
+    <div class="card col-md-4 col-sm-12 col-lg-3" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">@item.Name</h5>
+            <p class="card-text">@item.Description</p>
+            <a href="#" class="btn btn-primary">More Details</a>
+            <a href="/Course/Edit/@item.Id" class="btn btn-primary ml-5">Edit</a>
+            <a href="/Course/Delete/@item.Id" class="btn btn-primary mt-2">Delete</a>
+        </div>
+    </div>
+    }
+</div>
+}
+else
+            {
+                <div>
+                    Opps!No record found
+                </div>
+            }

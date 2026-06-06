@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|d:\\r61\\m6\\r61m6c3\\r61m6c3works\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|solutionrelative:controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|d:\\r61\\m6\\r61m6c3\\r61m6c3works\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|solutionrelative:views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|d:\\r61\\m6\\r61m6c3\\r61m6c3works\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|solutionrelative:views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|d:\\r61\\m6\\r61m6c3\\r61m6c3works\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|solutionrelative:views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|d:\\r61\\m6\\r61m6c3\\r61m6c3works\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|solutionrelative:models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|d:\\r61\\m6\\r61m6c3\\r61m6c3works\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|solutionrelative:models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|d:\\r61\\m6\\r61m6c3\\r61m6c3works\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|d:\\r61\\m6\\r61m6c3\\r61m6c3works\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|d:\\r61\\m6\\r61m6c3\\r61m6c3works\\migrations\\202412040551598_rel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|solutionrelative:migrations\\202412040551598_rel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|d:\\r61\\m6\\r61m6c3\\r61m6c3works\\models\\dbschoolcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|solutionrelative:models\\dbschoolcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|d:\\r61\\m6\\r61m6c3\\r61m6c3works\\migrations\\202412040548175_course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|solutionrelative:migrations\\202412040548175_course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|d:\\r61\\m6\\r61m6c3\\r61m6c3works\\migrations\\202412040400120_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|solutionrelative:migrations\\202412040400120_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|d:\\r61\\m6\\r61m6c3\\r61m6c3works\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|d:\\r61\\m6\\r61m6c3\\r61m6c3works\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4934D9A-B5FA-40D5-80D2-E4DC5BC361CE}|R61M6C3wORKS.csproj|solutionrelative:migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Views\\Course\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Course\\Edit.cshtml",
+              "ToolTip": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Views\\Course\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Course\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwBEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T06:24:50.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Views\\Course\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Course\\Create.cshtml",
+              "ToolTip": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Views\\Course\\Create.cshtml",
+              "RelativeToolTip": "Views\\Course\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T06:11:08.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T05:59:46.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Views\\Course\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Course\\Index.cshtml",
+              "ToolTip": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Views\\Course\\Index.cshtml",
+              "RelativeToolTip": "Views\\Course\\Index.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T05:53:03.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CourseController.cs",
+              "ToolTip": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Controllers\\CourseController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAkwEUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T05:52:46.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "202412040551598_rel.cs",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Migrations\\202412040551598_rel.cs",
+              "RelativeDocumentMoniker": "Migrations\\202412040551598_rel.cs",
+              "ToolTip": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Migrations\\202412040551598_rel.cs",
+              "RelativeToolTip": "Migrations\\202412040551598_rel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T05:52:04.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "Models\\Enrollment.cs",
+              "ToolTip": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Models\\Enrollment.cs",
+              "RelativeToolTip": "Models\\Enrollment.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T05:49:18.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "202412040548175_course.cs",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Migrations\\202412040548175_course.cs",
+              "RelativeDocumentMoniker": "Migrations\\202412040548175_course.cs",
+              "ToolTip": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Migrations\\202412040548175_course.cs",
+              "RelativeToolTip": "Migrations\\202412040548175_course.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T05:48:22.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Models\\Course.cs",
+              "ToolTip": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Models\\Course.cs",
+              "RelativeToolTip": "Models\\Course.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwA4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T05:44:47.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "202412040400120_init.cs",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Migrations\\202412040400120_init.cs",
+              "RelativeDocumentMoniker": "Migrations\\202412040400120_init.cs",
+              "ToolTip": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Migrations\\202412040400120_init.cs",
+              "RelativeToolTip": "Migrations\\202412040400120_init.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T04:00:26.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "Migrations\\Configuration.cs",
+              "ToolTip": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T03:57:46.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-04T03:53:33.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DbschoolContext.cs",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Models\\DbschoolContext.cs",
+              "RelativeDocumentMoniker": "Models\\DbschoolContext.cs",
+              "ToolTip": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Models\\DbschoolContext.cs",
+              "RelativeToolTip": "Models\\DbschoolContext.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T03:53:16.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "D:\\R61\\M6\\R61M6C3\\R61M6C3wORKS\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T03:40:39.465Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+﻿@model R61M6C3wORKS.Models.Course
+@{
+    ViewBag.Title = "EDIT COURSE";
+}
+
+<h2>Create</h2>
+@Html.ValidationSummary()
+@using (Html.BeginForm())
+{
+    <div class="mb-3">
+        @Html.HiddenFor(m=>m.Id)
+        <label for="name" class="form-label">Name</label>
+        @Html.EditorFor(m => m.Name)
+        @Html.ValidationMessageFor(m => m.Name)
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Description</label>
+        @Html.EditorFor(m => m.Description)
+        @Html.ValidationMessageFor(m => m.Description)
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+
+}
