@@ -1,0 +1,141 @@
+﻿@model WebApplication1.Models.SalesOrder
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit @Model.Ordernumber</h2>
+@using (Html.BeginForm("Edit", "Sales", FormMethod.Post, new {enctype="multipart/form-data"}))
+            {
+@Html.AntiForgeryToken()
+@Html.ValidationSummary()
+<div class="row">
+    <div class="col-md-6">
+        <div>
+            <label>Order Number</label>
+            @Html.EditorFor(m => m.Ordernumber, new { @disabled = "disabled" })
+            @Html.ValidationMessageFor(m => m.Ordernumber)
+        </div>
+        <div>
+            <label>Order Date</label>
+            @Html.EditorFor(m => m.OrderDate)
+            @Html.ValidationMessageFor(m => m.OrderDate)
+        </div>
+        <div>
+            <label>Customer Name</label>
+            @Html.EditorFor(m => m.Customername)
+            @Html.ValidationMessageFor(m => m.Customername)
+        </div>
+
+    </div>
+    <div class="col-md-6">
+        <div>
+            <label>Status</label>
+            @Html.EditorFor(m => m.ISCompleted)
+            @Html.ValidationMessageFor(m => m.ISCompleted)
+        </div>
+        <div>
+            <label>Picture</label>
+            <div class="col-10">
+
+                <div id="entryimg">
+                    <input type="file" name="picture" id="picture" />
+                </div>
+                <div id="changediv">
+                    @if (Model.Picture != null)
+                                    {
+                    <img src="@Url.Content(Model.Picture)" />
+                                    }
+                    <input type="button" value="Change" id="btnchange" />
+                </div>
+                @Html.ValidationMessageFor(x => x.Picture, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-12">
+        <div class="col-12 mb-1" style="display:flex">
+
+            
+            <span style="flex: 1 1 auto"></span>
+            <button formnovalidate class="btn btn-secondary btn-sm" type="submit" name="operation" value="add">Add</button>
+
+        </div>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Unit Price</th>
+                    <th> Quantity</th>
+                    <th>Discount</th>
+
+                    <th>Subtotal</th>
+
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (var i = 0; i < Model.SalesDetails.Count; i++)
+                                {
+                <tr>
+                    <td>
+                        @Html.HiddenFor(x => Model.SalesDetails[i].ID, new { @class = "form-control" })
+                        @Html.HiddenFor(x => Model.SalesDetails[i].OrderId, new { @class = "form-control" })
+                        @*@Html.EditorFor(x => Model.SalesDetails[i].Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => Model.Products[i].Name, "", new { @class = "text-danger" })*@
+
+                        @Html.DropDownListFor(m => Model.SalesDetails[i].ProductId,(IEnumerable<SelectListItem>)@ViewBag.ProductId)
+                    </td>
+                    <td>
+
+                        @Html.EditorFor(x => Model.SalesDetails[i].UnitPrice, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => Model.SalesDetails[i].UnitPrice, "", new { @class = "text-danger" })
+                    </td>
+                    @*<td>
+                        @Html.EditorFor(x => Model.SalesDetails[i].UnitPrice, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => Model.SalesDetails[i].UnitPrice, "", new { @class = "text-danger" })
+                    </td>*@
+                    <td>
+                        @Html.EditorFor(x => Model.SalesDetails[i].Quantity, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => Model.SalesDetails[i].Quantity, "", new { @class = "text-danger" })
+                    </td>
+                    <td>
+                        @Html.EditorFor(x => Model.SalesDetails[i].Discount, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => Model.SalesDetails[i].Discount, "", new { @class = "text-danger" })
+                    </td>
+                    <td>
+                        @Html.EditorFor(x => Model.SalesDetails[i].Total, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => Model.SalesDetails[i].Total, "", new { @class = "text-danger" })
+                    </td>
+                    <td>
+                        <button formnovalidate class="btn btn-danger btn-sm" type="submit" name="operation" value="del_@i">Remove</button>
+                    </td>
+                </tr>
+                                }
+            </tbody>
+        </table>
+    </div>
+    <div class="col-md-12">
+        <div class="col-10 offset-2">
+            <button type="submit" class="btn btn-primary" name="operation" value="update">Update</button>
+        </div>
+    </div>
+</div>
+            }
+
+
+
+@section scripts {
+
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#entryimg").hide()
+            $("#btnchange").click(function () {
+                $("#picture").click()
+                $("#entryimg").show()
+                $("#changediv").hide()
+            })
+        })
+    </script>
+}
