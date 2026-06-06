@@ -1,0 +1,249 @@
+﻿@model R61M9C2_Inv.Data.PurchaseMaster
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>PurchaseMaster</h4>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="PurchaseDate" class="control-label"></label>
+                        <input asp-for="PurchaseDate" class="form-control" />
+                        <span asp-validation-for="PurchaseDate" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="PurchaseNumber" class="control-label"></label>
+                        <input asp-for="PurchaseNumber" class="form-control" />
+                        <span asp-validation-for="PurchaseNumber" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="VendorName" class="control-label"></label>
+                        <input asp-for="VendorName" class="form-control" />
+                        <span asp-validation-for="VendorName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="VendorContact" class="control-label"></label>
+                        <input asp-for="VendorContact" class="form-control" />
+                        <span asp-validation-for="VendorContact" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="TotalAmount" class="control-label"></label>
+                        <input asp-for="TotalAmount" class="form-control" />
+                        <span asp-validation-for="TotalAmount" class="text-danger"></span>
+                    </div>
+                </div>
+           <div class="col-md-12">
+
+                    <fieldset>
+                        <legend>Order Details</legend>
+                        <table id="tblOrderdetails">
+                            <thead>
+                                <tr>
+                                    <th>ItemName</th>
+                                    <th>Quantity</th>
+                                    <th>UnitPrice</th>
+                                    <th>Discount</th>
+                                    <th>SubTotal</th>
+                                    <th>Action</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        @*<input type="text" name="ItemName" />*@
+                                        <select id="ItemName" name="ItemName">
+                                            <option>Select Product</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <input type="text" name="Quantity" onchange="CalculateSubTotal()" />
+                                    </td>
+                                    <td>
+                                        <input type="text" name="UnitPrice" onchange="CalculateSubTotal()" />
+                                    </td>
+                                    <td>
+                                        <input type="text" name="Discount" onchange="CalculateSubTotal()" />
+                                    </td>
+                                    <td>
+                                        <input type="text" name="SubTotal" readonly="readonly" />
+                                    </td>
+                                    <td>
+                                        <input type="button" value="Add" name="add" id="btnadd" onclick="AddSaleOrderRow()" />
+                                        <input type="button" value="Delete" name="delete" id="btndelete" onclick="DeleteSaleOrderRow(this)" />
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    @*<td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>*@
+                                    <td colspan="4">
+                                        <b>Total</b>
+                                    </td>
+                                    <td>
+                                        <input type="text" name="Total" readonly="readonly" id="txtTotal" />
+                                    </td>
+                                    <td>
+                                    </td>
+                                </tr>
+                               @*  <tr>
+                                   
+                                    <td colspan="5">
+                                        <input type="button" name="Save order" value="save Order" onclick="SaveOrderDetails()" />
+                                    </td>
+                                    <td>
+                                    </td>
+                                </tr> *@
+                            </tfoot>
+                        </table>
+                    </fieldset>
+
+           </div>
+           
+            </div>
+            <div class="form-group">
+             @*    <input type="submit" value="Create" class="btn btn-primary" /> *@
+                <input type="button" name="Save order" value="save Order" class="btn btn-primary" onclick="SaveOrderDetails()" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+ 
+@section Scripts {
+
+@*     <script src="~/Scripts/jquery-3.6.0.min.js"></script> *@
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#btndelete").hide();
+            loadproduct()
+        })
+        function loadproduct() {
+            $.ajax({
+                url: "/Products/GetProduct",
+                method: "GET",
+                success: function (response) {
+                    console.log("Products")
+                    console.log(response)
+                    var options = $("#ItemName");
+                    console.log(response)
+                    options.empty()
+                    options.append(new Option("Select Product", "0"));
+                    $.each(response, function (i, v) {
+                        options.append(new Option(v.name, v.id));
+                    })
+                },
+                error: function (error) {
+                    console.log(error)
+                }
+            })
+        }
+        function AddSaleOrderRow() {
+            $("#btndelete").show();
+            var tblbody = $("#tblOrderdetails").find("tbody")
+            var tblLastRow = tblbody.find("tr:last")
+            var tblClone = tblLastRow.clone().find("input[type=text]").val('').end();
+            tblLastRow.find('select[name="ItemName"]').val('').end();
+
+            tblLastRow.after(tblClone);
+            $("#btndelete").hide();
+
+        }
+        function DeleteSaleOrderRow() {
+            $("#btndelete").closest("tr").remove();
+            CalculateSubTotal();
+
+        }
+        function CalculateSubTotal() {
+
+            var total = 0.00;
+            var tblbody = $("#tblOrderdetails").find("tbody")
+            tblbody.find('tr').each(function () {
+                console.log($(this).find("td:eq(1) input[type=text]"))
+                var quantity = $(this).find("td:eq(1) input[type=text]").val();
+                var unitprice = $(this).find("td:eq(2) input[type=text]").val();
+                var discount = $(this).find("td:eq(3) input[type=text]").val();
+                var subtotal = (quantity * unitprice) - discount
+                total = total + subtotal
+                console.log("quantity" + quantity)
+                console.log("unitprice" + unitprice)
+                console.log(discount)
+                console.log(total)
+                console.log(subtotal)
+                $(this).find("td:eq(4) input[type=text]").val(subtotal);
+                $("#txtTotal").val(total);
+                TotalAmount
+                $("#TotalAmount").val(total);
+            })
+        }
+
+
+        function SaveOrderDetails() {
+            PurchaseDetails = [];
+            total = 0.00;
+            var tblbody = $("#tblOrderdetails").find("tbody")
+            tblbody.find('tr').each(function () {
+                var itemName = $(this).find("td:eq(0) select[name='ItemName']").val();
+                var quantity = $(this).find("td:eq(1) input[type=text]").val();
+                var unitprice = $(this).find("td:eq(2) input[type=text]").val();
+                var discount = $(this).find("td:eq(3) input[type=text]").val();
+                var subtotal = (quantity * unitprice) - discount
+
+                PurchaseDetails.push({
+                    "ProductId": itemName, "Quantity": quantity, "UnitPrice": unitprice, "Discount": discount, "Total": subtotal
+                });
+
+            })
+
+            entity = {
+                "PurchaseNumber": $("#PurchaseNumber").val(),
+                "VendorName": $("#VendorName").val(),
+                "PurchaseDate": $("#PurchaseDate").val(),
+                "TotalAmount": $("#TotalAmount").val(),
+                "VendorContact":$("#VendorContact").val(),
+                "PurchaseDetails": PurchaseDetails,
+            }
+            console.log(entity)
+            $.ajax({
+                async: true,
+                type: 'POST',
+                dataType: 'JSON',
+                url: '/PurchaseMasters/Save',
+                data: JSON.stringify( entity),
+                
+                contentType: 'application/json;charset=UTF-8',
+                success: function (data) {
+                  console.log(data)
+                },
+                error: function (data) {
+                    alert("There is problem");
+                    console.log(data)
+                }
+            });
+
+        }
+    </script>
+}
