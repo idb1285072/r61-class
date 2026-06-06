@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\LAB104-12U\\Desktop\\2025-02-18\\API_CORE_CRUD\\API_CORE_CRUD\\wwwroot\\Pictures\\202502180799.png",
+      "PackagePath": "staticwebassets\\Pictures\\202502180799.png"
+    },
+    {
+      "Id": "C:\\Users\\LAB104-12U\\Desktop\\2025-02-18\\API_CORE_CRUD\\API_CORE_CRUD\\wwwroot\\Pictures\\202502182623.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\202502182623.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.API_CORE_CRUD.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.API_CORE_CRUD.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.API_CORE_CRUD.props",
+      "PackagePath": "build\\API_CORE_CRUD.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.API_CORE_CRUD.props",
+      "PackagePath": "buildMultiTargeting\\API_CORE_CRUD.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.API_CORE_CRUD.props",
+      "PackagePath": "buildTransitive\\API_CORE_CRUD.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
