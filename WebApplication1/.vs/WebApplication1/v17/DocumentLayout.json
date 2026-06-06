@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\R61\\M10\\R61M10SP\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E36F939-7C6F-4D9B-A317-95B2DBBAAEC6}|TestProject1\\TestProject1.csproj|d:\\r61\\m10\\r61m10sp\\webapplication1\\testproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E36F939-7C6F-4D9B-A317-95B2DBBAAEC6}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F3D1B31-0E09-4D96-B747-849324B73D48}|WebApplication1\\WebApplication1.csproj|d:\\r61\\m10\\r61m10sp\\webapplication1\\webapplication1\\migrations\\20250211070421_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F3D1B31-0E09-4D96-B747-849324B73D48}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\migrations\\20250211070421_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F3D1B31-0E09-4D96-B747-849324B73D48}|WebApplication1\\WebApplication1.csproj|d:\\r61\\m10\\r61m10sp\\webapplication1\\webapplication1\\migrations\\20250211070506_init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F3D1B31-0E09-4D96-B747-849324B73D48}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\migrations\\20250211070506_init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F3D1B31-0E09-4D96-B747-849324B73D48}|WebApplication1\\WebApplication1.csproj|d:\\r61\\m10\\r61m10sp\\webapplication1\\webapplication1\\migrations\\20250212034507_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F3D1B31-0E09-4D96-B747-849324B73D48}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\migrations\\20250212034507_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F3D1B31-0E09-4D96-B747-849324B73D48}|WebApplication1\\WebApplication1.csproj|d:\\r61\\m10\\r61m10sp\\webapplication1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9F3D1B31-0E09-4D96-B747-849324B73D48}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F3D1B31-0E09-4D96-B747-849324B73D48}|WebApplication1\\WebApplication1.csproj|d:\\r61\\m10\\r61m10sp\\webapplication1\\webapplication1\\models\\personcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F3D1B31-0E09-4D96-B747-849324B73D48}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\personcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F3D1B31-0E09-4D96-B747-849324B73D48}|WebApplication1\\WebApplication1.csproj|d:\\r61\\m10\\r61m10sp\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F3D1B31-0E09-4D96-B747-849324B73D48}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250212034507_add.cs",
+              "DocumentMoniker": "D:\\R61\\M10\\R61M10SP\\WebApplication1\\WebApplication1\\Migrations\\20250212034507_add.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20250212034507_add.cs",
+              "ToolTip": "D:\\R61\\M10\\R61M10SP\\WebApplication1\\WebApplication1\\Migrations\\20250212034507_add.cs",
+              "RelativeToolTip": "WebApplication1\\Migrations\\20250212034507_add.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T03:45:07.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\R61\\M10\\R61M10SP\\WebApplication1\\TestProject1\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "TestProject1\\UnitTest1.cs",
+              "ToolTip": "D:\\R61\\M10\\R61M10SP\\WebApplication1\\TestProject1\\UnitTest1.cs",
+              "RelativeToolTip": "TestProject1\\UnitTest1.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAmwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T03:23:53.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250211070506_init1.cs",
+              "DocumentMoniker": "D:\\R61\\M10\\R61M10SP\\WebApplication1\\WebApplication1\\Migrations\\20250211070506_init1.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20250211070506_init1.cs",
+              "ToolTip": "D:\\R61\\M10\\R61M10SP\\WebApplication1\\WebApplication1\\Migrations\\20250211070506_init1.cs",
+              "RelativeToolTip": "WebApplication1\\Migrations\\20250211070506_init1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T07:05:06.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250211070421_init.cs",
+              "DocumentMoniker": "D:\\R61\\M10\\R61M10SP\\WebApplication1\\WebApplication1\\Migrations\\20250211070421_init.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20250211070421_init.cs",
+              "ToolTip": "D:\\R61\\M10\\R61M10SP\\WebApplication1\\WebApplication1\\Migrations\\20250211070421_init.cs",
+              "RelativeToolTip": "WebApplication1\\Migrations\\20250211070421_init.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T07:04:21.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\R61\\M10\\R61M10SP\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "D:\\R61\\M10\\R61M10SP\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T07:02:22.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\R61\\M10\\R61M10SP\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "D:\\R61\\M10\\R61M10SP\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvwkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-11T07:01:07.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PersonContext.cs",
+              "DocumentMoniker": "D:\\R61\\M10\\R61M10SP\\WebApplication1\\WebApplication1\\Models\\PersonContext.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\PersonContext.cs",
+              "ToolTip": "D:\\R61\\M10\\R61M10SP\\WebApplication1\\WebApplication1\\Models\\PersonContext.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\PersonContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvxEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T06:57:56.082Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

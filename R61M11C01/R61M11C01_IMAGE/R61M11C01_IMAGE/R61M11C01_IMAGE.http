@@ -1,0 +1,6 @@
+@R61M11C01_IMAGE_HostAddress = http://localhost:5291
+
+GET {{R61M11C01_IMAGE_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
