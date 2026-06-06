@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "E1QPh0MB1OmEJEkYaUIkNrBkfL0YuA6POaOPYYuoMkw=",
+  "Source": "Api",
+  "BasePath": "_content/Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Api\\wwwroot",
+      "Source": "Api",
+      "ContentRoot": "C:\\Users\\LAB104-12U\\Desktop\\maui\\2025-04-08\\Api\\Api\\wwwroot\\",
+      "BasePath": "_content/Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

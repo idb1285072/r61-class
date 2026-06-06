@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LAB104-12U\\Desktop\\maui\\2025-04-08\\Maui\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3DB4693-AFAA-43EF-A4B5-6FFC113230FB}|Maui\\Maui.csproj|c:\\users\\lab104-12u\\desktop\\maui\\2025-04-08\\maui\\maui\\pages\\create.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3DB4693-AFAA-43EF-A4B5-6FFC113230FB}|Maui\\Maui.csproj|solutionrelative:maui\\pages\\create.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3DB4693-AFAA-43EF-A4B5-6FFC113230FB}|Maui\\Maui.csproj|c:\\users\\lab104-12u\\desktop\\maui\\2025-04-08\\maui\\maui\\pages\\create.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B3DB4693-AFAA-43EF-A4B5-6FFC113230FB}|Maui\\Maui.csproj|solutionrelative:maui\\pages\\create.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3DB4693-AFAA-43EF-A4B5-6FFC113230FB}|Maui\\Maui.csproj|c:\\users\\lab104-12u\\desktop\\maui\\2025-04-08\\maui\\maui\\pages\\edit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3DB4693-AFAA-43EF-A4B5-6FFC113230FB}|Maui\\Maui.csproj|solutionrelative:maui\\pages\\edit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3DB4693-AFAA-43EF-A4B5-6FFC113230FB}|Maui\\Maui.csproj|c:\\users\\lab104-12u\\desktop\\maui\\2025-04-08\\maui\\maui\\pages\\show.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3DB4693-AFAA-43EF-A4B5-6FFC113230FB}|Maui\\Maui.csproj|solutionrelative:maui\\pages\\show.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3DB4693-AFAA-43EF-A4B5-6FFC113230FB}|Maui\\Maui.csproj|c:\\users\\lab104-12u\\desktop\\maui\\2025-04-08\\maui\\maui\\pages\\edit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B3DB4693-AFAA-43EF-A4B5-6FFC113230FB}|Maui\\Maui.csproj|solutionrelative:maui\\pages\\edit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3DB4693-AFAA-43EF-A4B5-6FFC113230FB}|Maui\\Maui.csproj|c:\\users\\lab104-12u\\desktop\\maui\\2025-04-08\\maui\\maui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B3DB4693-AFAA-43EF-A4B5-6FFC113230FB}|Maui\\Maui.csproj|solutionrelative:maui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3DB4693-AFAA-43EF-A4B5-6FFC113230FB}|Maui\\Maui.csproj|c:\\users\\lab104-12u\\desktop\\maui\\2025-04-08\\maui\\maui\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3DB4693-AFAA-43EF-A4B5-6FFC113230FB}|Maui\\Maui.csproj|solutionrelative:maui\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\LAB104-12U\\Desktop\\maui\\2025-04-08\\Maui\\Maui\\Pages\\Create.xaml.cs",
+              "RelativeDocumentMoniker": "Maui\\Pages\\Create.xaml.cs",
+              "ToolTip": "C:\\Users\\LAB104-12U\\Desktop\\maui\\2025-04-08\\Maui\\Maui\\Pages\\Create.xaml.cs",
+              "RelativeToolTip": "Maui\\Pages\\Create.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwBwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T05:42:43.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\LAB104-12U\\Desktop\\maui\\2025-04-08\\Maui\\Maui\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Maui\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\LAB104-12U\\Desktop\\maui\\2025-04-08\\Maui\\Maui\\Models\\Student.cs",
+              "RelativeToolTip": "Maui\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T05:08:24.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\LAB104-12U\\Desktop\\maui\\2025-04-08\\Maui\\Maui\\Pages\\Edit.xaml.cs",
+              "RelativeDocumentMoniker": "Maui\\Pages\\Edit.xaml.cs",
+              "ToolTip": "C:\\Users\\LAB104-12U\\Desktop\\maui\\2025-04-08\\Maui\\Maui\\Pages\\Edit.xaml.cs",
+              "RelativeToolTip": "Maui\\Pages\\Edit.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T04:52:55.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Show.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\LAB104-12U\\Desktop\\maui\\2025-04-08\\Maui\\Maui\\Pages\\Show.xaml.cs",
+              "RelativeDocumentMoniker": "Maui\\Pages\\Show.xaml.cs",
+              "ToolTip": "C:\\Users\\LAB104-12U\\Desktop\\maui\\2025-04-08\\Maui\\Maui\\Pages\\Show.xaml.cs",
+              "RelativeToolTip": "Maui\\Pages\\Show.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T03:54:17.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\LAB104-12U\\Desktop\\maui\\2025-04-08\\Maui\\Maui\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Maui\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\LAB104-12U\\Desktop\\maui\\2025-04-08\\Maui\\Maui\\AppShell.xaml",
+              "RelativeToolTip": "Maui\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-08T03:34:19.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.xaml",
+              "DocumentMoniker": "C:\\Users\\LAB104-12U\\Desktop\\maui\\2025-04-08\\Maui\\Maui\\Pages\\Edit.xaml",
+              "RelativeDocumentMoniker": "Maui\\Pages\\Edit.xaml",
+              "ToolTip": "C:\\Users\\LAB104-12U\\Desktop\\maui\\2025-04-08\\Maui\\Maui\\Pages\\Edit.xaml",
+              "RelativeToolTip": "Maui\\Pages\\Edit.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-08T03:34:09.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.xaml",
+              "DocumentMoniker": "C:\\Users\\LAB104-12U\\Desktop\\maui\\2025-04-08\\Maui\\Maui\\Pages\\Create.xaml",
+              "RelativeDocumentMoniker": "Maui\\Pages\\Create.xaml",
+              "ToolTip": "C:\\Users\\LAB104-12U\\Desktop\\maui\\2025-04-08\\Maui\\Maui\\Pages\\Create.xaml",
+              "RelativeToolTip": "Maui\\Pages\\Create.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-08T03:33:40.684Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

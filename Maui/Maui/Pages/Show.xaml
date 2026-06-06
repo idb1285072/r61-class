@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maui.Pages.Show"
+             Title="Show">
+    <CollectionView x:Name="stdList">
+        <CollectionView.Header>
+            <Grid Padding="10" BackgroundColor="#EEEEEE" ColumnDefinitions="*,*,*,*,*">
+                <Label Text="ID" FontAttributes="Bold" Grid.Column="0"/>
+                <Label Text="Name" FontAttributes="Bold" Grid.Column="1"/>
+                <Label Text="Admission Date" FontAttributes="Bold" Grid.Column="2"/>
+                <Label Text="Is Active" FontAttributes="Bold" Grid.Column="3"/>
+                <Label Text="..." FontAttributes="Bold" Grid.Column="4"/>
+            </Grid>
+        </CollectionView.Header>
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Grid Padding="10" ColumnDefinitions="*,*,*,*,*">
+                    <Label Text="{Binding Id}" Grid.Column="0" />
+                    <Label Text="{Binding Name}" Grid.Column="1"/>
+                    <Label Text="{Binding AdmissionDate}" Grid.Column="2"/>
+                    <Label Text="{Binding IsActive}" Grid.Column="3"/>
+                    <Button Text="Edit" Grid.Column="4"
+                            Clicked="OnEditClicked"
+                            CommandParameter="{Binding}" 
+                            BackgroundColor="#4585fa"
+                            Margin="100, 0, 0, 0"
+                             />
+                    <Button Text="Delete" Grid.Column="4"
+                            Clicked="OnDeleteClicked"
+                            CommandParameter="{Binding}"
+                            BackgroundColor="#a5be84"
+                            Margin="0, 0, 100, 0"
+                            />
+                </Grid>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+</ContentPage>

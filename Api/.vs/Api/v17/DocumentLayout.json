@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LAB104-12U\\Desktop\\maui\\2025-04-08\\Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16ED8313-A634-4618-A67C-5BC79375759F}|Api\\Api.csproj|c:\\users\\lab104-12u\\desktop\\maui\\2025-04-08\\api\\api\\models\\dbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ED8313-A634-4618-A67C-5BC79375759F}|Api\\Api.csproj|solutionrelative:api\\models\\dbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ED8313-A634-4618-A67C-5BC79375759F}|Api\\Api.csproj|c:\\users\\lab104-12u\\desktop\\maui\\2025-04-08\\api\\api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ED8313-A634-4618-A67C-5BC79375759F}|Api\\Api.csproj|solutionrelative:api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ED8313-A634-4618-A67C-5BC79375759F}|Api\\Api.csproj|c:\\users\\lab104-12u\\desktop\\maui\\2025-04-08\\api\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{16ED8313-A634-4618-A67C-5BC79375759F}|Api\\Api.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ED8313-A634-4618-A67C-5BC79375759F}|Api\\Api.csproj|c:\\users\\lab104-12u\\desktop\\maui\\2025-04-08\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ED8313-A634-4618-A67C-5BC79375759F}|Api\\Api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\LAB104-12U\\Desktop\\maui\\2025-04-08\\Api\\Api\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\LAB104-12U\\Desktop\\maui\\2025-04-08\\Api\\Api\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Api\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T03:26:38.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LAB104-12U\\Desktop\\maui\\2025-04-08\\Api\\Api\\Program.cs",
+              "RelativeDocumentMoniker": "Api\\Program.cs",
+              "ToolTip": "C:\\Users\\LAB104-12U\\Desktop\\maui\\2025-04-08\\Api\\Api\\Program.cs",
+              "RelativeToolTip": "Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T03:21:46.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\LAB104-12U\\Desktop\\maui\\2025-04-08\\Api\\Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\LAB104-12U\\Desktop\\maui\\2025-04-08\\Api\\Api\\appsettings.json",
+              "RelativeToolTip": "Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-08T03:20:04.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbModel.cs",
+              "DocumentMoniker": "C:\\Users\\LAB104-12U\\Desktop\\maui\\2025-04-08\\Api\\Api\\Models\\DbModel.cs",
+              "RelativeDocumentMoniker": "Api\\Models\\DbModel.cs",
+              "ToolTip": "C:\\Users\\LAB104-12U\\Desktop\\maui\\2025-04-08\\Api\\Api\\Models\\DbModel.cs",
+              "RelativeToolTip": "Api\\Models\\DbModel.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T03:17:39.499Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
