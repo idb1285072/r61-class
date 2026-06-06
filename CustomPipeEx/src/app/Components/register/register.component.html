@@ -1,0 +1,38 @@
+
+<div class="row">
+    <div class="col-md-6">
+        <form #form='ngForm'    autocomplete="off" (submit)="onSubmit()">
+            
+      
+         
+        <div class=" ">
+            <label>Email</label>
+        <div class="input-group">
+        <div class="input-group-prepend">
+            
+            <input type="text" class="form-control"  [(ngModel)]= 'user.email' name="name" />
+        </div>
+        </div>
+          
+        </div>
+        <div class=" ">
+            <label>Password</label>
+        <div class="input-group">
+        <div class="input-group-prepend">
+            
+            <input type="password" class="form-control"  [(ngModel)]= 'user.password' name="name" />
+        </div>
+        </div>
+        </div>
+        
+        <button [disabled]="isClicked"  class="btn btn-success ms-5" type="submit"     >
+            <i class="fa fa-plus-square"    >Register</i>
+        </button>
+            <button  class="btn btn-success " type="button" (click)="clearAll()"   >
+                <i class="fa fa-plus-square"    >Clear</i>
+            </button>
+        
+        </form>
+    </div>
+  
+</div>

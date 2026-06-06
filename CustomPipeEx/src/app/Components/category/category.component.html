@@ -1,0 +1,84 @@
+
+<div class="row">
+    <div class="col-md-6">
+        <form #form='ngForm'    autocomplete="off" (submit)="onSubmit(form)">
+            <input type="text" type="hidden"  [(ngModel)]= 'category.id' name="Id" />
+            
+        <div class="form-group">
+            <label>Parent Category</label>
+            <select type="text" class="form-control"  name="parentCategory" [(ngModel)]= 'category.parentCategory'  >
+            <option value="0"> Select item</option>
+                <option *ngFor='let item of categories' value="{{item.id}}">{{item.name}}</option>
+        </select>
+        
+        </div>
+         
+        <div class=" ">
+            <label>Name</label>
+        <div class="input-group">
+        <div class="input-group-prepend">
+            
+            <input type="text" class="form-control"  [(ngModel)]= 'category.name' name="name" />
+        </div>
+        </div>
+          
+        </div>
+        
+        
+        
+           
+            <button  class="btn btn-success " type="submit" [hidden]="isEdit" >
+                <i class="fa fa-plus-square"    >Add</i>
+            </button>
+            <button  class="btn btn-success " type="button" (click)="update()" [hidden]="!isEdit" >
+                <i class="fa fa-plus-square"    >Update</i>
+            </button>
+            <button  class="btn btn-success " type="button" (click)="clearAll()"   >
+                <i class="fa fa-plus-square"    >Clear</i>
+            </button>
+            <p-button label="Check" />
+        </form>
+    </div>
+    <div class="col-md-6">
+        <table class="table table-bordered">
+            <tr>
+                <th>Parent Name</th>
+                <th>Name</th>
+                
+            </tr>
+            <tr *ngFor="let e of categories">
+                <td>
+                    {{e.parentCategory}}
+                </td>
+                <td>
+                    {{e.name}}
+                </td>
+                <td>
+                   <button (click)="Edit(e.id)">Edit</button>||
+                   <button (click)="Delete(e.id)">Delete</button>
+              
+                </td>
+            </tr>
+        </table>
+
+
+        <p-table [value]="categories" [tableStyle]="{ 'min-width': '50rem' }">
+            <ng-template #header>
+                <tr>
+                    <th>Code</th>
+                    <th>Name</th>
+                    <th>Category</th>
+                  
+                </tr>
+            </ng-template>
+            <ng-template #body let-c>
+                <tr>
+                    <td>{{ c.code }}</td>
+                    <td>{{ c.name }}</td>
+                    <td>{{ c.category }}</td>
+                    <td>{{ c.quantity }}</td>
+                </tr>
+            </ng-template>
+        </p-table>
+    </div>
+</div>
