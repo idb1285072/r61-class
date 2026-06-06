@@ -1,0 +1,44 @@
+﻿<fieldset>
+    <legend>Order Details</legend>
+    <table id="tblOrderdetails">
+        <thead>
+            <tr>
+                <th>ItemName</th>
+                <th>Quantity</th>
+                <th> Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    @await Component.InvokeAsync("ProductDrp")
+                </td>
+                <td>
+                    <input type="text" name="Quantity" />
+                </td>
+                <td>
+                    <input type="text" name="UnitPrice" />
+                </td>
+
+                <td>
+                    <input type="button" value="Add" name="add" id="btnadd" onclick="AddSaleOrderRow()" />
+                    <input type="button" value="Delete" name="delete" id="btndelete" onclick="DeleteSaleOrderRow(this)" />
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+
+            <tr>
+
+                <td colspan="6">
+                    <input type="button" name="Save order" id="btnsave" value="save Order" />
+
+                </td>
+
+            </tr>
+        </tfoot>
+    </table>
+</fieldset>
+
+

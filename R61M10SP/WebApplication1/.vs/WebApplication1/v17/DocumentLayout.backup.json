@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\R61\\M10\\R61M10SP\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\R61\\M10\\R61M10SP\\WebApplication1\\WebApplication1\\Migrations\\20250211070506_init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication1\\Migrations\\20250211070506_init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\R61\\M10\\R61M10SP\\WebApplication1\\WebApplication1\\Migrations\\20250211070421_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication1\\Migrations\\20250211070421_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F3D1B31-0E09-4D96-B747-849324B73D48}|WebApplication1\\WebApplication1.csproj|d:\\r61\\m10\\r61m10sp\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F3D1B31-0E09-4D96-B747-849324B73D48}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F3D1B31-0E09-4D96-B747-849324B73D48}|WebApplication1\\WebApplication1.csproj|d:\\r61\\m10\\r61m10sp\\webapplication1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9F3D1B31-0E09-4D96-B747-849324B73D48}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F3D1B31-0E09-4D96-B747-849324B73D48}|WebApplication1\\WebApplication1.csproj|d:\\r61\\m10\\r61m10sp\\webapplication1\\webapplication1\\models\\personcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F3D1B31-0E09-4D96-B747-849324B73D48}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\personcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250211070506_init1.cs",
+              "DocumentMoniker": "D:\\R61\\M10\\R61M10SP\\WebApplication1\\WebApplication1\\Migrations\\20250211070506_init1.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20250211070506_init1.cs",
+              "ToolTip": "D:\\R61\\M10\\R61M10SP\\WebApplication1\\WebApplication1\\Migrations\\20250211070506_init1.cs*",
+              "RelativeToolTip": "WebApplication1\\Migrations\\20250211070506_init1.cs*",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T07:05:06.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250211070421_init.cs",
+              "DocumentMoniker": "D:\\R61\\M10\\R61M10SP\\WebApplication1\\WebApplication1\\Migrations\\20250211070421_init.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20250211070421_init.cs",
+              "ToolTip": "D:\\R61\\M10\\R61M10SP\\WebApplication1\\WebApplication1\\Migrations\\20250211070421_init.cs",
+              "RelativeToolTip": "WebApplication1\\Migrations\\20250211070421_init.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T07:04:21.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\R61\\M10\\R61M10SP\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "D:\\R61\\M10\\R61M10SP\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T07:02:22.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\R61\\M10\\R61M10SP\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "D:\\R61\\M10\\R61M10SP\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-11T07:01:07.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PersonContext.cs",
+              "DocumentMoniker": "D:\\R61\\M10\\R61M10SP\\WebApplication1\\WebApplication1\\Models\\PersonContext.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\PersonContext.cs",
+              "ToolTip": "D:\\R61\\M10\\R61M10SP\\WebApplication1\\WebApplication1\\Models\\PersonContext.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\PersonContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T06:57:56.082Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

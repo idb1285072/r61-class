@@ -1,0 +1,238 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div>
+    Tst message
+    <my message="Test"></my>
+</div>
+<div>
+    <form id="createPatientForm"   >
+
+        @Html.Partial("_masterPartial")
+
+        <fieldset>
+            <legend>Order Details</legend>
+            <table id="tblOrderdetails">
+                <thead>
+                    <tr>
+                        <th>ItemName</th>
+                        <th>Quantity</th>
+                        <th> Price</th>
+
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                           
+
+                            @Html.DropDownList("ProductId", (IEnumerable<SelectListItem>)ViewBag.ProductId, "Select Product", new { @id = "ProductId" })
+                        </td>
+                        <td>
+
+                            <input type="text" name="Quantity" />
+                        </td>
+                        <td>
+                            <input type="text" name="UnitPrice" />
+                        </td>
+                        <td>
+                            <input type="text" name="Id" value="" id="txtId" />
+                        </td>
+
+                        <td>
+                            <input type="button" value="Add" name="add" id="btnadd" onclick="AddSaleOrderRow()" />
+                            <input type="button" value="Delete" name="delete" id="btndelete" onclick="DeleteSaleOrderRow(this)" />
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+
+                    <tr>
+
+                        <td colspan="6">
+                            <input type="button" name="Save order" id="btnsave" value="save Order" />
+
+                        </td>
+
+                    </tr>
+                </tfoot>
+            </table>
+        </fieldset>
+
+
+    </form>
+</div>
+
+@section scripts {
+   
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            load()
+            $("#btndelete").hide();
+            $("#btnsave").click(function(){
+            OrderDetails = [];
+            total = 0.00;
+            var tblbody = $("#tblOrderdetails").find("tbody")
+            tblbody.find('tr').each(function () {
+                var itemName = $(this).find("td:eq(0) select[name=ProductId]").val();
+                var quantity = $(this).find("td:eq(1) input[type=text]").val();
+                var unitprice = $(this).find("td:eq(2) input[type=text]").val();
+                                 var detailsId = $(this).find("td:eq(3) input[type=text]").val();
+                OrderDetails.push({
+                        "Id":parseInt(detailsId) ,   "ProductId": itemName, "Qty":parseInt( quantity), "Price":parseFloat(unitprice)
+                });
+
+            })
+            debugger;
+            console.log($("#ISCompleted").prop("checked"))
+
+            order = {
+                "Ordernumber": $("#txtOrdernumber").val(),
+                "Customername": $("#txtcustomername").val(),
+                "OrderDate": $("#Orderdate").val(),
+                        "Id":$("#txtId").val(),
+                "IsDelivered": $("#ISCompleted").prop("checked"),
+                "OrderDetails": OrderDetails,
+            }
+            var file = $('#ImageFile')[0].files[0];
+            console.log(file)
+            var reader = new FileReader();
+            console.log(order)
+            reader.onloadend = function () {
+                console.log(reader.result)
+                var base64Image = reader.result.split(',')[1];
+                debugger;
+                $.ajax({
+                    type: 'POST',
+                    headers: { "Image-Data": base64Image },
+                    dataType: 'JSON',
+                    url: '/Order/Edit',
+
+                    data: JSON.stringify(order),
+
+                    contentType: 'application/json;charset=UTF-8',
+                    success: function (data) {
+                        console.log(data)
+                        if (data.Success) {
+                            window.location.href = "/order/index"
+                            alert(data.message);
+
+                        }
+                        else {
+                            alert(data.message);
+                        }
+                    },
+                    error: function (error) {
+
+
+                        console.log(error)
+                    }
+                });
+            }
+
+
+            if (file) { reader.readAsDataURL(file); }
+            else { alert('Please select a file first.'); }
+
+
+            })
+
+
+        })
+       
+        
+function load(){
+            const url = window.location;
+                    console.log(new URL(url).pathname)
+                    const segments = new URL(url).pathname.split('/');
+                    console.log(segments[3])
+                             
+                    
+             $.ajax({
+                            type: 'GET',
+                            // headers: { "Image-Data": base64Image },
+                            dataType: 'JSON',
+                       url: '/order/GetbyId/'+ segments[3],
+                            
+                            
+                            contentType: 'application/json;charset=UTF-8',
+                            success: function (data) {
+                                console.log(data)
+                    console.log(data.orderDetails)
+                                         $("#txtOrdernumber").val(data.orderNumber)
+                                 $("#txtcustomername").val(data.customerName)
+                         $("#Orderdate").val(data.orderDate)
+                                         $("#txtId").val(data.id)
+                                                                 $("#ISCompleted").prop( "checked", data.isDelivered );
+                                    var tblbody = $("#tblOrderdetails").find("tbody")
+                        tblbody.empty();
+                    let rawHtml=""
+                        $.each(data.orderDetails, function (i, v) {
+                            console.log(v)
+                         
+                             rawHtml +=`
+                                    <tr><td>
+
+                                         <select id="ProductId" name="ProductId" class="form-control">
+                            <option value="">Select </option>
+        @foreach (var p in ViewBag.ProductId)
+        {
+       
+           <option value="@p.Value">@p.Text</option>
+        }
+                            </select>
+                                     </td>
+                                    <td>
+                                    <input type="text" name="Qty" value="${v.qty}"  />
+                                </td>
+                                <td>
+                                  <input type="text" name="Price" value="${v.price}"  />
+                                </td>
+                                         <td>
+                                          <input type="text"   value="${v.id}"  />
+                                        </td>
+                                <td>
+                                    <input type="button" value="Add" name="add" id="btnadd" onclick="AddSaleOrderRow()" />
+                                    <input type="button" value="Delete" name="delete" id="btndelete" onclick="DeleteSaleOrderRow(this)" />
+                                </td>
+                           </tr> `
+
+                           
+                           
+                        })
+
+                    tblbody.html(rawHtml)
+                            },
+                            error: function (error) {
+                               
+                                console.log(error)
+                            }
+                        });
+
+
+}        
+
+        function AddSaleOrderRow() {
+            $("#btndelete").show();
+            var tblbody = $("#tblOrderdetails").find("tbody")
+            var tblLastRow = tblbody.find("tr:last")
+            var tblClone = tblLastRow.clone().find("input[type=text]").val('').end();
+            tblLastRow.after(tblClone);
+            $("#btndelete").hide();
+
+        }
+        function DeleteSaleOrderRow() {
+            $("#btndelete").closest("tr").remove();
+
+
+        }
+
+
+    </script>
+}
