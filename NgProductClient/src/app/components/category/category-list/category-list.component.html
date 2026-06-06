@@ -1,0 +1,38 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Categories with products</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <div class="right">
+            <a mat-mini-fab [routerLink]="['/category-add']"><mat-icon>add</mat-icon></a>
+        </div>
+        <mat-table [dataSource]="dataSource" matSort>
+            <ng-container matColumnDef="productCategoryID">
+                <mat-header-cell *matHeaderCellDef mat-sort-header>ID</mat-header-cell>
+                <mat-cell *matCellDef="let element">{{element.productCategoryID}}</mat-cell>
+            </ng-container>
+            <ng-container matColumnDef="name">
+                <mat-header-cell *matHeaderCellDef mat-sort-header>Name</mat-header-cell>
+                <mat-cell *matCellDef="let element">{{element.name}}</mat-cell>
+            </ng-container>
+            <ng-container matColumnDef="view">
+                <mat-header-cell *matHeaderCellDef mat-sort-header>View Products</mat-header-cell>
+                <mat-cell *matCellDef="let element">
+                    <button type="button" mat-button (click)="showProduct(element)"><mat-icon>launch</mat-icon>{{element.products.length}} products</button>
+                </mat-cell>
+            </ng-container>
+            <ng-container matColumnDef="actions">
+                <mat-header-cell *matHeaderCellDef mat-sort-header>...</mat-header-cell>
+                <mat-cell *matCellDef="let element">
+                    <a color="primary" type="button" mat-icon-button [routerLink]="['/category-edit', element.productCategoryID]"><mat-icon>edit</mat-icon></a>
+                    <button color="warn" type="button" mat-icon-button (click)="delete(element)"><mat-icon>delete</mat-icon></button>
+                </mat-cell>
+            </ng-container>
+            <mat-header-row *matHeaderRowDef="columns"></mat-header-row>
+            <mat-row *matRowDef="let row; columns: columns;"></mat-row>
+
+        </mat-table>
+        <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]" [pageSize]="5" showFirstLastButtons></mat-paginator>
+
+    </mat-card-content>
+</mat-card>

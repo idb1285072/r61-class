@@ -1,0 +1,41 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Products</mat-card-title>
+        <mat-card-subtitle>{{data.categoryName}}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+        <mat-table [dataSource]="dataSource" matSort>
+            <ng-container matColumnDef="name" >
+                <mat-header-cell *matHeaderCellDef mat-sort-header>Name</mat-header-cell>
+                <mat-cell *matCellDef="let element">{{element.name}}</mat-cell>
+    
+            </ng-container>
+            <ng-container matColumnDef="productNumber" >
+                <mat-header-cell *matHeaderCellDef mat-sort-header>Number</mat-header-cell>
+                <mat-cell *matCellDef="let element">{{element.productNumber}}</mat-cell>
+    
+            </ng-container>
+            <ng-container matColumnDef="color" >
+                <mat-header-cell *matHeaderCellDef mat-sort-header>color</mat-header-cell>
+                <mat-cell *matCellDef="let element">{{element.color}}</mat-cell>
+    
+            </ng-container>
+            <ng-container matColumnDef="standardCost" >
+                <mat-header-cell *matHeaderCellDef mat-sort-header>Std. Cost</mat-header-cell>
+                <mat-cell *matCellDef="let element">{{element.standardCost|number:'1.2-2'}}</mat-cell>
+    
+            </ng-container>
+            <ng-container matColumnDef="size" >
+                <mat-header-cell *matHeaderCellDef mat-sort-header>Size</mat-header-cell>
+                <mat-cell *matCellDef="let element">{{element.size}}</mat-cell>
+    
+            </ng-container>
+            <mat-header-row *matHeaderRowDef="columns"></mat-header-row>
+            <mat-row *matRowDef="let row; columns: columns;"></mat-row>
+        </mat-table>
+        <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]" [pageSize]="5" showFirstLastButtons></mat-paginator>
+    </mat-card-content>
+    <mat-dialog-actions style="justify-content: flex-end;">
+        <button mat-button mat-dialog-close>Close</button>
+    </mat-dialog-actions>
+</mat-card>

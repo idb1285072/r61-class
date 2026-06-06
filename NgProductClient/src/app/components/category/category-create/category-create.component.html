@@ -1,0 +1,75 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Add new category & products</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <form [formGroup]="categoryForm" (ngSubmit)="save()">
+            <mat-form-field class="f-w">
+                <mat-label>Category name</mat-label>
+                <input type="text" matInput formControlName="name" />
+                @if(f['name'].hasError('required')){
+                    <mat-error>Category name is <strong>required</strong></mat-error>
+                }
+            </mat-form-field>
+            <div class="add-row">
+                <h3>Product</h3>
+                <button type="button" color="accent" mat-icon-button (click)="addProduct()"><mat-icon>add</mat-icon></button>
+            </div>
+            <ng-container formArrayName="products">
+                <ng-container *ngFor="let p of products.controls; let i=index">
+                    <div [formGroupName]="i" class="product-row">
+                        <mat-form-field class="f-w">
+                            <mat-label>Product name</mat-label>
+                            <input matInput
+                                   formControlName="name">
+                            <mat-error *ngIf="products.controls[i].get('name')?.hasError('required')">Product name is <strong>required</strong></mat-error>
+                        </mat-form-field>
+                        <mat-form-field class="f-w">
+                            <mat-label>Product number</mat-label>
+                            <input matInput
+                                   formControlName="productNumber">
+                            <mat-error *ngIf="products.controls[i].get('productNumber')?.hasError('required')">Product number is <strong>required</strong></mat-error>
+                        </mat-form-field>
+                        <mat-form-field class="f-w">
+                            <mat-label>Color</mat-label>
+                            <input matInput
+                                   formControlName="color">
+                            <mat-error *ngIf="products.controls[i].get('color')?.hasError('required')">Color is <strong>required</strong></mat-error>
+                        </mat-form-field>
+                        <mat-form-field class="f-w">
+                            <mat-label>Satndard cost</mat-label>
+                            <input matInput
+                                   formControlName="standardCost">
+                            <mat-error *ngIf="products.controls[i].get('standardCost')?.hasError('required')">Standard cost is <strong>required</strong></mat-error>
+                        </mat-form-field>
+                        <mat-form-field class="f-w">
+                            <mat-label>List price</mat-label>
+                            <input matInput
+                                   formControlName="listPrice">
+                            <mat-error *ngIf="products.controls[i].get('listPrice')?.hasError('required')">List price is <strong>required</strong></mat-error>
+                        </mat-form-field>
+                        <mat-form-field class="f-w">
+                            <mat-label>Size</mat-label>
+                            <input matInput
+                                   formControlName="size">
+                            <mat-error *ngIf="products.controls[i].get('size')?.hasError('required')">Size is <strong>required</strong></mat-error>
+                        </mat-form-field>
+                        <mat-form-field class="f-w">
+                            <mat-label>Weight</mat-label>
+                            <input matInput
+                                   formControlName="weight">
+                            <mat-error *ngIf="products.controls[i].get('weight')?.hasError('required')">Weight is <strong>required</strong></mat-error>
+                        </mat-form-field>
+                        <div class="f-w">
+                            <button type="button" (click)="remove(i)" mat-icon-button><mat-icon>delete</mat-icon></button>
+                        </div>
+                    </div>
+                </ng-container>
+            </ng-container>
+            <div>
+                <button [disabled]="categoryForm.invalid" type="submit" mat-raised-button color="primary">Save</button>
+            </div>
+        </form>
+    </mat-card-content>
+</mat-card>
+
