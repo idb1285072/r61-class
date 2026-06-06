@@ -1,0 +1,8 @@
+<p [appHighlight]="color" >home works!</p>
+<h2>Pick a highlight color</h2>
+<input type="color" name="color" [(ngModel)]="color"/>
+<div>
+  <input type="radio" name="colors" (click)="color='lightgreen'">Green
+  <input type="radio" name="colors" (click)="color='yellow'">Yellow
+  <input type="radio" name="colors" (click)="color='cyan'">Cyan
+</div>
