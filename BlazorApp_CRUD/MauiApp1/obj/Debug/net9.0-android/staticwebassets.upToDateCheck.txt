@@ -1,0 +1,8 @@
+D:\R61\M14\R61M14C02Blazor\BlazorApp_CRUD\MauiApp1\wwwroot\css\app.css
+D:\R61\M14\R61M14C02Blazor\BlazorApp_CRUD\MauiApp1\wwwroot\css\bootstrap\bootstrap.min.css.map
+D:\R61\M14\R61M14C02Blazor\BlazorApp_CRUD\MauiApp1\wwwroot\index.html
+D:\R61\M14\R61M14C02Blazor\BlazorApp_CRUD\MauiApp1\wwwroot\css\bootstrap\bootstrap.min.css
+wwwroot\css\app.css
+wwwroot\css\bootstrap\bootstrap.min.css
+wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\index.html

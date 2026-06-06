@@ -1,0 +1,261 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8CC693-B138-41F6-86A0-127770C53728}|MauiApp2\\MauiApp2.csproj|d:\\r61\\m14\\r61m14c02blazor\\blazorapp_crud\\mauiapp2\\components\\pages\\bookinglist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8CC693-B138-41F6-86A0-127770C53728}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\components\\pages\\bookinglist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8CC693-B138-41F6-86A0-127770C53728}|MauiApp2\\MauiApp2.csproj|d:\\r61\\m14\\r61m14c02blazor\\blazorapp_crud\\mauiapp2\\components\\pages\\entry.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8CC693-B138-41F6-86A0-127770C53728}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\components\\pages\\entry.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8CC693-B138-41F6-86A0-127770C53728}|MauiApp2\\MauiApp2.csproj|d:\\r61\\m14\\r61m14c02blazor\\blazorapp_crud\\mauiapp2\\components\\pages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8CC693-B138-41F6-86A0-127770C53728}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\components\\pages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8CC693-B138-41F6-86A0-127770C53728}|MauiApp2\\MauiApp2.csproj|d:\\r61\\m14\\r61m14c02blazor\\blazorapp_crud\\mauiapp2\\components\\pages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8CC693-B138-41F6-86A0-127770C53728}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\components\\pages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8CC693-B138-41F6-86A0-127770C53728}|MauiApp2\\MauiApp2.csproj|d:\\r61\\m14\\r61m14c02blazor\\blazorapp_crud\\mauiapp2\\viewmodel\\clientvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB8CC693-B138-41F6-86A0-127770C53728}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\viewmodel\\clientvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8CC693-B138-41F6-86A0-127770C53728}|MauiApp2\\MauiApp2.csproj|d:\\r61\\m14\\r61m14c02blazor\\blazorapp_crud\\mauiapp2\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8CC693-B138-41F6-86A0-127770C53728}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8CC693-B138-41F6-86A0-127770C53728}|MauiApp2\\MauiApp2.csproj|d:\\r61\\m14\\r61m14c02blazor\\blazorapp_crud\\mauiapp2\\mauiapp2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{AB8CC693-B138-41F6-86A0-127770C53728}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\mauiapp2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AT Computer\\AppData\\Local\\Temp\\60c7af9f-e760-47d9-b2fa-9f378e4f6b6a_mauitask.zip.b6a\\mauitask\\crudmaui\\crudmaui\\Service\\BookingService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MauiApp2\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8CC693-B138-41F6-86A0-127770C53728}|MauiApp2\\MauiApp2.csproj|d:\\r61\\m14\\r61m14c02blazor\\blazorapp_crud\\mauiapp2\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB8CC693-B138-41F6-86A0-127770C53728}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8CC693-B138-41F6-86A0-127770C53728}|MauiApp2\\MauiApp2.csproj|d:\\r61\\m14\\r61m14c02blazor\\blazorapp_crud\\mauiapp2\\mauiapp2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AB8CC693-B138-41F6-86A0-127770C53728}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\mauiapp2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8CC693-B138-41F6-86A0-127770C53728}|MauiApp2\\MauiApp2.csproj|d:\\r61\\m14\\r61m14c02blazor\\blazorapp_crud\\mauiapp2\\models\\bookingentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB8CC693-B138-41F6-86A0-127770C53728}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\models\\bookingentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8CC693-B138-41F6-86A0-127770C53728}|MauiApp2\\MauiApp2.csproj|d:\\r61\\m14\\r61m14c02blazor\\blazorapp_crud\\mauiapp2\\models\\spot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB8CC693-B138-41F6-86A0-127770C53728}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\models\\spot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8CC693-B138-41F6-86A0-127770C53728}|MauiApp2\\MauiApp2.csproj|d:\\r61\\m14\\r61m14c02blazor\\blazorapp_crud\\mauiapp2\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB8CC693-B138-41F6-86A0-127770C53728}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8CC693-B138-41F6-86A0-127770C53728}|MauiApp2\\MauiApp2.csproj|d:\\r61\\m14\\r61m14c02blazor\\blazorapp_crud\\mauiapp2\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8CC693-B138-41F6-86A0-127770C53728}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientVM.cs",
+              "DocumentMoniker": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\ViewModel\\ClientVM.cs",
+              "RelativeDocumentMoniker": "MauiApp2\\ViewModel\\ClientVM.cs",
+              "ToolTip": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\ViewModel\\ClientVM.cs",
+              "RelativeToolTip": "MauiApp2\\ViewModel\\ClientVM.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAArwBoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T05:47:14.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\Components\\Pages\\Edit.razor",
+              "RelativeDocumentMoniker": "MauiApp2\\Components\\Pages\\Edit.razor",
+              "ToolTip": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\Components\\Pages\\Edit.razor",
+              "RelativeToolTip": "MauiApp2\\Components\\Pages\\Edit.razor",
+              "ViewState": "AgIAAA0AAAAAAAAAAIAwwA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T03:40:58.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "C:\\Users\\AT Computer\\AppData\\Local\\Temp\\60c7af9f-e760-47d9-b2fa-9f378e4f6b6a_mauitask.zip.b6a\\mauitask\\crudmaui\\crudmaui\\Service\\BookingService.cs",
+              "ToolTip": "C:\\Users\\AT Computer\\AppData\\Local\\Temp\\60c7af9f-e760-47d9-b2fa-9f378e4f6b6a_mauitask.zip.b6a\\mauitask\\crudmaui\\crudmaui\\Service\\BookingService.cs [Read Only]",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAFcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T04:40:30.776Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MauiApp2",
+              "DocumentMoniker": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\MauiApp2.csproj",
+              "RelativeDocumentMoniker": "MauiApp2\\MauiApp2.csproj",
+              "ToolTip": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\MauiApp2.csproj",
+              "RelativeToolTip": "MauiApp2\\MauiApp2.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-21T03:53:53.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "MauiApp2\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "MauiApp2\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAjwBkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T06:47:19.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Entry.razor",
+              "DocumentMoniker": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\Components\\Pages\\Entry.razor",
+              "RelativeDocumentMoniker": "MauiApp2\\Components\\Pages\\Entry.razor",
+              "ToolTip": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\Components\\Pages\\Entry.razor",
+              "RelativeToolTip": "MauiApp2\\Components\\Pages\\Entry.razor",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T06:29:02.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.razor",
+              "DocumentMoniker": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\Components\\Pages\\Create.razor",
+              "RelativeDocumentMoniker": "MauiApp2\\Components\\Pages\\Create.razor",
+              "ToolTip": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\Components\\Pages\\Create.razor",
+              "RelativeToolTip": "MauiApp2\\Components\\Pages\\Create.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T06:26:14.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiApp2\\MauiProgram.cs",
+              "ToolTip": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\MauiProgram.cs",
+              "RelativeToolTip": "MauiApp2\\MauiProgram.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T06:21:33.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "MauiApp2\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "MauiApp2\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T05:58:43.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookingList.razor",
+              "DocumentMoniker": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\Components\\Pages\\BookingList.razor",
+              "RelativeDocumentMoniker": "MauiApp2\\Components\\Pages\\BookingList.razor",
+              "ToolTip": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\Components\\Pages\\BookingList.razor*",
+              "RelativeToolTip": "MauiApp2\\Components\\Pages\\BookingList.razor*",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAAwGoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T05:58:26.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MauiApp2.csproj",
+              "DocumentMoniker": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\MauiApp2.csproj",
+              "RelativeDocumentMoniker": "MauiApp2\\MauiApp2.csproj",
+              "ToolTip": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\MauiApp2.csproj",
+              "RelativeToolTip": "MauiApp2\\MauiApp2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-20T05:46:38.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BookingEntry.cs",
+              "DocumentMoniker": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\Models\\BookingEntry.cs",
+              "RelativeDocumentMoniker": "MauiApp2\\Models\\BookingEntry.cs",
+              "ToolTip": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\Models\\BookingEntry.cs",
+              "RelativeToolTip": "MauiApp2\\Models\\BookingEntry.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T05:45:56.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Spot.cs",
+              "DocumentMoniker": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\Models\\Spot.cs",
+              "RelativeDocumentMoniker": "MauiApp2\\Models\\Spot.cs",
+              "ToolTip": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\Models\\Spot.cs",
+              "RelativeToolTip": "MauiApp2\\Models\\Spot.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwBEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T05:36:58.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Client.cs",
+              "DocumentMoniker": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "MauiApp2\\Models\\Client.cs",
+              "ToolTip": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\Models\\Client.cs",
+              "RelativeToolTip": "MauiApp2\\Models\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T05:36:32.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "MauiApp2\\Components\\Pages\\Home.razor",
+              "ToolTip": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "MauiApp2\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T05:34:23.591Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

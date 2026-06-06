@@ -1,0 +1,72 @@
+﻿@page "/create"
+@using System.Text.Json
+@using MauiApp2.Models
+@using MauiApp2.Service
+@using MauiApp2.ViewModel
+@using System.Net.Http.Headers
+
+
+@inject BookingService bookingservice
+@inject NavigationManager navigationManager
+<h3>Enter Booking Information</h3>
+<h3 class="text-center">Add a new Customer</h3>
+<Entry Client="client" OnValidSubmit="OnValidSubmit"
+       tourSpots="tourSpots" SelectedFileChanged="HandleFileChanged"></Entry>
+<div class="d-flex mt-4">
+    <a class="btn btn-link" href="/">Back to list</a>
+</div>
+@code {
+        ClientVM client = new ClientVM();
+        List<Spot> tourSpots = new List<Spot>();
+
+    private IBrowserFile selectedFile;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadData();
+    }
+    async Task LoadData()
+    {
+        selectedFile = null;
+        tourSpots = (await bookingservice.GetSpots()).ToList();
+        client.SpotList.Add(new Spot());
+    }
+
+    private void HandleFileChanged(IBrowserFile file)
+    {
+        selectedFile = file;
+        Console.WriteLine(selectedFile.Name);
+    }
+
+    private async Task OnValidSubmit()
+    {
+        var formData = new MultipartFormDataContent();
+
+        var clientData = new StringContent(JsonSerializer.Serialize(client));
+        formData.Add(clientData, "ClientInfo");
+
+        int MAX_FILE_SIZE = 10485760;
+
+        if (selectedFile is not null)
+        {
+            using (var streamContent = new StreamContent(selectedFile.OpenReadStream(MAX_FILE_SIZE)))
+            {
+                var fileContent = new ByteArrayContent(await streamContent.ReadAsByteArrayAsync());
+                fileContent.Headers.ContentType = MediaTypeHeaderValue.Parse("multipart/form-data");
+
+                formData.Add(fileContent, "PictureFile", selectedFile.Name);
+            }
+        }
+        var response = await bookingservice.AddBooking(formData);
+
+        if (response.IsSuccessStatusCode)
+        {
+            navigationManager.NavigateTo("/booking");
+        }
+        else
+        {
+            Console.WriteLine(response.ReasonPhrase);
+        }
+
+}
+}

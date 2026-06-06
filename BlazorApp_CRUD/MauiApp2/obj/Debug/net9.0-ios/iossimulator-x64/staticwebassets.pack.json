@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\scopedcss\\bundle\\MauiApp2.styles.css",
+      "PackagePath": "staticwebassets\\MauiApp2.styles.css"
+    },
+    {
+      "Id": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\R61\\M14\\R61M14C02Blazor\\BlazorApp_CRUD\\MauiApp2\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.MauiApp2.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.MauiApp2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.build.MauiApp2.props",
+      "PackagePath": "build\\MauiApp2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.buildMultiTargeting.MauiApp2.props",
+      "PackagePath": "buildMultiTargeting\\MauiApp2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.buildTransitive.MauiApp2.props",
+      "PackagePath": "buildTransitive\\MauiApp2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

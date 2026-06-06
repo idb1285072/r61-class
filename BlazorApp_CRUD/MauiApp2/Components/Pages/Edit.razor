@@ -1,0 +1,91 @@
+﻿@page "/edit/{clientId:int}"
+<h3>Edit</h3>
+@using MauiApp2.Models
+@using MauiApp2.Service
+@using MauiApp2.ViewModel
+@using System.Text.Json
+@using System.Net.Http.Headers
+
+ @inject BookingService service
+ @inject IJSRuntime jsRuntime
+ @inject NavigationManager navigationManager
+
+<h3>Enter Booking Information</h3>
+@* <h3 class="text-center">Add a new Customer</h3> *@
+<Entry     Client="clientvm" OnValidSubmit="OnValidSubmit"
+tourSpots="tourSpots" SelectedFileChanged="HandleFileChanged"></Entry>
+<div class="d-flex mt-4">
+    <a class="btn btn-link" href="/">Back to list</a>
+</div>
+@code {
+
+    [Parameter]
+    public int clientId { get; set; }
+    ClientVM clientvm = new ClientVM();
+    List<Spot> tourSpots = new List<Spot>();
+    private IBrowserFile selectedFile;
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadData();
+    }
+    async Task LoadData()
+    {
+        selectedFile = null;
+        var client = await service.GetClientById(clientId);
+        tourSpots = (await service.GetSpots()).ToList();
+        // clientvm.SpotList.Add(new Spot());
+        clientvm.SpotList = client.BookingEntries.Select(x => new Spot { SpotId = x.SpotId }).ToList();
+
+        clientvm.PhoneNo = client.PhoneNo;
+        clientvm.BirthDate = client.BirthDate;
+        clientvm.ClientId = client.ClientId;
+        clientvm.ClientName = client.ClientName;
+        clientvm.MaritalStatus = client.MaritalStatus;
+        clientvm.BookingEntries = client.BookingEntries;
+        clientvm.Picture = client.Picture;
+    }
+    private void HandleFileChanged(IBrowserFile file)
+    {
+        
+            selectedFile = file;
+            Console.WriteLine(selectedFile.Name);
+        
+    }
+ 
+
+    private async Task OnValidSubmit()
+    {
+
+
+        var formData = new MultipartFormDataContent();
+
+        var clientData = new StringContent(JsonSerializer.Serialize(clientvm));
+        formData.Add(clientData, "ClientInfo");
+
+        int MAX_FILE_SIZE = 10485760;
+
+        if (selectedFile is not null)
+        {
+            using (var streamContent = new StreamContent(selectedFile.OpenReadStream(MAX_FILE_SIZE)))
+            {
+                var fileContent = new ByteArrayContent(await streamContent.ReadAsByteArrayAsync());
+                fileContent.Headers.ContentType = MediaTypeHeaderValue.Parse("multipart/form-data");
+
+                formData.Add(fileContent, "PictureFile", selectedFile.Name);
+            }
+        }
+        var response = await service.AddBooking(formData);
+
+        if (response.IsSuccessStatusCode)
+        {
+            navigationManager.NavigateTo("/booking");
+        }
+        else
+        {
+            Console.WriteLine(response.ReasonPhrase);
+        }
+
+    }
+}
+ 
+
