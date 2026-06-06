@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.AddStudentPage"
+             Title="AddStudentPage">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Entry x:Name="EntryName" Placeholder="Enter Name"/>
+            <DatePicker x:Name="AddDatePicker"/>
+            <CheckBox x:Name="CheckBox"/>
+            <Entry x:Name="EntryCity" Placeholder="Enter City Name"/>
+            <Entry x:Name="EntryStreet" Placeholder="Enter Street Name"/>
+
+            <Button Text="Add Address" Clicked="AddAddressBtn"/>
+
+            <ListView ItemsSource="{Binding AddressList}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding City}" FontSize="Medium"/>
+                                <Label Text="," FontSize="Medium"/>
+                                <Label Text="{Binding Street}" FontSize="Medium"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Button Text="Upload Image" Clicked="UploadImageBtn"/>
+
+            <Image Source="{Binding PIS}" WidthRequest="100" HeightRequest="100"/>
+
+            <Button Text="Save Student" Clicked="SaveStudentBtn"/>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+ 
+</ContentPage>

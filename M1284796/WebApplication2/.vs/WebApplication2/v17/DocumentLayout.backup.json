@@ -1,0 +1,325 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C7007D75-EC9A-4155-99E7-C0ECE666A1F3}|MauiApp1\\MauiApp1.csproj|c:\\users\\scsl22\\desktop\\webapplication2\\mauiapp1\\updatestudentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7007D75-EC9A-4155-99E7-C0ECE666A1F3}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\updatestudentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28FE7684-7F09-40D4-8AB0-EDFE44B1183D}|WebApplication2\\WebApplication2.csproj|c:\\users\\scsl22\\desktop\\webapplication2\\webapplication2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28FE7684-7F09-40D4-8AB0-EDFE44B1183D}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7007D75-EC9A-4155-99E7-C0ECE666A1F3}|MauiApp1\\MauiApp1.csproj|c:\\users\\scsl22\\desktop\\webapplication2\\mauiapp1\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C7007D75-EC9A-4155-99E7-C0ECE666A1F3}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7007D75-EC9A-4155-99E7-C0ECE666A1F3}|MauiApp1\\MauiApp1.csproj|c:\\users\\scsl22\\desktop\\webapplication2\\mauiapp1\\platforms\\android\\resources\\values\\xml\\network_security_config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C7007D75-EC9A-4155-99E7-C0ECE666A1F3}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\platforms\\android\\resources\\values\\xml\\network_security_config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7007D75-EC9A-4155-99E7-C0ECE666A1F3}|MauiApp1\\MauiApp1.csproj|c:\\users\\scsl22\\desktop\\webapplication2\\mauiapp1\\updatestudentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7007D75-EC9A-4155-99E7-C0ECE666A1F3}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\updatestudentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7007D75-EC9A-4155-99E7-C0ECE666A1F3}|MauiApp1\\MauiApp1.csproj|c:\\users\\scsl22\\desktop\\webapplication2\\mauiapp1\\addstudentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7007D75-EC9A-4155-99E7-C0ECE666A1F3}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\addstudentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7007D75-EC9A-4155-99E7-C0ECE666A1F3}|MauiApp1\\MauiApp1.csproj|c:\\users\\scsl22\\desktop\\webapplication2\\mauiapp1\\studentlistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7007D75-EC9A-4155-99E7-C0ECE666A1F3}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\studentlistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7007D75-EC9A-4155-99E7-C0ECE666A1F3}|MauiApp1\\MauiApp1.csproj|c:\\users\\scsl22\\desktop\\webapplication2\\mauiapp1\\studentlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7007D75-EC9A-4155-99E7-C0ECE666A1F3}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\studentlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7007D75-EC9A-4155-99E7-C0ECE666A1F3}|MauiApp1\\MauiApp1.csproj|c:\\users\\scsl22\\desktop\\webapplication2\\mauiapp1\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7007D75-EC9A-4155-99E7-C0ECE666A1F3}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7007D75-EC9A-4155-99E7-C0ECE666A1F3}|MauiApp1\\MauiApp1.csproj|c:\\users\\scsl22\\desktop\\webapplication2\\mauiapp1\\addstudentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7007D75-EC9A-4155-99E7-C0ECE666A1F3}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\addstudentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7007D75-EC9A-4155-99E7-C0ECE666A1F3}|MauiApp1\\MauiApp1.csproj|c:\\users\\scsl22\\desktop\\webapplication2\\mauiapp1\\dtos\\base64converter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7007D75-EC9A-4155-99E7-C0ECE666A1F3}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\dtos\\base64converter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7007D75-EC9A-4155-99E7-C0ECE666A1F3}|MauiApp1\\MauiApp1.csproj|c:\\users\\scsl22\\desktop\\webapplication2\\mauiapp1\\dtos\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7007D75-EC9A-4155-99E7-C0ECE666A1F3}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\dtos\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7007D75-EC9A-4155-99E7-C0ECE666A1F3}|MauiApp1\\MauiApp1.csproj|c:\\users\\scsl22\\desktop\\webapplication2\\mauiapp1\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7007D75-EC9A-4155-99E7-C0ECE666A1F3}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28FE7684-7F09-40D4-8AB0-EDFE44B1183D}|WebApplication2\\WebApplication2.csproj|c:\\users\\scsl22\\desktop\\webapplication2\\webapplication2\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28FE7684-7F09-40D4-8AB0-EDFE44B1183D}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28FE7684-7F09-40D4-8AB0-EDFE44B1183D}|WebApplication2\\WebApplication2.csproj|c:\\users\\scsl22\\desktop\\webapplication2\\webapplication2\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28FE7684-7F09-40D4-8AB0-EDFE44B1183D}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28FE7684-7F09-40D4-8AB0-EDFE44B1183D}|WebApplication2\\WebApplication2.csproj|c:\\users\\scsl22\\desktop\\webapplication2\\webapplication2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{28FE7684-7F09-40D4-8AB0-EDFE44B1183D}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28FE7684-7F09-40D4-8AB0-EDFE44B1183D}|WebApplication2\\WebApplication2.csproj|c:\\users\\scsl22\\desktop\\webapplication2\\webapplication2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{28FE7684-7F09-40D4-8AB0-EDFE44B1183D}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28FE7684-7F09-40D4-8AB0-EDFE44B1183D}|WebApplication2\\WebApplication2.csproj|c:\\users\\scsl22\\desktop\\webapplication2\\webapplication2\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28FE7684-7F09-40D4-8AB0-EDFE44B1183D}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\MauiApp1\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "MauiApp1\\Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\MauiApp1\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "MauiApp1\\Platforms\\Android\\AndroidManifest.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-04-26T04:58:08.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "network_security_config.xml",
+              "DocumentMoniker": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\MauiApp1\\Platforms\\Android\\Resources\\values\\xml\\network_security_config.xml",
+              "RelativeDocumentMoniker": "MauiApp1\\Platforms\\Android\\Resources\\values\\xml\\network_security_config.xml",
+              "ToolTip": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\MauiApp1\\Platforms\\Android\\Resources\\values\\xml\\network_security_config.xml",
+              "RelativeToolTip": "MauiApp1\\Platforms\\Android\\Resources\\values\\xml\\network_security_config.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-04-26T04:56:32.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateStudentPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\MauiApp1\\UpdateStudentPage.xaml.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\UpdateStudentPage.xaml.cs",
+              "ToolTip": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\MauiApp1\\UpdateStudentPage.xaml.cs",
+              "RelativeToolTip": "MauiApp1\\UpdateStudentPage.xaml.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAkwK4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T21:29:02.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateStudentPage.xaml",
+              "DocumentMoniker": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\MauiApp1\\UpdateStudentPage.xaml",
+              "RelativeDocumentMoniker": "MauiApp1\\UpdateStudentPage.xaml",
+              "ToolTip": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\MauiApp1\\UpdateStudentPage.xaml",
+              "RelativeToolTip": "MauiApp1\\UpdateStudentPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-25T21:28:22.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\WebApplication2\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebApplication2\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\WebApplication2\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebApplication2\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAgAAAAAAAAAAMBdwA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-22T13:24:29.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddStudentPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\MauiApp1\\AddStudentPage.xaml.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\AddStudentPage.xaml.cs",
+              "ToolTip": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\MauiApp1\\AddStudentPage.xaml.cs",
+              "RelativeToolTip": "MauiApp1\\AddStudentPage.xaml.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAIBZwDMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T09:43:51.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentListPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\MauiApp1\\StudentListPage.xaml.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\StudentListPage.xaml.cs",
+              "ToolTip": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\MauiApp1\\StudentListPage.xaml.cs",
+              "RelativeToolTip": "MauiApp1\\StudentListPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T09:22:19.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentListPage.xaml",
+              "DocumentMoniker": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\MauiApp1\\StudentListPage.xaml",
+              "RelativeDocumentMoniker": "MauiApp1\\StudentListPage.xaml",
+              "ToolTip": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\MauiApp1\\StudentListPage.xaml",
+              "RelativeToolTip": "MauiApp1\\StudentListPage.xaml",
+              "ViewState": "AgIAAB4AAAAAAAAAAIBZwCsAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-21T17:18:39.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Base64Converter.cs",
+              "DocumentMoniker": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\MauiApp1\\DTOs\\Base64Converter.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\DTOs\\Base64Converter.cs",
+              "ToolTip": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\MauiApp1\\DTOs\\Base64Converter.cs",
+              "RelativeToolTip": "MauiApp1\\DTOs\\Base64Converter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T16:34:20.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddStudentPage.xaml",
+              "DocumentMoniker": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\MauiApp1\\AddStudentPage.xaml",
+              "RelativeDocumentMoniker": "MauiApp1\\AddStudentPage.xaml",
+              "ToolTip": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\MauiApp1\\AddStudentPage.xaml",
+              "RelativeToolTip": "MauiApp1\\AddStudentPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-21T17:19:22.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\MauiApp1\\AppShell.xaml",
+              "RelativeDocumentMoniker": "MauiApp1\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\MauiApp1\\AppShell.xaml",
+              "RelativeToolTip": "MauiApp1\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-21T17:17:33.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddressDto.cs",
+              "DocumentMoniker": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\MauiApp1\\DTOs\\AddressDto.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\DTOs\\AddressDto.cs",
+              "ToolTip": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\MauiApp1\\DTOs\\AddressDto.cs",
+              "RelativeToolTip": "MauiApp1\\DTOs\\AddressDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T16:20:41.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StudentDto.cs",
+              "DocumentMoniker": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\MauiApp1\\DTOs\\StudentDto.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\DTOs\\StudentDto.cs",
+              "ToolTip": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\MauiApp1\\DTOs\\StudentDto.cs",
+              "RelativeToolTip": "MauiApp1\\DTOs\\StudentDto.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwBQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T16:16:48.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\WebApplication2\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Program.cs",
+              "ToolTip": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\WebApplication2\\Program.cs",
+              "RelativeToolTip": "WebApplication2\\Program.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAADwv4AAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T10:16:41.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\WebApplication2\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication2\\appsettings.json",
+              "ToolTip": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\WebApplication2\\appsettings.json",
+              "RelativeToolTip": "WebApplication2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-18T10:05:04.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StudentDto.cs",
+              "DocumentMoniker": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\WebApplication2\\DTOs\\StudentDto.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\DTOs\\StudentDto.cs",
+              "ToolTip": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\WebApplication2\\DTOs\\StudentDto.cs",
+              "RelativeToolTip": "WebApplication2\\DTOs\\StudentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:52:51.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\WebApplication2\\Models\\Address.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Models\\Address.cs",
+              "ToolTip": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\WebApplication2\\Models\\Address.cs",
+              "RelativeToolTip": "WebApplication2\\Models\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:48:45.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\WebApplication2\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\SCSL22\\Desktop\\WebApplication2\\WebApplication2\\Models\\Student.cs",
+              "RelativeToolTip": "WebApplication2\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T09:48:35.527Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
