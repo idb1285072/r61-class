@@ -1,0 +1,10 @@
+D:\R61\WinForm Application\R61M5C02\R61M5C02_w01\obj\Debug\R61M5C02_w01.csproj.AssemblyReference.cache
+D:\R61\WinForm Application\R61M5C02\R61M5C02_w01\obj\Debug\R61M5C02_w01.Form1.resources
+D:\R61\WinForm Application\R61M5C02\R61M5C02_w01\obj\Debug\R61M5C02_w01.Properties.Resources.resources
+D:\R61\WinForm Application\R61M5C02\R61M5C02_w01\obj\Debug\R61M5C02_w01.csproj.GenerateResource.cache
+D:\R61\WinForm Application\R61M5C02\R61M5C02_w01\obj\Debug\R61M5C02_w01.csproj.CoreCompileInputs.cache
+D:\R61\WinForm Application\R61M5C02\R61M5C02_w01\bin\Debug\R61M5C02_w01.exe.config
+D:\R61\WinForm Application\R61M5C02\R61M5C02_w01\bin\Debug\R61M5C02_w01.exe
+D:\R61\WinForm Application\R61M5C02\R61M5C02_w01\bin\Debug\R61M5C02_w01.pdb
+D:\R61\WinForm Application\R61M5C02\R61M5C02_w01\obj\Debug\R61M5C02_w01.exe
+D:\R61\WinForm Application\R61M5C02\R61M5C02_w01\obj\Debug\R61M5C02_w01.pdb
