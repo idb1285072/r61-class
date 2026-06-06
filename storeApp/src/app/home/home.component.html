@@ -1,0 +1,7 @@
+<p>Title:{{title}}</p>
+<p>
+ Name:   {{name}}
+</p>
+<input type="text" [(ngModel)]="name"  (change)="ChangeData($event)" />
+<input   type="button" (click)="Submit()" value="Submit" >
+

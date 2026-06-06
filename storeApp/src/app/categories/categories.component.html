@@ -1,0 +1,50 @@
+<h1>Category</h1>
+<div class="row">
+    <div class="col-md-6 col-sm-12">
+<form [formGroup]="category" (ngSubmit)="Submit()">
+    <div>
+    <label>Parent Category</label>    
+    <select  formControlName="ParentCategory" >
+        <option value="" selected>Select Parent Category</option>
+        <option *ngFor="let c of categories" [value]="c.id">{{c.name}}</option>
+        </select>
+
+    </div>
+    <div>
+    <label>Name</label>    
+    <input type="text" formControlName="Name">
+    
+    </div>
+    <div>
+            
+        <input type="submit" value="Save">
+        
+        </div>
+</form></div>
+<div class="col-md-6 col-sm-12">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <td>Parent Category</td>
+                <td>Category</td>
+                <td>...</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let c of categories">
+                <td>
+                    {{c.parentCategory}}
+                </td>
+                <td>
+                    {{c.name}}
+                </td>
+                <td>
+                   <input type="button" value="Edit" (click)="Edit(c.id)">||
+                   <input type="button" value="Delete" (click)="delete(c.id)">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+

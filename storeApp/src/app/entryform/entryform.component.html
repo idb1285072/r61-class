@@ -1,0 +1,78 @@
+<!-- src/app/user-form/user-form.component.html -->
+
+<h1 class="header">Reactive Form</h1>
+<h3>Employee Entry Form</h3>
+
+<form [formGroup]="employeeForm" (ngSubmit)="OnSubmit()">
+    <!-- Existing Fields -->
+    <label for="name">Name:</label>
+    <input id="name" type="text" formControlName="name">
+    <div *ngIf="employeeForm.get('name')!.invalid && employeeForm.get('name')!.touched">
+        Name is required and must be at least 3 characters long.
+    </div>
+
+    <label for="email">Email:</label>
+    <input id="email" type="email" formControlName="email">
+    <div *ngIf="employeeForm.get('email')!.invalid && employeeForm.get('email')!.touched">
+        Enter a valid email address.
+    </div>
+
+    <label for="age">Age:</label>
+    <input id="age" type="number" formControlName="age">
+    <div *ngIf="employeeForm.get('age')!.invalid && employeeForm.get('age')!.touched">
+        Age is required and must be 18 or older.
+    </div>
+
+    <!-- New Fields -->
+    <label for="phoneNumber">Phone Number:</label>
+    <input id="phoneNumber" type="text" formControlName="phoneNumber">
+    <!-- <div *ngIf="userForm.get('phoneNumber')!.invalid &&
+                userForm.get('phoneNumber')!.touched">
+        Phone number is required and must be 10 digits.
+    </div> -->
+
+    <label for="address">Address:</label>
+    <input id="address" type="text" formControlName="address">
+    <!-- <div *ngIf="userForm.get('address')!.invalid && userForm.get('address')!.touched">
+        Address is required.
+    </div> -->
+
+    <label for="country">Country:</label>
+    <select id="country" formControlName="country">
+        <option value="" disabled>Select your country</option>
+        <option *ngFor="let country of countries" [value]="country">{{ country }}</option>
+    </select>
+    <!-- <div *ngIf="userForm.get('country')!.invalid && userForm.get('country')!.touched">
+        Country is required.
+    </div> -->
+
+    <label for="dateOfBirth">Date of Birth:</label>
+    <input id="dateOfBirth" type="date" formControlName="dateOfBirth">
+    <!-- <div *ngIf="userForm.get('dateOfBirth')!.invalid &&
+                userForm.get('dateOfBirth')!.touched">
+        Date of Birth is required.
+    </div> -->
+
+    <label for="password">Password:</label>
+    <input id="password" type="password" formControlName="password">
+    <div *ngIf="employeeForm.get('password')!.invalid && employeeForm.get('password')!.touched">
+        Password is required 
+    </div>
+
+    <label for="confirmPassword">Confirm Password:</label>
+    <input id="confirmPassword" type="password" formControlName="confirmPassword">
+     <div *ngIf="employeeForm.get('confirmPassword')!.invalid &&
+                employeeForm.get('confirmPassword')!.touched">
+        Confirm Password is required.
+    </div>
+   <!-- <div *ngIf="userForm.errors?.['passwordsMismatch']">
+        Passwords do not match.
+    </div> -->
+
+    <button type="submit" [disabled]="employeeForm.invalid">Submit</button>
+</form>
+
+<!-- <div *ngIf="employeeForm.valid" class="form-data">
+    <pre>{{ employeeForm.value | json }}</pre>
+</div> -->
+
