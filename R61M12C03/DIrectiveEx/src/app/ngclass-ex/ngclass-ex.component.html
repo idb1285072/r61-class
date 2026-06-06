@@ -1,0 +1,36 @@
+<p>ngclass-ex works!</p>
+<div [ngClass]="currentClass">Content goes here</div>
+<br>
+<div [ngClass]="{ 'active': isActive, 'disabled': isDisabled }">
+    Content goes here
+  </div>
+  <div class="highlight">
+    Content goes here
+  </div>
+  <div class="btn btn-primary">
+    Content goes here
+  </div><br>
+  <div [ngClass]="button">
+    Content goes here
+  </div>
+  <br>
+  <h2>Button primary</h2>
+  <button [ngClass]="{ 'btn btn-info': isPrimary, 'btn btn-danger': !isPrimary }" (click)="togglePrimary()">
+  
+    Toggle Button
+  </button>
+  <p>{{currentItem}}</p>
+  <button type="button" (click)="setUppercaseName()">
+    Change case
+  </button>
+  <div class="text-white">
+    <div class="bg-info p-2">
+    There are {{getProductCount()}} products.
+    </div>
+    <div class=" p-2 mt-1" [ngSwitch]="getProduct()">
+    <span  class="bg-info" *ngSwitchCase="targetName">Kayak</span>
+    <span  class="bg-primary" *ngSwitchCase="'Lifejacket'">Lifejacket</span>
+    <span  class="bg-danger " *ngSwitchDefault>Other Product</span>
+    </div>
+    </div>
+  
