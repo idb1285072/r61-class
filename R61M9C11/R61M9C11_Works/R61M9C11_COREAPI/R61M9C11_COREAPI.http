@@ -1,0 +1,6 @@
+@R61M9C11_COREAPI_HostAddress = http://localhost:5138
+
+GET {{R61M9C11_COREAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

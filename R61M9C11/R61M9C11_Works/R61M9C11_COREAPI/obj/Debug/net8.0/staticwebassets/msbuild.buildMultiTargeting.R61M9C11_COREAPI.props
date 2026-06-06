@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\R61M9C11_COREAPI.props" />
+</Project>

@@ -1,0 +1,18 @@
+﻿@model IEnumerable<R61M9C11_ViewComponent.Models.Category>
+
+<div class="list-group">
+    <a class="list-group-item list-group-item-action bg-info" asp-action="Index" asp-controller="Home"  asp-route-id="">
+      All Category
+    </a>
+    @foreach (var item in Model)
+    {
+        <a class="list-group-item list-group-item-action" asp-action="Index" asp-controller="Home" asp-route-id="@item.CategoryID">
+           @item.CategoryName
+        </a>
+    }
+    
+    @* <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+    <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+    <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+    <a href="#" class="list-group-item list-group-item-action disabled">Vestibulum at eros</a> *@
+</div>

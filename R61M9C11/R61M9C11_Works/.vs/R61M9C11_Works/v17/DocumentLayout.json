@@ -1,0 +1,275 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7060BD59-B08F-4FBA-8C03-6CDF146D26E8}|R61M9C11_COREAPI\\R61M9C11_COREAPI.csproj|d:\\r61\\m9\\r61m9c11\\r61m9c11_works\\r61m9c11_coreapi\\controllers\\categoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7060BD59-B08F-4FBA-8C03-6CDF146D26E8}|R61M9C11_COREAPI\\R61M9C11_COREAPI.csproj|solutionrelative:r61m9c11_coreapi\\controllers\\categoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7060BD59-B08F-4FBA-8C03-6CDF146D26E8}|R61M9C11_COREAPI\\R61M9C11_COREAPI.csproj|d:\\r61\\m9\\r61m9c11\\r61m9c11_works\\r61m9c11_coreapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7060BD59-B08F-4FBA-8C03-6CDF146D26E8}|R61M9C11_COREAPI\\R61M9C11_COREAPI.csproj|solutionrelative:r61m9c11_coreapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7060BD59-B08F-4FBA-8C03-6CDF146D26E8}|R61M9C11_COREAPI\\R61M9C11_COREAPI.csproj|d:\\r61\\m9\\r61m9c11\\r61m9c11_works\\r61m9c11_coreapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7060BD59-B08F-4FBA-8C03-6CDF146D26E8}|R61M9C11_COREAPI\\R61M9C11_COREAPI.csproj|solutionrelative:r61m9c11_coreapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7060BD59-B08F-4FBA-8C03-6CDF146D26E8}|R61M9C11_COREAPI\\R61M9C11_COREAPI.csproj|d:\\r61\\m9\\r61m9c11\\r61m9c11_works\\r61m9c11_coreapi\\models\\inventorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7060BD59-B08F-4FBA-8C03-6CDF146D26E8}|R61M9C11_COREAPI\\R61M9C11_COREAPI.csproj|solutionrelative:r61m9c11_coreapi\\models\\inventorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E847624-8C9D-4057-BF2D-5480802E2B47}|R61M9C11_ViewComponent\\R61M9C11_ViewComponent.csproj|d:\\r61\\m9\\r61m9c11\\r61m9c11_works\\r61m9c11_viewcomponent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E847624-8C9D-4057-BF2D-5480802E2B47}|R61M9C11_ViewComponent\\R61M9C11_ViewComponent.csproj|solutionrelative:r61m9c11_viewcomponent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E847624-8C9D-4057-BF2D-5480802E2B47}|R61M9C11_ViewComponent\\R61M9C11_ViewComponent.csproj|d:\\r61\\m9\\r61m9c11\\r61m9c11_works\\r61m9c11_viewcomponent\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9E847624-8C9D-4057-BF2D-5480802E2B47}|R61M9C11_ViewComponent\\R61M9C11_ViewComponent.csproj|solutionrelative:r61m9c11_viewcomponent\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E847624-8C9D-4057-BF2D-5480802E2B47}|R61M9C11_ViewComponent\\R61M9C11_ViewComponent.csproj|d:\\r61\\m9\\r61m9c11\\r61m9c11_works\\r61m9c11_viewcomponent\\views\\shared\\components\\category\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E847624-8C9D-4057-BF2D-5480802E2B47}|R61M9C11_ViewComponent\\R61M9C11_ViewComponent.csproj|solutionrelative:r61m9c11_viewcomponent\\views\\shared\\components\\category\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E847624-8C9D-4057-BF2D-5480802E2B47}|R61M9C11_ViewComponent\\R61M9C11_ViewComponent.csproj|d:\\r61\\m9\\r61m9c11\\r61m9c11_works\\r61m9c11_viewcomponent\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E847624-8C9D-4057-BF2D-5480802E2B47}|R61M9C11_ViewComponent\\R61M9C11_ViewComponent.csproj|solutionrelative:r61m9c11_viewcomponent\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E847624-8C9D-4057-BF2D-5480802E2B47}|R61M9C11_ViewComponent\\R61M9C11_ViewComponent.csproj|d:\\r61\\m9\\r61m9c11\\r61m9c11_works\\r61m9c11_viewcomponent\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E847624-8C9D-4057-BF2D-5480802E2B47}|R61M9C11_ViewComponent\\R61M9C11_ViewComponent.csproj|solutionrelative:r61m9c11_viewcomponent\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E847624-8C9D-4057-BF2D-5480802E2B47}|R61M9C11_ViewComponent\\R61M9C11_ViewComponent.csproj|d:\\r61\\m9\\r61m9c11\\r61m9c11_works\\r61m9c11_viewcomponent\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E847624-8C9D-4057-BF2D-5480802E2B47}|R61M9C11_ViewComponent\\R61M9C11_ViewComponent.csproj|solutionrelative:r61m9c11_viewcomponent\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E847624-8C9D-4057-BF2D-5480802E2B47}|R61M9C11_ViewComponent\\R61M9C11_ViewComponent.csproj|d:\\r61\\m9\\r61m9c11\\r61m9c11_works\\r61m9c11_viewcomponent\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9E847624-8C9D-4057-BF2D-5480802E2B47}|R61M9C11_ViewComponent\\R61M9C11_ViewComponent.csproj|solutionrelative:r61m9c11_viewcomponent\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E847624-8C9D-4057-BF2D-5480802E2B47}|R61M9C11_ViewComponent\\R61M9C11_ViewComponent.csproj|d:\\r61\\m9\\r61m9c11\\r61m9c11_works\\r61m9c11_viewcomponent\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9E847624-8C9D-4057-BF2D-5480802E2B47}|R61M9C11_ViewComponent\\R61M9C11_ViewComponent.csproj|solutionrelative:r61m9c11_viewcomponent\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E847624-8C9D-4057-BF2D-5480802E2B47}|R61M9C11_ViewComponent\\R61M9C11_ViewComponent.csproj|d:\\r61\\m9\\r61m9c11\\r61m9c11_works\\r61m9c11_viewcomponent\\models\\inventorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E847624-8C9D-4057-BF2D-5480802E2B47}|R61M9C11_ViewComponent\\R61M9C11_ViewComponent.csproj|solutionrelative:r61m9c11_viewcomponent\\models\\inventorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E847624-8C9D-4057-BF2D-5480802E2B47}|R61M9C11_ViewComponent\\R61M9C11_ViewComponent.csproj|d:\\r61\\m9\\r61m9c11\\r61m9c11_works\\r61m9c11_viewcomponent\\viewcomponents\\categoryviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E847624-8C9D-4057-BF2D-5480802E2B47}|R61M9C11_ViewComponent\\R61M9C11_ViewComponent.csproj|solutionrelative:r61m9c11_viewcomponent\\viewcomponents\\categoryviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E847624-8C9D-4057-BF2D-5480802E2B47}|R61M9C11_ViewComponent\\R61M9C11_ViewComponent.csproj|d:\\r61\\m9\\r61m9c11\\r61m9c11_works\\r61m9c11_viewcomponent\\r61m9c11_viewcomponent.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9E847624-8C9D-4057-BF2D-5480802E2B47}|R61M9C11_ViewComponent\\R61M9C11_ViewComponent.csproj|solutionrelative:r61m9c11_viewcomponent\\r61m9c11_viewcomponent.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategorysController.cs",
+              "DocumentMoniker": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_COREAPI\\Controllers\\CategorysController.cs",
+              "RelativeDocumentMoniker": "R61M9C11_COREAPI\\Controllers\\CategorysController.cs",
+              "ToolTip": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_COREAPI\\Controllers\\CategorysController.cs",
+              "RelativeToolTip": "R61M9C11_COREAPI\\Controllers\\CategorysController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T05:44:18.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InventoryContext.cs",
+              "DocumentMoniker": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_COREAPI\\Models\\InventoryContext.cs",
+              "RelativeDocumentMoniker": "R61M9C11_COREAPI\\Models\\InventoryContext.cs",
+              "ToolTip": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_COREAPI\\Models\\InventoryContext.cs",
+              "RelativeToolTip": "R61M9C11_COREAPI\\Models\\InventoryContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T05:43:01.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_COREAPI\\Program.cs",
+              "RelativeDocumentMoniker": "R61M9C11_COREAPI\\Program.cs",
+              "ToolTip": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_COREAPI\\Program.cs",
+              "RelativeToolTip": "R61M9C11_COREAPI\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T05:42:25.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_COREAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "R61M9C11_COREAPI\\appsettings.json",
+              "ToolTip": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_COREAPI\\appsettings.json",
+              "RelativeToolTip": "R61M9C11_COREAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-01T05:42:00.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_ViewComponent\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "R61M9C11_ViewComponent\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_ViewComponent\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "R61M9C11_ViewComponent\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAADeBAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T04:24:11.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_ViewComponent\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "R61M9C11_ViewComponent\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_ViewComponent\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "R61M9C11_ViewComponent\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T04:14:25.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_ViewComponent\\Views\\Shared\\Components\\Category\\Default.cshtml",
+              "RelativeDocumentMoniker": "R61M9C11_ViewComponent\\Views\\Shared\\Components\\Category\\Default.cshtml",
+              "ToolTip": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_ViewComponent\\Views\\Shared\\Components\\Category\\Default.cshtml",
+              "RelativeToolTip": "R61M9C11_ViewComponent\\Views\\Shared\\Components\\Category\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T03:57:59.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_ViewComponent\\Program.cs",
+              "RelativeDocumentMoniker": "R61M9C11_ViewComponent\\Program.cs",
+              "ToolTip": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_ViewComponent\\Program.cs",
+              "RelativeToolTip": "R61M9C11_ViewComponent\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T03:44:35.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_ViewComponent\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "R61M9C11_ViewComponent\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_ViewComponent\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "R61M9C11_ViewComponent\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAADcCAAAAAAAAAAAAAFYCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-01T04:30:21.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_ViewComponent\\appsettings.json",
+              "RelativeDocumentMoniker": "R61M9C11_ViewComponent\\appsettings.json",
+              "ToolTip": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_ViewComponent\\appsettings.json",
+              "RelativeToolTip": "R61M9C11_ViewComponent\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-01T03:42:03.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_ViewComponent\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "R61M9C11_ViewComponent\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_ViewComponent\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "R61M9C11_ViewComponent\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAuwIIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-01T04:30:58.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoryViewComponent.cs",
+              "DocumentMoniker": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_ViewComponent\\ViewComponents\\CategoryViewComponent.cs",
+              "RelativeDocumentMoniker": "R61M9C11_ViewComponent\\ViewComponents\\CategoryViewComponent.cs",
+              "ToolTip": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_ViewComponent\\ViewComponents\\CategoryViewComponent.cs",
+              "RelativeToolTip": "R61M9C11_ViewComponent\\ViewComponents\\CategoryViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T03:54:38.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_ViewComponent\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "R61M9C11_ViewComponent\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_ViewComponent\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "R61M9C11_ViewComponent\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T03:50:58.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InventoryContext.cs",
+              "DocumentMoniker": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_ViewComponent\\Models\\InventoryContext.cs",
+              "RelativeDocumentMoniker": "R61M9C11_ViewComponent\\Models\\InventoryContext.cs",
+              "ToolTip": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_ViewComponent\\Models\\InventoryContext.cs",
+              "RelativeToolTip": "R61M9C11_ViewComponent\\Models\\InventoryContext.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwB8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T03:48:16.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "R61M9C11_ViewComponent",
+              "DocumentMoniker": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_ViewComponent\\R61M9C11_ViewComponent.csproj",
+              "RelativeDocumentMoniker": "R61M9C11_ViewComponent\\R61M9C11_ViewComponent.csproj",
+              "ToolTip": "D:\\R61\\M9\\R61M9C11\\R61M9C11_Works\\R61M9C11_ViewComponent\\R61M9C11_ViewComponent.csproj",
+              "RelativeToolTip": "R61M9C11_ViewComponent\\R61M9C11_ViewComponent.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-01T03:44:46.386Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
