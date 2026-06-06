@@ -1,0 +1,31 @@
+﻿@model IEnumerable<WebApplication1.ViewModels.SalesDetailsVM>
+<h2>SAles Details Info</h2>
+<hr />
+<div class="">
+    <table width="800px" class="table table-danger">
+        <thead>
+            <tr>
+                <td>Product</td>
+                <td>Quantity</td>
+                <td>Unit Price</td>
+                <td>Discount</td>
+                <td>Total</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.ProductName</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.UnitPrice </td>
+                    <td>
+                        @item.Discount
+                    </td>
+                    <td>@item.Total</td>
+                </tr>
+                
+            }
+        </tbody>
+    </table>
+</div>
