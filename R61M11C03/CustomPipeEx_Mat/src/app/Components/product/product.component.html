@@ -1,0 +1,101 @@
+
+
+<div class="row">
+    <div class="col-md-6">
+        <form #form='ngForm'    autocomplete="off" (submit)="onSubmit()">
+            <input type="text" type="hidden"  [(ngModel)]= 'product.id' name="Id" />
+            <input type="text" type="hidden"  [(ngModel)]= 'product.picture' name="picture" />
+        <div class="form-group">
+            <label> Category</label>
+            <select type="text" class="form-control"  name="catId" [(ngModel)]= 'product.catId'  >
+            <option value="0"> Select item</option>
+                <option *ngFor='let item of categorylist' value="{{item.id}}">{{item.name}}</option>
+        </select>
+        
+        </div>
+         
+        <div class=" ">
+            <label>Name</label>
+        <div class="input-group">
+        <div class="input-group-prepend">
+            
+            <input type="text" class="form-control"  [(ngModel)]= 'product.name' name="name" />
+        </div>
+        </div>
+
+        </div>
+              
+        <div class=" ">
+            <label>Picture</label>
+        <div class="input-group">
+        <div class="input-group-prepend">
+            
+            <input type="file" accept="image/*" (change)="selectFiles($event)"  class="form-control"    name="picture" />
+        </div>
+        </div>
+        <div *ngIf="previews.length">
+            <img *ngFor="let preview of previews" [src]="preview" alt="Image preview" width="100%" />
+          </div>
+        </div>
+        
+        
+           
+            <button  class="btn btn-success mt-2" type="submit" [hidden]="isEdit" >
+                <i class="fa fa-plus-square"    >Add</i>
+            </button>
+            <button  class="btn btn-success mt-2" type="button" (click)="update()" [hidden]="!isEdit" >
+                <i class="fa fa-plus-square"    >Update</i>
+            </button>
+            <button  class="btn btn-success ms-5 mt-2" type="button" (click)="clearAll()"   >
+                <i class="fa fa-plus-square"    >Clear</i>
+            </button>
+          
+        </form>
+    </div>
+    <div class="col-md-6">
+        <table class="table table-bordered">
+            <tr>
+                <th>Parent Name</th>
+                <th>Name</th>
+                <th>Picture</th>
+            </tr>
+            <tr *ngFor="let e of productlist">
+                <td>
+                    {{e.catId}}
+                </td>
+                <td>
+                    {{e.name}}
+                </td>
+                <td>
+                  
+                   <img src="{{apiImageUrl}}{{e.picture}}" class="img-fluid" >
+                </td>
+                <td>
+                   <button (click)="Edit(e.id)">Edit</button>||
+                   <button (click)="Delete(e.id)">Delete</button>
+              
+                </td>
+            </tr>
+        </table>
+
+
+        <!-- <p-table [value]="categories" [tableStyle]="{ 'min-width': '50rem' }">
+            <ng-template #header>
+                <tr>
+                    <th>Code</th>
+                    <th>Name</th>
+                    <th>Category</th>
+                  
+                </tr>
+            </ng-template>
+            <ng-template #body let-c>
+                <tr>
+                    <td>{{ c.code }}</td>
+                    <td>{{ c.name }}</td>
+                    <td>{{ c.category }}</td>
+                    <td>{{ c.quantity }}</td>
+                </tr>
+            </ng-template>
+        </p-table> -->
+    </div>
+</div>

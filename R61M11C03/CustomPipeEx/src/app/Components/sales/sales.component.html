@@ -1,0 +1,115 @@
+<div class="row">
+    <div class="col-md-12">
+        <form #form='ngForm'    autocomplete="off" (submit)="onSubmit()">
+            <input type="text" type="hidden"  [(ngModel)]= 'sale.id' name="Id" />
+          <div class="col-md-6 col-sm-12"  >
+ 
+            <div class=" ">
+                <label>Sale Number</label>
+            <div class="input-group">
+            <div class="input-group-prepend">
+                
+                <input type="text" class="form-control"  [(ngModel)]= 'sale.salenumber' name="salenumber" />
+            </div>
+            </div>
+    
+            </div>
+            <div class=" ">
+                <label>Sale Date</label>
+            <div class="input-group">
+            <div class="input-group-prepend">
+                
+                <input type="date" class="form-control"  [(ngModel)]= 'sale.orderDate' name="name" />
+            </div>
+            </div>
+    
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+        <div class="form-group">
+            <label> Customer</label>
+            <select type="text" class="form-control"  name="catId" [(ngModel)]= 'sale.customerId'  >
+            <option value="0"> Select Customer</option>
+                <option *ngFor='let item of custList' value="{{item.id}}">{{item.name}}</option>
+        </select>
+        
+        </div>
+        
+              
+        <div class=" ">
+            
+        <div class="input-group">
+        <div class="input-group-prepend">
+            
+            <input type="checkbox"   class="form-control" [(ngModel)]="sale.isDelivered"    name="Is Delivered" />Is Delivered
+        </div>
+        </div>
+  
+            
+          </div>
+        </div>
+        <div class="col-md-12">
+            <div style="widows: 100%">
+                <table class="table table-borderless">
+                        <thead class="thead-light">
+                            <tr>
+                                <th>Product</th>
+                                <th>qty</th>
+                                <th>price</th>
+                                <th>Total Price </th>
+                                <th>
+                                        <a (click)='addoreditItem(  )'
+                                                class="btn btn-sm btn-success text-white">
+                                                <i class="fa fa-plus">Add</i>
+                                        </a>
+                                </th></tr>
+                        </thead>
+                        <tbody>
+                                <tr *ngIf="sale.salesDetails.length==0">
+                                        <td colspan="5" class="font-italic text-center"
+                                                [class.text-danger]=" sale.salesDetails.length ==0">
+                                                No  item found for selected order</td>
+                                </tr>
+                                <tr *ngFor='let item of sale.salesDetails;let i=index'>
+                                        <td>
+                                                {{item.productName}}
+                                        </td>
+                                        <td>
+                                                {{item.price}}
+                                        </td>
+                                        <td>
+                                                {{item.qty}}
+                                        </td>
+                                        <td>
+                                                {{item.total}}
+                                        </td>
+                                        <td>
+                                                <a (click)='addoreditItem()'
+                                                        class="btn btn-sm btn-info text-white">
+                                                        <!-- <i class="fa fa-pencil"></i> -->
+        Edit
+                                                </a>
+                                                <a (click)='deleteItem(item.id,i)'
+                                                        class="btn btn-sm btn-danger text-white ml-1">
+                                                        <!-- <i class="fa fa-trash"></i> -->
+                                                        Delete
+                                                </a>
+                                        </td>
+                                </tr>
+                        </tbody>
+                </table>
+        </div> 
+        </div>
+        <div class="col-md-12">
+            <button  class="btn btn-success mt-2" type="submit"   >
+                <i class="fa fa-plus-square"    >Add</i>
+            </button>
+            
+            <button  class="btn btn-success ms-5 mt-2" type="button" (click)="clearAll()"   >
+                <i class="fa fa-plus-square"    >Clear</i>
+            </button>
+        </div>
+        </form>
+    </div>
+   
+</div>

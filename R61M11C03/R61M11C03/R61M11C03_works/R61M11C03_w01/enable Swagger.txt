@@ -1,0 +1,14 @@
+install-package Swashbuckle.AspNetCore
+builder.Services.AddSwaggerGen();
+if (app.Environment.IsDevelopment())
+{
+    app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+.WithOpenApi();
+
+
+launchsetting.json
+ "launchUrl": "swagger",

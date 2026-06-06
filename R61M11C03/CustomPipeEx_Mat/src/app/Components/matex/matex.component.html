@@ -1,0 +1,19 @@
+<mat-slide-toggle>Toggle me!</mat-slide-toggle>
+<section>
+    <div class="example-label">FAB</div>
+    <div class="example-button-row">
+      <div class="example-flex-container">
+        <div class="example-button-container">
+          <button mat-fab aria-label="Example icon button with a delete icon">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+        <div class="example-button-container">
+          <button mat-fab disabled aria-label="Example icon button with a heart icon">
+            <mat-icon>favorite</mat-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <button mat-raised-button (click)="openDialog('3000ms', '1500ms')">Open dialog slowly</button>

@@ -1,0 +1,13 @@
+.f-w {
+    width: 100%;
+}
+.product-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 40px;
+    column-gap: 8px;
+}
+.add-row
+{
+    display: flex;
+    justify-content: space-between;
+}
