@@ -1,0 +1,66 @@
+﻿@model IEnumerable<R61M6C5_Security.Models.Employee>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>All Employee</h2>
+@Html.ActionLink("Add New","Create","Employees")
+<table class="table table-dark">
+    <thead>
+        <tr>
+            <td>
+                @Html.DisplayNameFor(m => m.Name)
+            </td>
+            <td>
+                @Html.DisplayNameFor(m => m.Salary)
+            </td>
+            <td>
+                @Html.DisplayNameFor(m => m.JoiningDate)
+            </td>
+            <td>
+                @Html.DisplayNameFor(m => m.Iscontinued)
+            </td>
+            <td>
+                @Html.DisplayNameFor(m => m.ImagePath)
+            </td>
+            <td>
+                @Html.DisplayNameFor(m => m.DeptId)
+            </td>
+            <td>
+                ...
+            </td>
+        </tr>
+
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(m=>item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(m=>item.Salary)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => item.JoiningDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => item.Iscontinued)
+                </td>
+                <td>
+                    
+                    <img src="@Url.Content(item.ImagePath)" alt="@item.ImagePath"  class="img-fluid"/>
+                </td>
+                <td>
+                    @Html.DisplayFor(m => item.Department.Name)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", "Employees", new { item.Id }, new { @class = "btn btn-primary" })
+                    @Html.ActionLink("Delete", "Delete", "Employees", new { item.Id }, new { @class = "btn btn-primary" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

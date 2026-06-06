@@ -1,0 +1,25 @@
+﻿@model R61M6C5_Security.Models.Department
+@{
+    ViewBag.Title = "Create";
+}
+
+ 
+
+@using (Html.BeginForm("Create", "Departments", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+
+    <form>
+        <fieldset>
+            <legend>Department Entry</legend>
+            @Html.ValidationSummary(true)
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+
+                @Html.EditorFor(m => m.Name, new { @class = "form-control", @placeholder = "Name" })
+            </div>
+          
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </fieldset>
+    </form>
+}
+

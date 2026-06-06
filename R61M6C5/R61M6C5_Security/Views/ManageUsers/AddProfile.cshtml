@@ -1,0 +1,26 @@
+﻿@model R61M6C5_Security.ViewModels.ProfileVM
+@{
+    ViewBag.Title = "AddProfile";
+}
+
+<h2>AddProfile</h2>
+
+@using (Html.BeginForm("AddProfile", "ManageUsers", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div>
+        <label>Name</label>
+        @Html.EditorFor(m => m.Name)
+    </div>
+    <div>
+        <label>Phone </label>
+        @Html.EditorFor(m => m.PhoneNumber)
+    </div>
+    <div>
+        <label>Profile Pic</label>
+        <input type="file" name="ProfilePic" />
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+    </div>
+}

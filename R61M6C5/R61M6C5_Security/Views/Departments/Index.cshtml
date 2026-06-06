@@ -1,0 +1,37 @@
+﻿@model IEnumerable<R61M6C5_Security.Models.Department>
+@{
+    ViewBag.Title = "Index";
+}
+
+
+@Html.ActionLink("Add New", "Create", "Departments")
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <td>
+                @Html.DisplayNameFor(m => m.Name)
+            </td>
+            
+         
+            <td>
+                ...
+            </td>
+        </tr>
+
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.Name
+                </td>
+               
+                <td>
+                    @Html.ActionLink("Edit", "Edit", "Employee", new { item.Id }, new { @class = "btn btn-primary" })
+                    @Html.ActionLink("Delete", "Delete", "Employee", new { item.Id }, new { @class = "btn btn-primary" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

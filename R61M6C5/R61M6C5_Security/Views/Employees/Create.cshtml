@@ -1,0 +1,58 @@
+﻿@model R61M6C5_Security.Models.Employee
+@{
+    ViewBag.Title = "Edit";
+}
+ 
+@using (Html.BeginForm("Create", "Employees", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+
+    <form>
+        <fieldset>
+            <legend>Employee Entry</legend>
+            @Html.ValidationSummary(true)
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+
+                @Html.EditorFor(m => m.Name, new { @class = "form-control", @placeholder = "Name" })
+                @Html.ValidationMessageFor(m=>m.Name)
+            </div>
+            <div class="mb-3">
+                <label for="disabledSelect" class="form-label">Department</label>
+
+                @Html.DropDownListFor(m => m.DeptId, (IEnumerable<SelectListItem>)@ViewBag.Department, "Select Department")
+                @Html.ValidationMessageFor(m => m.DeptId)
+            </div>
+            <div class="mb-3">
+                <label for="disabledSelect" class="form-label">Salary</label>
+                @*<select id="disabledSelect" class="form-select">
+            <option>Disabled select</option>
+        </select>*@
+                @Html.EditorFor(m => m.Salary, new { @class = "form-control", @placeholder = "Name" })
+                @Html.ValidationMessageFor(m => m.Salary)
+            </div>
+            <div class="mb-3">
+                <label for="name" class="form-label">Joining Date</label>
+
+                @Html.EditorFor(m => m.JoiningDate, new { @class = "form-control", @placeholder = "Name" })
+                @Html.ValidationMessageFor(m => m.JoiningDate)
+            </div>
+            <div class="mb-3">
+                <label for="name" class="form-label">status</label>
+
+                @Html.EditorFor(m => m.Iscontinued, new { @class = "form-control", @placeholder = "Name" })
+            </div>
+            <div class="mb-3">
+                <label for="name" class="form-label">Image</label>
+                <input type="file" name="EmployeePic" />
+
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </fieldset>
+    </form>
+}
+
+@section scripts{
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+
+    }

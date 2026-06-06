@@ -1,0 +1,70 @@
+﻿@model R61M6C5_Security.Models.Employee
+@{
+    ViewBag.Title = "Edit";
+}
+
+
+@using (Html.BeginForm("Edit", "Employees", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+
+    <form>
+        <fieldset>
+            <legend>Employee Entry</legend>
+            @Html.ValidationSummary(true)
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                @Html.HiddenFor(m => m.Id)
+                @Html.HiddenFor(m => m.ImagePath)
+                @Html.EditorFor(m => m.Name, new { @class = "form-control", @placeholder = "Name" })
+            </div>
+            <div class="mb-3">
+                <label for="disabledSelect" class="form-label">Department</label>
+
+                @Html.DropDownListFor(m => m.DeptId, (IEnumerable<SelectListItem>)@ViewBag.Department, "Select Department")
+            </div>
+            <div class="mb-3">
+                <label for="disabledSelect" class="form-label">Salary</label>
+                @*<select id="disabledSelect" class="form-select">
+                <option>Disabled select</option>
+            </select>*@
+                @Html.EditorFor(m => m.Salary, new { @class = "form-control", @placeholder = "Name" })
+            </div>
+            <div class="mb-3">
+                <label for="name" class="form-label">Joining Date</label>
+
+                @Html.EditorFor(m => m.JoiningDate, new { @class = "form-control", @placeholder = "Name" })
+            </div>
+            <div class="mb-3">
+                <label for="name" class="form-label">status</label>
+
+                @Html.EditorFor(m => m.Iscontinued, new { @class = "form-control", @placeholder = "Name" })
+            </div>
+            <div class="mb-3" id="disdiv">
+                <label for="name" class="form-label">Image</label>
+                
+                <img src="@Url.Content(Model.ImagePath)" />
+                <button id="btnchange" type="button" > Change</button>
+            </div>
+            <div class="mb-3" id="entrydiv">
+                <label for="name" class="form-label">Image</label>
+                <input type="file" name="EmployeePic" />
+
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <a class="btn btn-danger" href="/Employees/Index">Back To List</a>
+        </fieldset>
+    </form>
+}
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            $("#entrydiv").hide();
+            $("#btnchange").click(function () {
+
+                $("#entrydiv").show();
+                $("#disdiv").hide();
+            })
+        })
+    </script>
+    }
+
