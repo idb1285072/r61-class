@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\R61\\M9\\Evidence_M8\\M8_evd\\M8_evd_Master_Token\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B199B2B6-FDD4-44EF-9CA3-BB96B979F0FE}|M8_evd_Master_Token\\M8_evd_Master_Token.csproj|d:\\r61\\m9\\evidence_m8\\m8_evd\\m8_evd_master_token\\m8_evd_master_token\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B199B2B6-FDD4-44EF-9CA3-BB96B979F0FE}|M8_evd_Master_Token\\M8_evd_Master_Token.csproj|solutionrelative:m8_evd_master_token\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B199B2B6-FDD4-44EF-9CA3-BB96B979F0FE}|M8_evd_Master_Token\\M8_evd_Master_Token.csproj|d:\\r61\\m9\\evidence_m8\\m8_evd\\m8_evd_master_token\\m8_evd_master_token\\provider\\apiauthorizationserverprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B199B2B6-FDD4-44EF-9CA3-BB96B979F0FE}|M8_evd_Master_Token\\M8_evd_Master_Token.csproj|solutionrelative:m8_evd_master_token\\provider\\apiauthorizationserverprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B199B2B6-FDD4-44EF-9CA3-BB96B979F0FE}|M8_evd_Master_Token\\M8_evd_Master_Token.csproj|D:\\R61\\M9\\Evidence_M8\\M8_evd\\M8_evd_Master_Token\\m8_evd_master_token\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B199B2B6-FDD4-44EF-9CA3-BB96B979F0FE}|M8_evd_Master_Token\\M8_evd_Master_Token.csproj|solutionrelative:m8_evd_master_token\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B199B2B6-FDD4-44EF-9CA3-BB96B979F0FE}|M8_evd_Master_Token\\M8_evd_Master_Token.csproj|d:\\r61\\m9\\evidence_m8\\m8_evd\\m8_evd_master_token\\m8_evd_master_token\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B199B2B6-FDD4-44EF-9CA3-BB96B979F0FE}|M8_evd_Master_Token\\M8_evd_Master_Token.csproj|solutionrelative:m8_evd_master_token\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B199B2B6-FDD4-44EF-9CA3-BB96B979F0FE}|M8_evd_Master_Token\\M8_evd_Master_Token.csproj|D:\\R61\\M9\\Evidence_M8\\M8_evd\\M8_evd_Master_Token\\m8_evd_master_token\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B199B2B6-FDD4-44EF-9CA3-BB96B979F0FE}|M8_evd_Master_Token\\M8_evd_Master_Token.csproj|solutionrelative:m8_evd_master_token\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLOCALDB/DbInvContex/True/SqlTable/dbo.Details.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLOCALDB/DbInvContex/True/SqlTable/dbo.Sales.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B199B2B6-FDD4-44EF-9CA3-BB96B979F0FE}|M8_evd_Master_Token\\M8_evd_Master_Token.csproj|D:\\R61\\M9\\Evidence_M8\\M8_evd\\M8_evd_Master_Token\\m8_evd_master_token\\dto\\salesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B199B2B6-FDD4-44EF-9CA3-BB96B979F0FE}|M8_evd_Master_Token\\M8_evd_Master_Token.csproj|solutionrelative:m8_evd_master_token\\dto\\salesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B199B2B6-FDD4-44EF-9CA3-BB96B979F0FE}|M8_evd_Master_Token\\M8_evd_Master_Token.csproj|D:\\R61\\M9\\Evidence_M8\\M8_evd\\M8_evd_Master_Token\\m8_evd_master_token\\models\\dbinvcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B199B2B6-FDD4-44EF-9CA3-BB96B979F0FE}|M8_evd_Master_Token\\M8_evd_Master_Token.csproj|solutionrelative:m8_evd_master_token\\models\\dbinvcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B199B2B6-FDD4-44EF-9CA3-BB96B979F0FE}|M8_evd_Master_Token\\M8_evd_Master_Token.csproj|D:\\R61\\M9\\Evidence_M8\\M8_evd\\M8_evd_Master_Token\\m8_evd_master_token\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B199B2B6-FDD4-44EF-9CA3-BB96B979F0FE}|M8_evd_Master_Token\\M8_evd_Master_Token.csproj|solutionrelative:m8_evd_master_token\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLOCALDB/DbInvContex/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B199B2B6-FDD4-44EF-9CA3-BB96B979F0FE}|M8_evd_Master_Token\\M8_evd_Master_Token.csproj|D:\\R61\\M9\\Evidence_M8\\M8_evd\\M8_evd_Master_Token\\m8_evd_master_token\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B199B2B6-FDD4-44EF-9CA3-BB96B979F0FE}|M8_evd_Master_Token\\M8_evd_Master_Token.csproj|solutionrelative:m8_evd_master_token\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\R61\\M9\\Evidence_M8\\M8_evd\\M8_evd_Master_Token\\M8_evd_Master_Token\\Startup.cs",
+              "RelativeDocumentMoniker": "M8_evd_Master_Token\\Startup.cs",
+              "ToolTip": "D:\\R61\\M9\\Evidence_M8\\M8_evd\\M8_evd_Master_Token\\M8_evd_Master_Token\\Startup.cs",
+              "RelativeToolTip": "M8_evd_Master_Token\\Startup.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA6wCEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T06:38:08.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "APIAUTHORIZATIONSERVERPROVIDER.cs",
+              "DocumentMoniker": "D:\\R61\\M9\\Evidence_M8\\M8_evd\\M8_evd_Master_Token\\M8_evd_Master_Token\\Provider\\APIAUTHORIZATIONSERVERPROVIDER.cs",
+              "RelativeDocumentMoniker": "M8_evd_Master_Token\\Provider\\APIAUTHORIZATIONSERVERPROVIDER.cs",
+              "ToolTip": "D:\\R61\\M9\\Evidence_M8\\M8_evd\\M8_evd_Master_Token\\M8_evd_Master_Token\\Provider\\APIAUTHORIZATIONSERVERPROVIDER.cs",
+              "RelativeToolTip": "M8_evd_Master_Token\\Provider\\APIAUTHORIZATIONSERVERPROVIDER.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T06:31:25.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "dbo.Sales [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLOCALDB/DbInvContex/True/SqlTable/dbo.Sales.sql",
+              "ToolTip": "dbo.Sales [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-25T05:29:07.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "D:\\R61\\M9\\Evidence_M8\\M8_evd\\M8_evd_Master_Token\\M8_evd_Master_Token\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "M8_evd_Master_Token\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "D:\\R61\\M9\\Evidence_M8\\M8_evd\\M8_evd_Master_Token\\M8_evd_Master_Token\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "M8_evd_Master_Token\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwBMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T04:09:06.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SalesDTO.cs",
+              "DocumentMoniker": "D:\\R61\\M9\\Evidence_M8\\M8_evd\\M8_evd_Master_Token\\M8_evd_Master_Token\\DTO\\SalesDTO.cs",
+              "RelativeDocumentMoniker": "M8_evd_Master_Token\\DTO\\SalesDTO.cs",
+              "ToolTip": "D:\\R61\\M9\\Evidence_M8\\M8_evd\\M8_evd_Master_Token\\M8_evd_Master_Token\\DTO\\SalesDTO.cs",
+              "RelativeToolTip": "M8_evd_Master_Token\\DTO\\SalesDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T03:48:55.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "D:\\R61\\M9\\Evidence_M8\\M8_evd\\M8_evd_Master_Token\\M8_evd_Master_Token\\Global.asax.cs",
+              "RelativeDocumentMoniker": "M8_evd_Master_Token\\Global.asax.cs",
+              "ToolTip": "D:\\R61\\M9\\Evidence_M8\\M8_evd\\M8_evd_Master_Token\\M8_evd_Master_Token\\Global.asax.cs",
+              "RelativeToolTip": "M8_evd_Master_Token\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T03:39:24.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SalesController.cs",
+              "DocumentMoniker": "D:\\R61\\M9\\Evidence_M8\\M8_evd\\M8_evd_Master_Token\\M8_evd_Master_Token\\Controllers\\SalesController.cs",
+              "RelativeDocumentMoniker": "M8_evd_Master_Token\\Controllers\\SalesController.cs",
+              "ToolTip": "D:\\R61\\M9\\Evidence_M8\\M8_evd\\M8_evd_Master_Token\\M8_evd_Master_Token\\Controllers\\SalesController.cs",
+              "RelativeToolTip": "M8_evd_Master_Token\\Controllers\\SalesController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T03:34:43.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "dbo.AspNetUsers.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLOCALDB/DbInvContex/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLOCALDB/DbInvContex/True/SqlTable/dbo.AspNetUsers.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-25T03:34:11.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "D:\\R61\\M9\\Evidence_M8\\M8_evd\\M8_evd_Master_Token\\M8_evd_Master_Token\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "M8_evd_Master_Token\\Migrations\\Configuration.cs",
+              "ToolTip": "D:\\R61\\M9\\Evidence_M8\\M8_evd\\M8_evd_Master_Token\\M8_evd_Master_Token\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "M8_evd_Master_Token\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAewBQAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T03:25:07.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.Details [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLOCALDB/DbInvContex/True/SqlTable/dbo.Details.sql",
+              "ToolTip": "dbo.Details [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-25T05:29:21.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\R61\\M9\\Evidence_M8\\M8_evd\\M8_evd_Master_Token\\M8_evd_Master_Token\\Web.config",
+              "RelativeDocumentMoniker": "M8_evd_Master_Token\\Web.config",
+              "ToolTip": "D:\\R61\\M9\\Evidence_M8\\M8_evd\\M8_evd_Master_Token\\M8_evd_Master_Token\\Web.config",
+              "RelativeToolTip": "M8_evd_Master_Token\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-25T03:19:34.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DbInvContext.cs",
+              "DocumentMoniker": "D:\\R61\\M9\\Evidence_M8\\M8_evd\\M8_evd_Master_Token\\M8_evd_Master_Token\\Models\\DbInvContext.cs",
+              "RelativeDocumentMoniker": "M8_evd_Master_Token\\Models\\DbInvContext.cs",
+              "ToolTip": "D:\\R61\\M9\\Evidence_M8\\M8_evd\\M8_evd_Master_Token\\M8_evd_Master_Token\\Models\\DbInvContext.cs",
+              "RelativeToolTip": "M8_evd_Master_Token\\Models\\DbInvContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wBoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T03:18:13.303Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

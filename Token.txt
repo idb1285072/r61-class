@@ -1,0 +1,18 @@
+1.
+install-package Microsoft.aspnet.identity.entityframework
+install-package Microsoft.owin.host.systemweb
+install-package Microsoft.owin.security.oauth
+install-package Microsoft.owin.cors
+update-package
+
+2.
+Models, DTO, connectionString, Global.aspx, App_start
+
+3.
+migration, seed
+
+4.
+Controller
+
+------------------------------------------------------------
+5. Provider

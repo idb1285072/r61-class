@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\1285074\\M_7(WEB_API)\\Api_CRUD_EVI_TOKEN\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9330DE8-D1FC-4BAF-8C68-0295C86B5AFC}|Api_CRUD_EVI_TOKEN\\Api_CRUD_EVI_TOKEN.csproj|d:\\1285074\\m_7(web_api)\\api_crud_evi_token\\api_crud_evi_token\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9330DE8-D1FC-4BAF-8C68-0295C86B5AFC}|Api_CRUD_EVI_TOKEN\\Api_CRUD_EVI_TOKEN.csproj|solutionrelative:api_crud_evi_token\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9330DE8-D1FC-4BAF-8C68-0295C86B5AFC}|Api_CRUD_EVI_TOKEN\\Api_CRUD_EVI_TOKEN.csproj|d:\\1285074\\m_7(web_api)\\api_crud_evi_token\\api_crud_evi_token\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9330DE8-D1FC-4BAF-8C68-0295C86B5AFC}|Api_CRUD_EVI_TOKEN\\Api_CRUD_EVI_TOKEN.csproj|solutionrelative:api_crud_evi_token\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SalesController.cs",
+              "DocumentMoniker": "D:\\1285074\\M_7(WEB_API)\\Api_CRUD_EVI_TOKEN\\Api_CRUD_EVI_TOKEN\\Controllers\\SalesController.cs",
+              "RelativeDocumentMoniker": "Api_CRUD_EVI_TOKEN\\Controllers\\SalesController.cs",
+              "ToolTip": "D:\\1285074\\M_7(WEB_API)\\Api_CRUD_EVI_TOKEN\\Api_CRUD_EVI_TOKEN\\Controllers\\SalesController.cs",
+              "RelativeToolTip": "Api_CRUD_EVI_TOKEN\\Controllers\\SalesController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAhwHAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T06:55:48.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "D:\\1285074\\M_7(WEB_API)\\Api_CRUD_EVI_TOKEN\\Api_CRUD_EVI_TOKEN\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Api_CRUD_EVI_TOKEN\\Global.asax.cs",
+              "ToolTip": "D:\\1285074\\M_7(WEB_API)\\Api_CRUD_EVI_TOKEN\\Api_CRUD_EVI_TOKEN\\Global.asax.cs",
+              "RelativeToolTip": "Api_CRUD_EVI_TOKEN\\Global.asax.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAASwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T06:52:40.03Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\1285072\\DailyTask\\2025-01-25\\Mid_7\\R61_1285072\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10FC5B4D-55E1-48EB-B464-FFBD8CAD2C0D}|R61_1285072\\R61_1285072.csproj|d:\\1285072\\dailytask\\2025-01-25\\mid_7\\r61_1285072\\r61_1285072\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10FC5B4D-55E1-48EB-B464-FFBD8CAD2C0D}|R61_1285072\\R61_1285072.csproj|solutionrelative:r61_1285072\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10FC5B4D-55E1-48EB-B464-FFBD8CAD2C0D}|R61_1285072\\R61_1285072.csproj|d:\\1285072\\dailytask\\2025-01-25\\mid_7\\r61_1285072\\r61_1285072\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{10FC5B4D-55E1-48EB-B464-FFBD8CAD2C0D}|R61_1285072\\R61_1285072.csproj|solutionrelative:r61_1285072\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10FC5B4D-55E1-48EB-B464-FFBD8CAD2C0D}|R61_1285072\\R61_1285072.csproj|d:\\1285072\\dailytask\\2025-01-25\\mid_7\\r61_1285072\\r61_1285072\\models\\dbinvcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10FC5B4D-55E1-48EB-B464-FFBD8CAD2C0D}|R61_1285072\\R61_1285072.csproj|solutionrelative:r61_1285072\\models\\dbinvcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10FC5B4D-55E1-48EB-B464-FFBD8CAD2C0D}|R61_1285072\\R61_1285072.csproj|d:\\1285072\\dailytask\\2025-01-25\\mid_7\\r61_1285072\\r61_1285072\\migrations\\202501250655119_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10FC5B4D-55E1-48EB-B464-FFBD8CAD2C0D}|R61_1285072\\R61_1285072.csproj|solutionrelative:r61_1285072\\migrations\\202501250655119_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10FC5B4D-55E1-48EB-B464-FFBD8CAD2C0D}|R61_1285072\\R61_1285072.csproj|d:\\1285072\\dailytask\\2025-01-25\\mid_7\\r61_1285072\\r61_1285072\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10FC5B4D-55E1-48EB-B464-FFBD8CAD2C0D}|R61_1285072\\R61_1285072.csproj|solutionrelative:r61_1285072\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10FC5B4D-55E1-48EB-B464-FFBD8CAD2C0D}|R61_1285072\\R61_1285072.csproj|d:\\1285072\\dailytask\\2025-01-25\\mid_7\\r61_1285072\\r61_1285072\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10FC5B4D-55E1-48EB-B464-FFBD8CAD2C0D}|R61_1285072\\R61_1285072.csproj|solutionrelative:r61_1285072\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10FC5B4D-55E1-48EB-B464-FFBD8CAD2C0D}|R61_1285072\\R61_1285072.csproj|d:\\1285072\\dailytask\\2025-01-25\\mid_7\\r61_1285072\\r61_1285072\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10FC5B4D-55E1-48EB-B464-FFBD8CAD2C0D}|R61_1285072\\R61_1285072.csproj|solutionrelative:r61_1285072\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10FC5B4D-55E1-48EB-B464-FFBD8CAD2C0D}|R61_1285072\\R61_1285072.csproj|d:\\1285072\\dailytask\\2025-01-25\\mid_7\\r61_1285072\\r61_1285072\\dto\\salesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10FC5B4D-55E1-48EB-B464-FFBD8CAD2C0D}|R61_1285072\\R61_1285072.csproj|solutionrelative:r61_1285072\\dto\\salesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "202501250655119_init.cs",
+              "DocumentMoniker": "D:\\1285072\\DailyTask\\2025-01-25\\Mid_7\\R61_1285072\\R61_1285072\\Migrations\\202501250655119_init.cs",
+              "RelativeDocumentMoniker": "R61_1285072\\Migrations\\202501250655119_init.cs",
+              "ToolTip": "D:\\1285072\\DailyTask\\2025-01-25\\Mid_7\\R61_1285072\\R61_1285072\\Migrations\\202501250655119_init.cs",
+              "RelativeToolTip": "R61_1285072\\Migrations\\202501250655119_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T06:55:16.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "D:\\1285072\\DailyTask\\2025-01-25\\Mid_7\\R61_1285072\\R61_1285072\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "R61_1285072\\Migrations\\Configuration.cs",
+              "ToolTip": "D:\\1285072\\DailyTask\\2025-01-25\\Mid_7\\R61_1285072\\R61_1285072\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "R61_1285072\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T06:54:11.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SalesController.cs",
+              "DocumentMoniker": "D:\\1285072\\DailyTask\\2025-01-25\\Mid_7\\R61_1285072\\R61_1285072\\Controllers\\SalesController.cs",
+              "RelativeDocumentMoniker": "R61_1285072\\Controllers\\SalesController.cs",
+              "ToolTip": "D:\\1285072\\DailyTask\\2025-01-25\\Mid_7\\R61_1285072\\R61_1285072\\Controllers\\SalesController.cs*",
+              "RelativeToolTip": "R61_1285072\\Controllers\\SalesController.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T06:52:36.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "D:\\1285072\\DailyTask\\2025-01-25\\Mid_7\\R61_1285072\\R61_1285072\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "R61_1285072\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "D:\\1285072\\DailyTask\\2025-01-25\\Mid_7\\R61_1285072\\R61_1285072\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "R61_1285072\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T06:51:07.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "D:\\1285072\\DailyTask\\2025-01-25\\Mid_7\\R61_1285072\\R61_1285072\\Global.asax.cs",
+              "RelativeDocumentMoniker": "R61_1285072\\Global.asax.cs",
+              "ToolTip": "D:\\1285072\\DailyTask\\2025-01-25\\Mid_7\\R61_1285072\\R61_1285072\\Global.asax.cs",
+              "RelativeToolTip": "R61_1285072\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T06:49:13.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SalesDTO.cs",
+              "DocumentMoniker": "D:\\1285072\\DailyTask\\2025-01-25\\Mid_7\\R61_1285072\\R61_1285072\\DTO\\SalesDTO.cs",
+              "RelativeDocumentMoniker": "R61_1285072\\DTO\\SalesDTO.cs",
+              "ToolTip": "D:\\1285072\\DailyTask\\2025-01-25\\Mid_7\\R61_1285072\\R61_1285072\\DTO\\SalesDTO.cs",
+              "RelativeToolTip": "R61_1285072\\DTO\\SalesDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T06:32:34.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\1285072\\DailyTask\\2025-01-25\\Mid_7\\R61_1285072\\R61_1285072\\Web.config",
+              "RelativeDocumentMoniker": "R61_1285072\\Web.config",
+              "ToolTip": "D:\\1285072\\DailyTask\\2025-01-25\\Mid_7\\R61_1285072\\R61_1285072\\Web.config",
+              "RelativeToolTip": "R61_1285072\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-25T06:26:13.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DbInvContext.cs",
+              "DocumentMoniker": "D:\\1285072\\DailyTask\\2025-01-25\\Mid_7\\R61_1285072\\R61_1285072\\Models\\DbInvContext.cs",
+              "RelativeDocumentMoniker": "R61_1285072\\Models\\DbInvContext.cs",
+              "ToolTip": "D:\\1285072\\DailyTask\\2025-01-25\\Mid_7\\R61_1285072\\R61_1285072\\Models\\DbInvContext.cs",
+              "RelativeToolTip": "R61_1285072\\Models\\DbInvContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T06:26:04.72Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
