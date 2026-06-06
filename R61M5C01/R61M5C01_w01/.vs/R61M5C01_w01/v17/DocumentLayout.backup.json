@@ -1,0 +1,186 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\R61\\WinForm Application\\R61M5C01\\R61M5C01_w01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35F6E983-71FF-4BA8-9D79-C529725429CE}|R61M5C01_w01.csproj|d:\\r61\\winform application\\r61m5c01\\r61m5c01_w01\\assigntask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F6E983-71FF-4BA8-9D79-C529725429CE}|R61M5C01_w01.csproj|solutionrelative:assigntask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F6E983-71FF-4BA8-9D79-C529725429CE}|R61M5C01_w01.csproj|d:\\r61\\winform application\\r61m5c01\\r61m5c01_w01\\assigntask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35F6E983-71FF-4BA8-9D79-C529725429CE}|R61M5C01_w01.csproj|solutionrelative:assigntask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F6E983-71FF-4BA8-9D79-C529725429CE}|R61M5C01_w01.csproj|d:\\r61\\winform application\\r61m5c01\\r61m5c01_w01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F6E983-71FF-4BA8-9D79-C529725429CE}|R61M5C01_w01.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F6E983-71FF-4BA8-9D79-C529725429CE}|R61M5C01_w01.csproj|d:\\r61\\winform application\\r61m5c01\\r61m5c01_w01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35F6E983-71FF-4BA8-9D79-C529725429CE}|R61M5C01_w01.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F6E983-71FF-4BA8-9D79-C529725429CE}|R61M5C01_w01.csproj|d:\\r61\\winform application\\r61m5c01\\r61m5c01_w01\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F6E983-71FF-4BA8-9D79-C529725429CE}|R61M5C01_w01.csproj|solutionrelative:task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F6E983-71FF-4BA8-9D79-C529725429CE}|R61M5C01_w01.csproj|d:\\r61\\winform application\\r61m5c01\\r61m5c01_w01\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35F6E983-71FF-4BA8-9D79-C529725429CE}|R61M5C01_w01.csproj|solutionrelative:task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F6E983-71FF-4BA8-9D79-C529725429CE}|R61M5C01_w01.csproj|d:\\r61\\winform application\\r61m5c01\\r61m5c01_w01\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F6E983-71FF-4BA8-9D79-C529725429CE}|R61M5C01_w01.csproj|solutionrelative:models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F6E983-71FF-4BA8-9D79-C529725429CE}|R61M5C01_w01.csproj|d:\\r61\\winform application\\r61m5c01\\r61m5c01_w01\\mdiparent1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F6E983-71FF-4BA8-9D79-C529725429CE}|R61M5C01_w01.csproj|solutionrelative:mdiparent1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F6E983-71FF-4BA8-9D79-C529725429CE}|R61M5C01_w01.csproj|d:\\r61\\winform application\\r61m5c01\\r61m5c01_w01\\mdiparent1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35F6E983-71FF-4BA8-9D79-C529725429CE}|R61M5C01_w01.csproj|solutionrelative:mdiparent1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F6E983-71FF-4BA8-9D79-C529725429CE}|R61M5C01_w01.csproj|d:\\r61\\winform application\\r61m5c01\\r61m5c01_w01\\task.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F6E983-71FF-4BA8-9D79-C529725429CE}|R61M5C01_w01.csproj|solutionrelative:task.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssignTask.cs",
+              "DocumentMoniker": "D:\\R61\\WinForm Application\\R61M5C01\\R61M5C01_w01\\AssignTask.cs",
+              "RelativeDocumentMoniker": "AssignTask.cs",
+              "ToolTip": "D:\\R61\\WinForm Application\\R61M5C01\\R61M5C01_w01\\AssignTask.cs",
+              "RelativeToolTip": "AssignTask.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvyUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T06:32:48.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AssignTask.cs [Design]",
+              "DocumentMoniker": "D:\\R61\\WinForm Application\\R61M5C01\\R61M5C01_w01\\AssignTask.cs",
+              "RelativeDocumentMoniker": "AssignTask.cs",
+              "ToolTip": "D:\\R61\\WinForm Application\\R61M5C01\\R61M5C01_w01\\AssignTask.cs [Design]",
+              "RelativeToolTip": "AssignTask.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T06:26:48.852Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\R61\\WinForm Application\\R61M5C01\\R61M5C01_w01\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\R61\\WinForm Application\\R61M5C01\\R61M5C01_w01\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T06:09:23.455Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MDIParent1.cs",
+              "DocumentMoniker": "D:\\R61\\WinForm Application\\R61M5C01\\R61M5C01_w01\\MDIParent1.cs",
+              "RelativeDocumentMoniker": "MDIParent1.cs",
+              "ToolTip": "D:\\R61\\WinForm Application\\R61M5C01\\R61M5C01_w01\\MDIParent1.cs",
+              "RelativeToolTip": "MDIParent1.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAlwHsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T06:05:42.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Task.cs",
+              "DocumentMoniker": "D:\\R61\\WinForm Application\\R61M5C01\\R61M5C01_w01\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "Models\\Task.cs",
+              "ToolTip": "D:\\R61\\WinForm Application\\R61M5C01\\R61M5C01_w01\\Models\\Task.cs",
+              "RelativeToolTip": "Models\\Task.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T06:12:26.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TASK.cs [Design]",
+              "DocumentMoniker": "D:\\R61\\WinForm Application\\R61M5C01\\R61M5C01_w01\\TASK.cs",
+              "RelativeDocumentMoniker": "TASK.cs",
+              "ToolTip": "D:\\R61\\WinForm Application\\R61M5C01\\R61M5C01_w01\\TASK.cs [Design]",
+              "RelativeToolTip": "TASK.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T06:03:52.736Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TASK.cs",
+              "DocumentMoniker": "D:\\R61\\WinForm Application\\R61M5C01\\R61M5C01_w01\\TASK.cs",
+              "RelativeDocumentMoniker": "TASK.cs",
+              "ToolTip": "D:\\R61\\WinForm Application\\R61M5C01\\R61M5C01_w01\\TASK.cs",
+              "RelativeToolTip": "TASK.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T06:04:46.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\R61\\WinForm Application\\R61M5C01\\R61M5C01_w01\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\R61\\WinForm Application\\R61M5C01\\R61M5C01_w01\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAtwDQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T06:09:24.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MDIParent1.cs [Design]",
+              "DocumentMoniker": "D:\\R61\\WinForm Application\\R61M5C01\\R61M5C01_w01\\MDIParent1.cs",
+              "RelativeDocumentMoniker": "MDIParent1.cs",
+              "ToolTip": "D:\\R61\\WinForm Application\\R61M5C01\\R61M5C01_w01\\MDIParent1.cs [Design]",
+              "RelativeToolTip": "MDIParent1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T06:05:39.885Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TASK.Designer.cs",
+              "DocumentMoniker": "D:\\R61\\WinForm Application\\R61M5C01\\R61M5C01_w01\\TASK.Designer.cs",
+              "RelativeDocumentMoniker": "TASK.Designer.cs",
+              "ToolTip": "D:\\R61\\WinForm Application\\R61M5C01\\R61M5C01_w01\\TASK.Designer.cs",
+              "RelativeToolTip": "TASK.Designer.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAuwDYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T06:06:06.457Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
