@@ -1,0 +1,219 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeemaui\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC552944-9301-4994-9D1F-1EF4CCC4EDC7}|employeemaui\\employeemaui.csproj|d:\\r61\\m14\\students\\employeehw\\employeehw\\employeemaui\\employeemaui\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC552944-9301-4994-9D1F-1EF4CCC4EDC7}|employeemaui\\employeemaui.csproj|solutionrelative:employeemaui\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC552944-9301-4994-9D1F-1EF4CCC4EDC7}|employeemaui\\employeemaui.csproj|d:\\r61\\m14\\students\\employeehw\\employeehw\\employeemaui\\employeemaui\\components\\pages\\employeelist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DC552944-9301-4994-9D1F-1EF4CCC4EDC7}|employeemaui\\employeemaui.csproj|solutionrelative:employeemaui\\components\\pages\\employeelist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC552944-9301-4994-9D1F-1EF4CCC4EDC7}|employeemaui\\employeemaui.csproj|d:\\r61\\m14\\students\\employeehw\\employeehw\\employeemaui\\employeemaui\\components\\pages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DC552944-9301-4994-9D1F-1EF4CCC4EDC7}|employeemaui\\employeemaui.csproj|solutionrelative:employeemaui\\components\\pages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC552944-9301-4994-9D1F-1EF4CCC4EDC7}|employeemaui\\employeemaui.csproj|d:\\r61\\m14\\students\\employeehw\\employeehw\\employeemaui\\employeemaui\\viewmodel\\employeevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC552944-9301-4994-9D1F-1EF4CCC4EDC7}|employeemaui\\employeemaui.csproj|solutionrelative:employeemaui\\viewmodel\\employeevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC552944-9301-4994-9D1F-1EF4CCC4EDC7}|employeemaui\\employeemaui.csproj|d:\\r61\\m14\\students\\employeehw\\employeehw\\employeemaui\\employeemaui\\models\\details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC552944-9301-4994-9D1F-1EF4CCC4EDC7}|employeemaui\\employeemaui.csproj|solutionrelative:employeemaui\\models\\details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC552944-9301-4994-9D1F-1EF4CCC4EDC7}|employeemaui\\employeemaui.csproj|d:\\r61\\m14\\students\\employeehw\\employeehw\\employeemaui\\employeemaui\\models\\employeetask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC552944-9301-4994-9D1F-1EF4CCC4EDC7}|employeemaui\\employeemaui.csproj|solutionrelative:employeemaui\\models\\employeetask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC552944-9301-4994-9D1F-1EF4CCC4EDC7}|employeemaui\\employeemaui.csproj|d:\\r61\\m14\\students\\employeehw\\employeehw\\employeemaui\\employeemaui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC552944-9301-4994-9D1F-1EF4CCC4EDC7}|employeemaui\\employeemaui.csproj|solutionrelative:employeemaui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC552944-9301-4994-9D1F-1EF4CCC4EDC7}|employeemaui\\employeemaui.csproj|d:\\r61\\m14\\students\\employeehw\\employeehw\\employeemaui\\employeemaui\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC552944-9301-4994-9D1F-1EF4CCC4EDC7}|employeemaui\\employeemaui.csproj|solutionrelative:employeemaui\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC552944-9301-4994-9D1F-1EF4CCC4EDC7}|employeemaui\\employeemaui.csproj|d:\\r61\\m14\\students\\employeehw\\employeehw\\employeemaui\\employeemaui\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DC552944-9301-4994-9D1F-1EF4CCC4EDC7}|employeemaui\\employeemaui.csproj|solutionrelative:employeemaui\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC552944-9301-4994-9D1F-1EF4CCC4EDC7}|employeemaui\\employeemaui.csproj|d:\\r61\\m14\\students\\employeehw\\employeehw\\employeemaui\\employeemaui\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DC552944-9301-4994-9D1F-1EF4CCC4EDC7}|employeemaui\\employeemaui.csproj|solutionrelative:employeemaui\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC552944-9301-4994-9D1F-1EF4CCC4EDC7}|employeemaui\\employeemaui.csproj|d:\\r61\\m14\\students\\employeehw\\employeehw\\employeemaui\\employeemaui\\platforms\\windows\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC552944-9301-4994-9D1F-1EF4CCC4EDC7}|employeemaui\\employeemaui.csproj|solutionrelative:employeemaui\\platforms\\windows\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC552944-9301-4994-9D1F-1EF4CCC4EDC7}|employeemaui\\employeemaui.csproj|d:\\r61\\m14\\students\\employeehw\\employeehw\\employeemaui\\employeemaui\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DC552944-9301-4994-9D1F-1EF4CCC4EDC7}|employeemaui\\employeemaui.csproj|solutionrelative:employeemaui\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeemaui\\employeemaui\\Service\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "employeemaui\\Service\\EmployeeService.cs",
+              "ToolTip": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeemaui\\employeemaui\\Service\\EmployeeService.cs",
+              "RelativeToolTip": "employeemaui\\Service\\EmployeeService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAD4vxkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T14:44:17.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeVM.cs",
+              "DocumentMoniker": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeemaui\\employeemaui\\ViewModel\\EmployeeVM.cs",
+              "RelativeDocumentMoniker": "employeemaui\\ViewModel\\EmployeeVM.cs",
+              "ToolTip": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeemaui\\employeemaui\\ViewModel\\EmployeeVM.cs",
+              "RelativeToolTip": "employeemaui\\ViewModel\\EmployeeVM.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T14:23:26.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.razor",
+              "DocumentMoniker": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeemaui\\employeemaui\\Components\\Pages\\Create.razor",
+              "RelativeDocumentMoniker": "employeemaui\\Components\\Pages\\Create.razor",
+              "ToolTip": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeemaui\\employeemaui\\Components\\Pages\\Create.razor",
+              "RelativeToolTip": "employeemaui\\Components\\Pages\\Create.razor",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T17:32:47.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeTask.cs",
+              "DocumentMoniker": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeemaui\\employeemaui\\Models\\EmployeeTask.cs",
+              "RelativeDocumentMoniker": "employeemaui\\Models\\EmployeeTask.cs",
+              "ToolTip": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeemaui\\employeemaui\\Models\\EmployeeTask.cs",
+              "RelativeToolTip": "employeemaui\\Models\\EmployeeTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T14:19:55.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeemaui\\employeemaui\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "employeemaui\\Models\\Employee.cs",
+              "ToolTip": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeemaui\\employeemaui\\Models\\Employee.cs",
+              "RelativeToolTip": "employeemaui\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T14:20:07.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeList.razor",
+              "DocumentMoniker": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeemaui\\employeemaui\\Components\\Pages\\EmployeeList.razor",
+              "RelativeDocumentMoniker": "employeemaui\\Components\\Pages\\EmployeeList.razor",
+              "ToolTip": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeemaui\\employeemaui\\Components\\Pages\\EmployeeList.razor",
+              "RelativeToolTip": "employeemaui\\Components\\Pages\\EmployeeList.razor",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAC8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T16:56:58.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeemaui\\employeemaui\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "employeemaui\\MauiProgram.cs",
+              "ToolTip": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeemaui\\employeemaui\\MauiProgram.cs",
+              "RelativeToolTip": "employeemaui\\MauiProgram.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T15:14:10.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeemaui\\employeemaui\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "employeemaui\\Components\\Pages\\Home.razor",
+              "ToolTip": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeemaui\\employeemaui\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "employeemaui\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T14:15:49.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cs",
+              "DocumentMoniker": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeemaui\\employeemaui\\Models\\Details.cs",
+              "RelativeDocumentMoniker": "employeemaui\\Models\\Details.cs",
+              "ToolTip": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeemaui\\employeemaui\\Models\\Details.cs",
+              "RelativeToolTip": "employeemaui\\Models\\Details.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA9wBwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T14:20:15.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeemaui\\employeemaui\\Platforms\\Windows\\App.xaml.cs",
+              "RelativeDocumentMoniker": "employeemaui\\Platforms\\Windows\\App.xaml.cs",
+              "ToolTip": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeemaui\\employeemaui\\Platforms\\Windows\\App.xaml.cs",
+              "RelativeToolTip": "employeemaui\\Platforms\\Windows\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T15:25:59.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeemaui\\employeemaui\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "employeemaui\\Components\\Routes.razor",
+              "ToolTip": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeemaui\\employeemaui\\Components\\Routes.razor",
+              "RelativeToolTip": "employeemaui\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T15:26:29.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeemaui\\employeemaui\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "employeemaui\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeemaui\\employeemaui\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "employeemaui\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T16:57:15.169Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

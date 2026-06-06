@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeeproj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0378B1BD-7BCF-4AC7-B2E8-DC7407614D31}|employeeproj\\employeeproj.csproj|d:\\r61\\m14\\students\\employeehw\\employeehw\\employeeproj\\employeeproj\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0378B1BD-7BCF-4AC7-B2E8-DC7407614D31}|employeeproj\\employeeproj.csproj|solutionrelative:employeeproj\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0378B1BD-7BCF-4AC7-B2E8-DC7407614D31}|employeeproj\\employeeproj.csproj|d:\\r61\\m14\\students\\employeehw\\employeehw\\employeeproj\\employeeproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0378B1BD-7BCF-4AC7-B2E8-DC7407614D31}|employeeproj\\employeeproj.csproj|solutionrelative:employeeproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0378B1BD-7BCF-4AC7-B2E8-DC7407614D31}|employeeproj\\employeeproj.csproj|d:\\r61\\m14\\students\\employeehw\\employeehw\\employeeproj\\employeeproj\\viewmodel\\employeevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0378B1BD-7BCF-4AC7-B2E8-DC7407614D31}|employeeproj\\employeeproj.csproj|solutionrelative:employeeproj\\viewmodel\\employeevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0378B1BD-7BCF-4AC7-B2E8-DC7407614D31}|employeeproj\\employeeproj.csproj|d:\\r61\\m14\\students\\employeehw\\employeehw\\employeeproj\\employeeproj\\dto\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0378B1BD-7BCF-4AC7-B2E8-DC7407614D31}|employeeproj\\employeeproj.csproj|solutionrelative:employeeproj\\dto\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0378B1BD-7BCF-4AC7-B2E8-DC7407614D31}|employeeproj\\employeeproj.csproj|d:\\r61\\m14\\students\\employeehw\\employeehw\\employeeproj\\employeeproj\\models\\modelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0378B1BD-7BCF-4AC7-B2E8-DC7407614D31}|employeeproj\\employeeproj.csproj|solutionrelative:employeeproj\\models\\modelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0378B1BD-7BCF-4AC7-B2E8-DC7407614D31}|employeeproj\\employeeproj.csproj|d:\\r61\\m14\\students\\employeehw\\employeehw\\employeeproj\\employeeproj\\viewmodel\\employeetaskvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0378B1BD-7BCF-4AC7-B2E8-DC7407614D31}|employeeproj\\employeeproj.csproj|solutionrelative:employeeproj\\viewmodel\\employeetaskvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0378B1BD-7BCF-4AC7-B2E8-DC7407614D31}|employeeproj\\employeeproj.csproj|d:\\r61\\m14\\students\\employeehw\\employeehw\\employeeproj\\employeeproj\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0378B1BD-7BCF-4AC7-B2E8-DC7407614D31}|employeeproj\\employeeproj.csproj|solutionrelative:employeeproj\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0378B1BD-7BCF-4AC7-B2E8-DC7407614D31}|employeeproj\\employeeproj.csproj|d:\\r61\\m14\\students\\employeehw\\employeehw\\employeeproj\\employeeproj\\migrations\\20250422130326_gg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0378B1BD-7BCF-4AC7-B2E8-DC7407614D31}|employeeproj\\employeeproj.csproj|solutionrelative:employeeproj\\migrations\\20250422130326_gg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0378B1BD-7BCF-4AC7-B2E8-DC7407614D31}|employeeproj\\employeeproj.csproj|d:\\r61\\m14\\students\\employeehw\\employeehw\\employeeproj\\employeeproj\\migrations\\20250422115359_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0378B1BD-7BCF-4AC7-B2E8-DC7407614D31}|employeeproj\\employeeproj.csproj|solutionrelative:employeeproj\\migrations\\20250422115359_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0378B1BD-7BCF-4AC7-B2E8-DC7407614D31}|employeeproj\\employeeproj.csproj|d:\\r61\\m14\\students\\employeehw\\employeehw\\employeeproj\\employeeproj\\migrations\\20250422120003_ff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0378B1BD-7BCF-4AC7-B2E8-DC7407614D31}|employeeproj\\employeeproj.csproj|solutionrelative:employeeproj\\migrations\\20250422120003_ff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeeproj\\employeeproj\\appsettings.json",
+              "RelativeDocumentMoniker": "employeeproj\\appsettings.json",
+              "ToolTip": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeeproj\\employeeproj\\appsettings.json",
+              "RelativeToolTip": "employeeproj\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-22T11:44:28.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeVM.cs",
+              "DocumentMoniker": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeeproj\\employeeproj\\ViewModel\\EmployeeVM.cs",
+              "RelativeDocumentMoniker": "employeeproj\\ViewModel\\EmployeeVM.cs",
+              "ToolTip": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeeproj\\employeeproj\\ViewModel\\EmployeeVM.cs",
+              "RelativeToolTip": "employeeproj\\ViewModel\\EmployeeVM.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T11:43:26.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Modelcontext.cs",
+              "DocumentMoniker": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeeproj\\employeeproj\\Models\\Modelcontext.cs",
+              "RelativeDocumentMoniker": "employeeproj\\Models\\Modelcontext.cs",
+              "ToolTip": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeeproj\\employeeproj\\Models\\Modelcontext.cs",
+              "RelativeToolTip": "employeeproj\\Models\\Modelcontext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAawBgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T11:03:34.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeDTO.cs",
+              "DocumentMoniker": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeeproj\\employeeproj\\DTO\\EmployeeDTO.cs",
+              "RelativeDocumentMoniker": "employeeproj\\DTO\\EmployeeDTO.cs",
+              "ToolTip": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeeproj\\employeeproj\\DTO\\EmployeeDTO.cs",
+              "RelativeToolTip": "employeeproj\\DTO\\EmployeeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T11:42:11.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeeproj\\employeeproj\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "employeeproj\\Controllers\\EmployeesController.cs",
+              "ToolTip": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeeproj\\employeeproj\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "employeeproj\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAjwFwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T12:07:20.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeeproj\\employeeproj\\Program.cs",
+              "RelativeDocumentMoniker": "employeeproj\\Program.cs",
+              "ToolTip": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeeproj\\employeeproj\\Program.cs",
+              "RelativeToolTip": "employeeproj\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T11:45:28.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeTaskVM.cs",
+              "DocumentMoniker": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeeproj\\employeeproj\\ViewModel\\EmployeeTaskVM.cs",
+              "RelativeDocumentMoniker": "employeeproj\\ViewModel\\EmployeeTaskVM.cs",
+              "ToolTip": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeeproj\\employeeproj\\ViewModel\\EmployeeTaskVM.cs",
+              "RelativeToolTip": "employeeproj\\ViewModel\\EmployeeTaskVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:17:03.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250422130326_gg.cs",
+              "DocumentMoniker": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeeproj\\employeeproj\\Migrations\\20250422130326_gg.cs",
+              "RelativeDocumentMoniker": "employeeproj\\Migrations\\20250422130326_gg.cs",
+              "ToolTip": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeeproj\\employeeproj\\Migrations\\20250422130326_gg.cs",
+              "RelativeToolTip": "employeeproj\\Migrations\\20250422130326_gg.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:03:27.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250422115359_init.cs",
+              "DocumentMoniker": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeeproj\\employeeproj\\Migrations\\20250422115359_init.cs",
+              "RelativeDocumentMoniker": "employeeproj\\Migrations\\20250422115359_init.cs",
+              "ToolTip": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeeproj\\employeeproj\\Migrations\\20250422115359_init.cs",
+              "RelativeToolTip": "employeeproj\\Migrations\\20250422115359_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T11:54:00.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250422120003_ff.cs",
+              "DocumentMoniker": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeeproj\\employeeproj\\Migrations\\20250422120003_ff.cs",
+              "RelativeDocumentMoniker": "employeeproj\\Migrations\\20250422120003_ff.cs",
+              "ToolTip": "D:\\R61\\M14\\Students\\employeehw\\employeehw\\employeeproj\\employeeproj\\Migrations\\20250422120003_ff.cs",
+              "RelativeToolTip": "employeeproj\\Migrations\\20250422120003_ff.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T12:00:03.858Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

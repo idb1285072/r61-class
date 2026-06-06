@@ -1,0 +1,79 @@
+﻿@page "/create"
+@using employeemaui.Models
+@using employeemaui.Service
+@using employeemaui.ViewModel
+@inject EmployeeService service
+@inject NavigationManager Navigation
+@inject IJSRuntime jSRuntime
+
+<h3>@(employee.Id == 0 ? "Add New Employee" : "Edit Employee")</h3>
+
+<EditForm Model="@employee" OnValidSubmit="HandleSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="EmployeeName">Employee Name:</label>
+        <InputText id="EmployeeName" class="form-control" @bind-Value="employee.EmployeeName" />
+    </div>
+
+    <div class="form-group">
+        <label for="Birthdate">Birthdate:</label>
+        <InputDate id="Birthdate" class="form-control" @bind-Value="employee.Birthdate" />
+    </div>
+
+    <div class="form-group">
+        <label for="PhoneNo">Phone Number:</label>
+        <InputText id="PhoneNo" class="form-control" @bind-Value="employee.PhoneNo" />
+    </div>
+
+    <div class="form-group">
+        <label for="MaritalStatus">Marital Status:</label>
+        <InputRadioGroup id="MaritalStatus" @bind-Value="employee.MaritalStatus">
+            <InputRadio id="Married" value="true" /> Married
+            <InputRadio id="Unmarried" value="false" /> Unmarried
+        </InputRadioGroup>
+    </div>
+
+    <div class="form-group">
+        <label for="PictureFile">Upload Picture:</label>
+        <InputFile id="PictureFile" class="form-control" OnChange="HandleFileSelected" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+</EditForm>
+
+@code {
+    private EmployeeVM employee = new EmployeeVM();
+    private IBrowserFile selectedFile;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (Navigation.Uri.Contains("/edit/"))
+        {
+            var id = int.Parse(Navigation.Uri.Split("/edit/")[1]);
+            employee = await service.GetEmployeeByIdAsync(id);
+        }
+    }
+
+    private async Task HandleSubmit()
+    {
+        var response = employee.Id == 0
+            ? await service.CreateEmployeeAsync(employee, selectedFile)
+            : await service.UpdateEmployeeAsync(employee, selectedFile);
+
+        if (response.IsSuccessStatusCode)
+        {
+            Navigation.NavigateTo("/employees");
+        }
+        else
+        {
+            await jSRuntime.InvokeVoidAsync("alert", "Failed to save employee.");
+        }
+    }
+
+    private void HandleFileSelected(InputFileChangeEventArgs e)
+    {
+        selectedFile = e.File;
+    }
+}

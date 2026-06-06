@@ -1,0 +1,142 @@
+﻿@page "/employee"
+@using employeemaui.Models
+@using employeemaui.Service
+@using employeemaui.ViewModel
+@inject EmployeeService service
+@inject IJSRuntime jSRuntime
+
+@{
+    string API_URL = "https://localhost:7022";
+}
+
+<h3>Employee List</h3>
+<div class="d-flex justify-content-end mb-2">
+    <a class="btn btn-primary btn-sm" href="create">Add New</a>
+</div>
+
+@if (all is null)
+{
+    <div class="d-flex justify-content-center mt-5">
+        <img src="/Images/loading.gif" />
+    </div>
+}
+@if (all is not null)
+{
+    @if (all.Count == 0)
+    {
+        <div class="alert alert-info">Employee Data Not Found!</div>
+        return;
+    }
+
+    @foreach (var employee in all)
+    {
+        <div class="card">
+            <table class="table table-bordered">
+                <thead class="table table-info">
+                    <tr>
+                        <td>Picture</td>
+                        <td>Name</td>
+                        <td>BirthDate</td>
+                        <td>Status</td>
+                        <td>Contact</td>
+                        <td>Action</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                           
+                            <img src="@API_URL/Images/@employee.Picture" width="70" class="mr-2" />
+                        </td>
+                        <td>@employee.EmployeeName</td>
+                        <td>@employee.Birthdate.ToShortDateString()</td>
+                        <td>@(employee.MaritalStatus ? "Married" : "Unmarried")</td>
+                        <td>@employee.PhoneNo</td>
+
+                        <td>
+                            <a class="btn btn-success" href="/edit/@employee.Id">Edit</a>
+                            <a class="btn btn-danger" @onclick="@(() => ConfirmDelete(employee.Id))">Delete</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="card-body">
+                <table class="table table-bordered table-striped table-sm">
+                    @if (employee.Details is not null)
+                    {
+                        @if (employee.Details?.Count == 0)
+                        {
+                            <tr>
+                                <td>
+                                    <div class="alert alert-info">Task Data Not Found!</div>
+                                </td>
+                            </tr>
+                        }
+                        else
+                        {
+                            <thead class="table table-danger">
+                                <tr>
+                                    <th>Task ID</th>
+                                    <th>Task Name</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if(employee.Details is not null)
+                                {
+                                    @foreach (var singleEntry in employee.Details)
+                                    {
+                                        <tr>
+                                            <td>@singleEntry.EmployeeTaskId</td>
+                                            <td>@singleEntry?.EmployeeTask?.TaskName</td>
+                                        </tr>
+                                    }
+                                }
+                               
+                                </tbody>
+                            }
+                        }
+                    </table>
+                </div>
+            </div>
+        }
+    
+}
+
+@code {
+    List<Employee> all = new List<Employee>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadData();
+    }
+
+    private async Task LoadData()
+    {
+        all = await service.GetAllEmployeesAsync();
+        Console.WriteLine($"Loaded {all?.Count} employees");
+    }
+
+    private async Task ConfirmDelete(int id)
+    {
+        bool confirmed = await jSRuntime.InvokeAsync<bool>("confirm", $"Are you sure you want to delete this employee (ID: {id})?");
+
+        if (confirmed)
+        {
+            var response = await service.DeleteEmployeeAsync(id);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var item = all.FirstOrDefault(c => c.Id == id);
+                if (item != null)
+                    all.Remove(item);
+
+                StateHasChanged();  // Refresh the UI after removing the item
+            }
+            else
+            {
+                await jSRuntime.InvokeVoidAsync("alert", "Failed to delete employee.");
+            }
+        }
+    }
+}

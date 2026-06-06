@@ -1,0 +1,77 @@
+﻿@page "/question"
+@using MauiApp1.Shared.Models
+@using MauiApp1.Shared.Repositories
+ 
+
+@if (paper is not null)
+{
+    <div class="border p-3 mb-4">
+        <h1 class="text-center mt-5">@paper.Institute</h1>
+        <h3 class="text-center">@paper.Program</h3>
+        <h3 class="text-center">@paper.ExamName - @paper.Year</h3>
+        <h3 class="text-center">পর্ব: @paper.Semester</h3>
+        <h3 class="text-center">টেকনোলজি: @paper.Department</h3>
+        <div class="row">
+            <h3 class="col-md-8">বিষয়: @paper.Subject</h3>
+            <h3 class="col-md-4">বিষয় কোড : ( @paper.SubjectCode )</h3>
+        </div>
+        <div class="row">
+            <h3 class="col-md-8"><span>সময়: @paper.Duration ঘন্টা</span> </h3>
+            <h3 class="col-md-4">পূর্ণমান: ( @paper.FullMarks )</h3>
+        </div>
+
+        <p class="text-center">@paper.Note</p>
+
+        <p class="mb-5 text-center">@paper.SectionA (মান: @paper.MarksA x 4 = @(paper.MarksA * 4))</p><br />
+        <ol>
+            <li> @paper.Question_A1 </li>
+            <li> @paper.Question_A2 </li>
+            <li> @paper.Question_A3 </li>
+            <li> @paper.Question_A4 </li>
+        </ol>
+
+        <p class="mb-5 text-center">@paper.SectionB (মান: @paper.MarksB x 2 = @(paper.MarksB * 2))</p><br />
+        <ol>
+            <li> @paper.Question_B1 </li>
+            <li> @paper.Question_B2 </li>
+        </ol>
+
+        <p class="mb-5 text-center">@paper.SectionC (মান: @paper.MarksC x 2 = @(paper.MarksC * 2))</p><br />
+        <ol>
+            <li> @paper.Question_C1 </li>
+            <li> @paper.Question_C2 </li>
+        </ol>
+
+        @* <h4>[ @paper.]</h4> *@
+
+
+        @* <ol>
+            @foreach (var q in paper.Questions)
+            {
+                <li class="mt-5">
+                    <p class="mb-5 text-center">@q.Section (মান: @q.Marks x @q.QuestionText.Length = @(q.Marks * q.QuestionText.Length))</p><br />
+                    <p> @q.QuestionText </p><br />
+                </li>
+            }
+        </ol> *@
+
+        <a asp-action="Edit" asp-route-id="@paper.Id" class="btn btn-success"> Edit </a>
+        @* <a asp-action="Delete" asp-route-id="@paper.Id">Delete</a> | *@
+        @* <a asp-action="ExportPdf" asp-route-id="@paper.Id">Export PDF</a> *@
+        @* <a asp-action="Print" asp-route-id="@paper.Id" target="_blank">Print</a> *@
+        <a asp-action="ExportPdf" asp-route-id="@paper.Id" class="btn btn-primary" target="_blank">
+            Export to PDF
+        </a>
+    </div>
+}
+
+@code {
+
+    public QuestionPaper paper { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        paper = QuestionRepo.Get();
+        
+    }
+
+}
