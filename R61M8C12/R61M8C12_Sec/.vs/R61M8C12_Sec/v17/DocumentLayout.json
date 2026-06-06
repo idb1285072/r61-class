@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\R61\\M8\\R61M8C12\\R61M8C12_Sec\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C15791D-3718-43CB-AD52-85F38B668DFD}|R61M8C12_Sec\\R61M8C12_Sec.csproj|d:\\r61\\m8\\r61m8c12\\r61m8c12_sec\\r61m8c12_sec\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C15791D-3718-43CB-AD52-85F38B668DFD}|R61M8C12_Sec\\R61M8C12_Sec.csproj|solutionrelative:r61m8c12_sec\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C15791D-3718-43CB-AD52-85F38B668DFD}|R61M8C12_Sec\\R61M8C12_Sec.csproj|d:\\r61\\m8\\r61m8c12\\r61m8c12_sec\\r61m8c12_sec\\app_start\\startup.auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C15791D-3718-43CB-AD52-85F38B668DFD}|R61M8C12_Sec\\R61M8C12_Sec.csproj|solutionrelative:r61m8c12_sec\\app_start\\startup.auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C15791D-3718-43CB-AD52-85F38B668DFD}|R61M8C12_Sec\\R61M8C12_Sec.csproj|d:\\r61\\m8\\r61m8c12\\r61m8c12_sec\\r61m8c12_sec\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C15791D-3718-43CB-AD52-85F38B668DFD}|R61M8C12_Sec\\R61M8C12_Sec.csproj|solutionrelative:r61m8c12_sec\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C15791D-3718-43CB-AD52-85F38B668DFD}|R61M8C12_Sec\\R61M8C12_Sec.csproj|d:\\r61\\m8\\r61m8c12\\r61m8c12_sec\\r61m8c12_sec\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C15791D-3718-43CB-AD52-85F38B668DFD}|R61M8C12_Sec\\R61M8C12_Sec.csproj|solutionrelative:r61m8c12_sec\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C15791D-3718-43CB-AD52-85F38B668DFD}|R61M8C12_Sec\\R61M8C12_Sec.csproj|d:\\r61\\m8\\r61m8c12\\r61m8c12_sec\\r61m8c12_sec\\providers\\applicationoauthprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C15791D-3718-43CB-AD52-85F38B668DFD}|R61M8C12_Sec\\R61M8C12_Sec.csproj|solutionrelative:r61m8c12_sec\\providers\\applicationoauthprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C15791D-3718-43CB-AD52-85F38B668DFD}|R61M8C12_Sec\\R61M8C12_Sec.csproj|d:\\r61\\m8\\r61m8c12\\r61m8c12_sec\\r61m8c12_sec\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C15791D-3718-43CB-AD52-85F38B668DFD}|R61M8C12_Sec\\R61M8C12_Sec.csproj|solutionrelative:r61m8c12_sec\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C15791D-3718-43CB-AD52-85F38B668DFD}|R61M8C12_Sec\\R61M8C12_Sec.csproj|d:\\r61\\m8\\r61m8c12\\r61m8c12_sec\\r61m8c12_sec\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C15791D-3718-43CB-AD52-85F38B668DFD}|R61M8C12_Sec\\R61M8C12_Sec.csproj|solutionrelative:r61m8c12_sec\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C15791D-3718-43CB-AD52-85F38B668DFD}|R61M8C12_Sec\\R61M8C12_Sec.csproj|d:\\r61\\m8\\r61m8c12\\r61m8c12_sec\\r61m8c12_sec\\areas\\helppage\\controllers\\helpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C15791D-3718-43CB-AD52-85F38B668DFD}|R61M8C12_Sec\\R61M8C12_Sec.csproj|solutionrelative:r61m8c12_sec\\areas\\helppage\\controllers\\helpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C15791D-3718-43CB-AD52-85F38B668DFD}|R61M8C12_Sec\\R61M8C12_Sec.csproj|d:\\r61\\m8\\r61m8c12\\r61m8c12_sec\\r61m8c12_sec\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C15791D-3718-43CB-AD52-85F38B668DFD}|R61M8C12_Sec\\R61M8C12_Sec.csproj|solutionrelative:r61m8c12_sec\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C15791D-3718-43CB-AD52-85F38B668DFD}|R61M8C12_Sec\\R61M8C12_Sec.csproj|d:\\r61\\m8\\r61m8c12\\r61m8c12_sec\\r61m8c12_sec\\app_start\\identityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C15791D-3718-43CB-AD52-85F38B668DFD}|R61M8C12_Sec\\R61M8C12_Sec.csproj|solutionrelative:r61m8c12_sec\\app_start\\identityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C15791D-3718-43CB-AD52-85F38B668DFD}|R61M8C12_Sec\\R61M8C12_Sec.csproj|d:\\r61\\m8\\r61m8c12\\r61m8c12_sec\\r61m8c12_sec\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C15791D-3718-43CB-AD52-85F38B668DFD}|R61M8C12_Sec\\R61M8C12_Sec.csproj|solutionrelative:r61m8c12_sec\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\R61\\M8\\R61M8C12\\R61M8C12_Sec\\R61M8C12_Sec\\Startup.cs",
+              "RelativeDocumentMoniker": "R61M8C12_Sec\\Startup.cs",
+              "ToolTip": "D:\\R61\\M8\\R61M8C12\\R61M8C12_Sec\\R61M8C12_Sec\\Startup.cs",
+              "RelativeToolTip": "R61M8C12_Sec\\Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T04:49:24.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "D:\\R61\\M8\\R61M8C12\\R61M8C12_Sec\\R61M8C12_Sec\\Global.asax.cs",
+              "RelativeDocumentMoniker": "R61M8C12_Sec\\Global.asax.cs",
+              "ToolTip": "D:\\R61\\M8\\R61M8C12\\R61M8C12_Sec\\R61M8C12_Sec\\Global.asax.cs",
+              "RelativeToolTip": "R61M8C12_Sec\\Global.asax.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T04:49:18.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\R61\\M8\\R61M8C12\\R61M8C12_Sec\\R61M8C12_Sec\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "R61M8C12_Sec\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\R61\\M8\\R61M8C12\\R61M8C12_Sec\\R61M8C12_Sec\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "R61M8C12_Sec\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-20T04:48:42.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationOAuthProvider.cs",
+              "DocumentMoniker": "D:\\R61\\M8\\R61M8C12\\R61M8C12_Sec\\R61M8C12_Sec\\Providers\\ApplicationOAuthProvider.cs",
+              "RelativeDocumentMoniker": "R61M8C12_Sec\\Providers\\ApplicationOAuthProvider.cs",
+              "ToolTip": "D:\\R61\\M8\\R61M8C12\\R61M8C12_Sec\\R61M8C12_Sec\\Providers\\ApplicationOAuthProvider.cs",
+              "RelativeToolTip": "R61M8C12_Sec\\Providers\\ApplicationOAuthProvider.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T04:47:18.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HelpController.cs",
+              "DocumentMoniker": "D:\\R61\\M8\\R61M8C12\\R61M8C12_Sec\\R61M8C12_Sec\\Areas\\HelpPage\\Controllers\\HelpController.cs",
+              "RelativeDocumentMoniker": "R61M8C12_Sec\\Areas\\HelpPage\\Controllers\\HelpController.cs",
+              "ToolTip": "D:\\R61\\M8\\R61M8C12\\R61M8C12_Sec\\R61M8C12_Sec\\Areas\\HelpPage\\Controllers\\HelpController.cs",
+              "RelativeToolTip": "R61M8C12_Sec\\Areas\\HelpPage\\Controllers\\HelpController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T04:46:31.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "D:\\R61\\M8\\R61M8C12\\R61M8C12_Sec\\R61M8C12_Sec\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "R61M8C12_Sec\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "D:\\R61\\M8\\R61M8C12\\R61M8C12_Sec\\R61M8C12_Sec\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "R61M8C12_Sec\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T04:46:15.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\R61\\M8\\R61M8C12\\R61M8C12_Sec\\R61M8C12_Sec\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "R61M8C12_Sec\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\R61\\M8\\R61M8C12\\R61M8C12_Sec\\R61M8C12_Sec\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "R61M8C12_Sec\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T04:16:33.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.Auth.cs",
+              "DocumentMoniker": "D:\\R61\\M8\\R61M8C12\\R61M8C12_Sec\\R61M8C12_Sec\\App_Start\\Startup.Auth.cs",
+              "RelativeDocumentMoniker": "R61M8C12_Sec\\App_Start\\Startup.Auth.cs",
+              "ToolTip": "D:\\R61\\M8\\R61M8C12\\R61M8C12_Sec\\R61M8C12_Sec\\App_Start\\Startup.Auth.cs",
+              "RelativeToolTip": "R61M8C12_Sec\\App_Start\\Startup.Auth.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T04:02:22.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IdentityModels.cs",
+              "DocumentMoniker": "D:\\R61\\M8\\R61M8C12\\R61M8C12_Sec\\R61M8C12_Sec\\Models\\IdentityModels.cs",
+              "RelativeDocumentMoniker": "R61M8C12_Sec\\Models\\IdentityModels.cs",
+              "ToolTip": "D:\\R61\\M8\\R61M8C12\\R61M8C12_Sec\\R61M8C12_Sec\\Models\\IdentityModels.cs",
+              "RelativeToolTip": "R61M8C12_Sec\\Models\\IdentityModels.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAswCYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T03:59:21.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\R61\\M8\\R61M8C12\\R61M8C12_Sec\\R61M8C12_Sec\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "R61M8C12_Sec\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\R61\\M8\\R61M8C12\\R61M8C12_Sec\\R61M8C12_Sec\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "R61M8C12_Sec\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAADoBAAAAAAAAAAAuwEEBAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T04:07:48.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IdentityConfig.cs",
+              "DocumentMoniker": "D:\\R61\\M8\\R61M8C12\\R61M8C12_Sec\\R61M8C12_Sec\\App_Start\\IdentityConfig.cs",
+              "RelativeDocumentMoniker": "R61M8C12_Sec\\App_Start\\IdentityConfig.cs",
+              "ToolTip": "D:\\R61\\M8\\R61M8C12\\R61M8C12_Sec\\R61M8C12_Sec\\App_Start\\IdentityConfig.cs",
+              "RelativeToolTip": "R61M8C12_Sec\\App_Start\\IdentityConfig.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwCIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T03:57:19.137Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
