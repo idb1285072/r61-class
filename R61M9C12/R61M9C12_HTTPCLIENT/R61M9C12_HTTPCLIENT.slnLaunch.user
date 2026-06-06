@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "R61M9C12_HTTPCLIENT\\R61M9C12_HTTPCLIENT.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "R61M9C12_MVCClient\\R61M9C12_MVCClient.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R61M9C12_HTTPCLIENT", "R61M9C12_HTTPCLIENT\R61M9C12_HTTPCLIENT.csproj", "{61254E53-FA82-4872-B3F9-305A47727DDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R61M9C12_MVCClient", "R61M9C12_MVCClient\R61M9C12_MVCClient.csproj", "{F938E177-2D06-4E17-95AA-CE1467C547D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61254E53-FA82-4872-B3F9-305A47727DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61254E53-FA82-4872-B3F9-305A47727DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61254E53-FA82-4872-B3F9-305A47727DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61254E53-FA82-4872-B3F9-305A47727DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F938E177-2D06-4E17-95AA-CE1467C547D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F938E177-2D06-4E17-95AA-CE1467C547D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F938E177-2D06-4E17-95AA-CE1467C547D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F938E177-2D06-4E17-95AA-CE1467C547D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

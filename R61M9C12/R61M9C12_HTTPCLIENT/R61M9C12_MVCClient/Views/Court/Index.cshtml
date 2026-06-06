@@ -1,0 +1,48 @@
+﻿@model IEnumerable<R61M9C12_MVCClient.DTOs.CourtVM>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+@if(ViewBag.err!=null){
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Error!</strong> @ViewBag.err
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CourtId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CourtName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CourtId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CourtName)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.CourtId }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.CourtId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.CourtId })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,348 @@
+[
+  {
+    "ContainingType": "R61M9C12_HTTPCLIENT.Controllers.CaseMastersController",
+    "Method": "GetCaseMasters",
+    "RelativePath": "api/CaseMasters",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[R61M9C12_HTTPCLIENT.Models.CaseMaster, R61M9C12_HTTPCLIENT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "R61M9C12_HTTPCLIENT.Controllers.CaseMastersController",
+    "Method": "PostCaseMaster",
+    "RelativePath": "api/CaseMasters",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "caseMaster",
+        "Type": "R61M9C12_HTTPCLIENT.Models.CaseMaster",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "R61M9C12_HTTPCLIENT.Models.CaseMaster",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "R61M9C12_HTTPCLIENT.Controllers.CaseMastersController",
+    "Method": "GetCaseMaster",
+    "RelativePath": "api/CaseMasters/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "R61M9C12_HTTPCLIENT.Models.CaseMaster",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "R61M9C12_HTTPCLIENT.Controllers.CaseMastersController",
+    "Method": "PutCaseMaster",
+    "RelativePath": "api/CaseMasters/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "caseMaster",
+        "Type": "R61M9C12_HTTPCLIENT.Models.CaseMaster",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "R61M9C12_HTTPCLIENT.Controllers.CaseMastersController",
+    "Method": "DeleteCaseMaster",
+    "RelativePath": "api/CaseMasters/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "R61M9C12_HTTPCLIENT.Controllers.CourtsController",
+    "Method": "GetCourts",
+    "RelativePath": "api/Courts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[R61M9C12_HTTPCLIENT.Models.Court, R61M9C12_HTTPCLIENT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "R61M9C12_HTTPCLIENT.Controllers.CourtsController",
+    "Method": "PostCourt",
+    "RelativePath": "api/Courts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "court",
+        "Type": "R61M9C12_HTTPCLIENT.Models.Court",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "R61M9C12_HTTPCLIENT.Models.Court",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "R61M9C12_HTTPCLIENT.Controllers.CourtsController",
+    "Method": "GetCourt",
+    "RelativePath": "api/Courts/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "R61M9C12_HTTPCLIENT.Models.Court",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "R61M9C12_HTTPCLIENT.Controllers.CourtsController",
+    "Method": "PutCourt",
+    "RelativePath": "api/Courts/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "court",
+        "Type": "R61M9C12_HTTPCLIENT.Models.Court",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "R61M9C12_HTTPCLIENT.Controllers.CourtsController",
+    "Method": "DeleteCourt",
+    "RelativePath": "api/Courts/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "R61M9C12_HTTPCLIENT.Controllers.SectionsController",
+    "Method": "GetSections",
+    "RelativePath": "api/Sections",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[R61M9C12_HTTPCLIENT.Models.Section, R61M9C12_HTTPCLIENT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "R61M9C12_HTTPCLIENT.Controllers.SectionsController",
+    "Method": "PostSection",
+    "RelativePath": "api/Sections",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "section",
+        "Type": "R61M9C12_HTTPCLIENT.Models.Section",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "R61M9C12_HTTPCLIENT.Models.Section",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "R61M9C12_HTTPCLIENT.Controllers.SectionsController",
+    "Method": "GetSection",
+    "RelativePath": "api/Sections/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "R61M9C12_HTTPCLIENT.Models.Section",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "R61M9C12_HTTPCLIENT.Controllers.SectionsController",
+    "Method": "PutSection",
+    "RelativePath": "api/Sections/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "section",
+        "Type": "R61M9C12_HTTPCLIENT.Models.Section",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "R61M9C12_HTTPCLIENT.Controllers.SectionsController",
+    "Method": "DeleteSection",
+    "RelativePath": "api/Sections/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec__DisplayClass0_0",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__2",
+    "RelativePath": "weatherforecast",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WeatherForecast[]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

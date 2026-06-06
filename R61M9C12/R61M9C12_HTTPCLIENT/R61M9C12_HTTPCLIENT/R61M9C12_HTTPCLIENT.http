@@ -1,0 +1,6 @@
+@R61M9C12_HTTPCLIENT_HostAddress = http://localhost:5246
+
+GET {{R61M9C12_HTTPCLIENT_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
