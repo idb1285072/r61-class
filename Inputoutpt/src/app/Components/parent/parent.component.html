@@ -1,0 +1,7 @@
+<p>parent works!</p>
+<app-child [message]="ParentMessage"
+ [stdobj]="stdarr"  ></app-child>
+
+ <p>Received from child :  {{childMag}}</p>
+<!-- {{student|json}} -->
+ <app-btn61 [btnText]="txt" (btnclickEvent)="GetData($event)"></app-btn61>
