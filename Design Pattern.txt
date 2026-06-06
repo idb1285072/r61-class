@@ -1,0 +1,6 @@
+https://springframework.guru/gang-of-four-design-patterns/
+https://www.geeksforgeeks.org/design-patterns-in-c-sharp/
+https://www.c-sharpcorner.com/UploadFile/bd5be5/design-patterns-in-net/
+https://dotnettutorials.net/course/dot-net-design-patterns/#google_vignette
+https://dotnettutorials.net/course/dot-net-design-patterns/
+
