@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\R61\\Final Project_U\\Final Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A10C390-6D8B-4603-85BD-8CF0A3699CEF}|Final Project_API\\Final Project_API.csproj|d:\\r61\\final project_u\\final project\\final project_api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A10C390-6D8B-4603-85BD-8CF0A3699CEF}|Final Project_API\\Final Project_API.csproj|solutionrelative:final project_api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A10C390-6D8B-4603-85BD-8CF0A3699CEF}|Final Project_API\\Final Project_API.csproj|d:\\r61\\final project_u\\final project\\final project_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A10C390-6D8B-4603-85BD-8CF0A3699CEF}|Final Project_API\\Final Project_API.csproj|solutionrelative:final project_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A10C390-6D8B-4603-85BD-8CF0A3699CEF}|Final Project_API\\Final Project_API.csproj|d:\\r61\\final project_u\\final project\\final project_api\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A10C390-6D8B-4603-85BD-8CF0A3699CEF}|Final Project_API\\Final Project_API.csproj|solutionrelative:final project_api\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1615A2F-3E86-470F-883C-8693874D8056}|Final Project_CORE\\Final Project_CORE.csproj|d:\\r61\\final project_u\\final project\\final project_core\\models\\invcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1615A2F-3E86-470F-883C-8693874D8056}|Final Project_CORE\\Final Project_CORE.csproj|solutionrelative:final project_core\\models\\invcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A10C390-6D8B-4603-85BD-8CF0A3699CEF}|Final Project_API\\Final Project_API.csproj|d:\\r61\\final project_u\\final project\\final project_api\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A10C390-6D8B-4603-85BD-8CF0A3699CEF}|Final Project_API\\Final Project_API.csproj|solutionrelative:final project_api\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A10C390-6D8B-4603-85BD-8CF0A3699CEF}|Final Project_API\\Final Project_API.csproj|d:\\r61\\final project_u\\final project\\final project_api\\tokenutility\\tokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A10C390-6D8B-4603-85BD-8CF0A3699CEF}|Final Project_API\\Final Project_API.csproj|solutionrelative:final project_api\\tokenutility\\tokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1615A2F-3E86-470F-883C-8693874D8056}|Final Project_CORE\\Final Project_CORE.csproj|d:\\r61\\final project_u\\final project\\final project_core\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1615A2F-3E86-470F-883C-8693874D8056}|Final Project_CORE\\Final Project_CORE.csproj|solutionrelative:final project_core\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1615A2F-3E86-470F-883C-8693874D8056}|Final Project_CORE\\Final Project_CORE.csproj|d:\\r61\\final project_u\\final project\\final project_core\\infrastructure\\base\\genericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1615A2F-3E86-470F-883C-8693874D8056}|Final Project_CORE\\Final Project_CORE.csproj|solutionrelative:final project_core\\infrastructure\\base\\genericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1615A2F-3E86-470F-883C-8693874D8056}|Final Project_CORE\\Final Project_CORE.csproj|d:\\r61\\final project_u\\final project\\final project_core\\infrastructure\\base\\igenericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1615A2F-3E86-470F-883C-8693874D8056}|Final Project_CORE\\Final Project_CORE.csproj|solutionrelative:final project_core\\infrastructure\\base\\igenericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1615A2F-3E86-470F-883C-8693874D8056}|Final Project_CORE\\Final Project_CORE.csproj|d:\\r61\\final project_u\\final project\\final project_core\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1615A2F-3E86-470F-883C-8693874D8056}|Final Project_CORE\\Final Project_CORE.csproj|solutionrelative:final project_core\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A10C390-6D8B-4603-85BD-8CF0A3699CEF}|Final Project_API\\Final Project_API.csproj|d:\\r61\\final project_u\\final project\\final project_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0A10C390-6D8B-4603-85BD-8CF0A3699CEF}|Final Project_API\\Final Project_API.csproj|solutionrelative:final project_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1615A2F-3E86-470F-883C-8693874D8056}|Final Project_CORE\\Final Project_CORE.csproj|d:\\r61\\final project_u\\final project\\final project_core\\infrastructure\\base\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1615A2F-3E86-470F-883C-8693874D8056}|Final Project_CORE\\Final Project_CORE.csproj|solutionrelative:final project_core\\infrastructure\\base\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1615A2F-3E86-470F-883C-8693874D8056}|Final Project_CORE\\Final Project_CORE.csproj|d:\\r61\\final project_u\\final project\\final project_core\\infrastructure\\repositories\\caterepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1615A2F-3E86-470F-883C-8693874D8056}|Final Project_CORE\\Final Project_CORE.csproj|solutionrelative:final project_core\\infrastructure\\repositories\\caterepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1615A2F-3E86-470F-883C-8693874D8056}|Final Project_CORE\\Final Project_CORE.csproj|d:\\r61\\final project_u\\final project\\final project_core\\infrastructure\\base\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1615A2F-3E86-470F-883C-8693874D8056}|Final Project_CORE\\Final Project_CORE.csproj|solutionrelative:final project_core\\infrastructure\\base\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1615A2F-3E86-470F-883C-8693874D8056}|Final Project_CORE\\Final Project_CORE.csproj|d:\\r61\\final project_u\\final project\\final project_core\\utility\\modelmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1615A2F-3E86-470F-883C-8693874D8056}|Final Project_CORE\\Final Project_CORE.csproj|solutionrelative:final project_core\\utility\\modelmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1615A2F-3E86-470F-883C-8693874D8056}|Final Project_CORE\\Final Project_CORE.csproj|d:\\r61\\final project_u\\final project\\final project_core\\final project_core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B1615A2F-3E86-470F-883C-8693874D8056}|Final Project_CORE\\Final Project_CORE.csproj|solutionrelative:final project_core\\final project_core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1615A2F-3E86-470F-883C-8693874D8056}|Final Project_CORE\\Final Project_CORE.csproj|d:\\r61\\final project_u\\final project\\final project_core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1615A2F-3E86-470F-883C-8693874D8056}|Final Project_CORE\\Final Project_CORE.csproj|solutionrelative:final project_core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "D:\\R61\\Final Project_U\\Final Project\\Final Project_API\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "Final Project_API\\Controllers\\AccountsController.cs",
+              "ToolTip": "D:\\R61\\Final Project_U\\Final Project\\Final Project_API\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "Final Project_API\\Controllers\\AccountsController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAUwCMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T05:52:03.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\R61\\Final Project_U\\Final Project\\Final Project_CORE\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Final Project_CORE\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\R61\\Final Project_U\\Final Project\\Final Project_CORE\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Final Project_CORE\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T05:48:38.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TokenManager.cs",
+              "DocumentMoniker": "D:\\R61\\Final Project_U\\Final Project\\Final Project_API\\TokenUtility\\TokenManager.cs",
+              "RelativeDocumentMoniker": "Final Project_API\\TokenUtility\\TokenManager.cs",
+              "ToolTip": "D:\\R61\\Final Project_U\\Final Project\\Final Project_API\\TokenUtility\\TokenManager.cs",
+              "RelativeToolTip": "Final Project_API\\TokenUtility\\TokenManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T05:36:47.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\R61\\Final Project_U\\Final Project\\Final Project_API\\Program.cs",
+              "RelativeDocumentMoniker": "Final Project_API\\Program.cs",
+              "ToolTip": "D:\\R61\\Final Project_U\\Final Project\\Final Project_API\\Program.cs",
+              "RelativeToolTip": "Final Project_API\\Program.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAuwFsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T04:49:47.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\R61\\Final Project_U\\Final Project\\Final Project_API\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Final Project_API\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\R61\\Final Project_U\\Final Project\\Final Project_API\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Final Project_API\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T04:37:33.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CateRepo.cs",
+              "DocumentMoniker": "D:\\R61\\Final Project_U\\Final Project\\Final Project_CORE\\Infrastructure\\Repositories\\CateRepo.cs",
+              "RelativeDocumentMoniker": "Final Project_CORE\\Infrastructure\\Repositories\\CateRepo.cs",
+              "ToolTip": "D:\\R61\\Final Project_U\\Final Project\\Final Project_CORE\\Infrastructure\\Repositories\\CateRepo.cs",
+              "RelativeToolTip": "Final Project_CORE\\Infrastructure\\Repositories\\CateRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T04:14:52.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\R61\\Final Project_U\\Final Project\\Final Project_CORE\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Final Project_CORE\\Models\\Category.cs",
+              "ToolTip": "D:\\R61\\Final Project_U\\Final Project\\Final Project_CORE\\Models\\Category.cs",
+              "RelativeToolTip": "Final Project_CORE\\Models\\Category.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T04:14:01.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InvContext.cs",
+              "DocumentMoniker": "D:\\R61\\Final Project_U\\Final Project\\Final Project_CORE\\Models\\InvContext.cs",
+              "RelativeDocumentMoniker": "Final Project_CORE\\Models\\InvContext.cs",
+              "ToolTip": "D:\\R61\\Final Project_U\\Final Project\\Final Project_CORE\\Models\\InvContext.cs",
+              "RelativeToolTip": "Final Project_CORE\\Models\\InvContext.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T03:55:07.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\R61\\Final Project_U\\Final Project\\Final Project_API\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Final Project_API\\DTOs\\UserDTO.cs",
+              "ToolTip": "D:\\R61\\Final Project_U\\Final Project\\Final Project_API\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "Final Project_API\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T05:53:25.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\R61\\Final Project_U\\Final Project\\Final Project_CORE\\Infrastructure\\Base\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Final Project_CORE\\Infrastructure\\Base\\UnitOfWork.cs",
+              "ToolTip": "D:\\R61\\Final Project_U\\Final Project\\Final Project_CORE\\Infrastructure\\Base\\UnitOfWork.cs",
+              "RelativeToolTip": "Final Project_CORE\\Infrastructure\\Base\\UnitOfWork.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T03:43:01.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GenericRepo.cs",
+              "DocumentMoniker": "D:\\R61\\Final Project_U\\Final Project\\Final Project_CORE\\Infrastructure\\Base\\GenericRepo.cs",
+              "RelativeDocumentMoniker": "Final Project_CORE\\Infrastructure\\Base\\GenericRepo.cs",
+              "ToolTip": "D:\\R61\\Final Project_U\\Final Project\\Final Project_CORE\\Infrastructure\\Base\\GenericRepo.cs",
+              "RelativeToolTip": "Final Project_CORE\\Infrastructure\\Base\\GenericRepo.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAArwB4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T03:42:35.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IGenericRepo.cs",
+              "DocumentMoniker": "D:\\R61\\Final Project_U\\Final Project\\Final Project_CORE\\Infrastructure\\Base\\IGenericRepo.cs",
+              "RelativeDocumentMoniker": "Final Project_CORE\\Infrastructure\\Base\\IGenericRepo.cs",
+              "ToolTip": "D:\\R61\\Final Project_U\\Final Project\\Final Project_CORE\\Infrastructure\\Base\\IGenericRepo.cs",
+              "RelativeToolTip": "Final Project_CORE\\Infrastructure\\Base\\IGenericRepo.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIA2wBAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T03:41:56.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\R61\\Final Project_U\\Final Project\\Final Project_API\\appsettings.json",
+              "RelativeDocumentMoniker": "Final Project_API\\appsettings.json",
+              "ToolTip": "D:\\R61\\Final Project_U\\Final Project\\Final Project_API\\appsettings.json",
+              "RelativeToolTip": "Final Project_API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-15T04:58:22.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\R61\\Final Project_U\\Final Project\\Final Project_CORE\\Infrastructure\\Base\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Final Project_CORE\\Infrastructure\\Base\\IUnitOfWork.cs",
+              "ToolTip": "D:\\R61\\Final Project_U\\Final Project\\Final Project_CORE\\Infrastructure\\Base\\IUnitOfWork.cs",
+              "RelativeToolTip": "Final Project_CORE\\Infrastructure\\Base\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAApwA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T03:42:21.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Modelmessage.cs",
+              "DocumentMoniker": "D:\\R61\\Final Project_U\\Final Project\\Final Project_CORE\\Utility\\Modelmessage.cs",
+              "RelativeDocumentMoniker": "Final Project_CORE\\Utility\\Modelmessage.cs",
+              "ToolTip": "D:\\R61\\Final Project_U\\Final Project\\Final Project_CORE\\Utility\\Modelmessage.cs",
+              "RelativeToolTip": "Final Project_CORE\\Utility\\Modelmessage.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T04:05:53.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Final Project_CORE",
+              "DocumentMoniker": "D:\\R61\\Final Project_U\\Final Project\\Final Project_CORE\\Final Project_CORE.csproj",
+              "RelativeDocumentMoniker": "Final Project_CORE\\Final Project_CORE.csproj",
+              "ToolTip": "D:\\R61\\Final Project_U\\Final Project\\Final Project_CORE\\Final Project_CORE.csproj",
+              "RelativeToolTip": "Final Project_CORE\\Final Project_CORE.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-15T03:40:39.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\R61\\Final Project_U\\Final Project\\Final Project_CORE\\Class1.cs",
+              "RelativeDocumentMoniker": "Final Project_CORE\\Class1.cs",
+              "ToolTip": "D:\\R61\\Final Project_U\\Final Project\\Final Project_CORE\\Class1.cs",
+              "RelativeToolTip": "Final Project_CORE\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T03:40:07.425Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

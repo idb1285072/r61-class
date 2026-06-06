@@ -1,0 +1,12 @@
+D:\R61\Final Project_U\Final Project\Final Project_CORE\bin\Debug\net9.0\Final Project_CORE.deps.json
+D:\R61\Final Project_U\Final Project\Final Project_CORE\bin\Debug\net9.0\Final Project_CORE.dll
+D:\R61\Final Project_U\Final Project\Final Project_CORE\bin\Debug\net9.0\Final Project_CORE.pdb
+D:\R61\Final Project_U\Final Project\Final Project_CORE\obj\Debug\net9.0\Final Project_CORE.csproj.AssemblyReference.cache
+D:\R61\Final Project_U\Final Project\Final Project_CORE\obj\Debug\net9.0\Final Project_CORE.GeneratedMSBuildEditorConfig.editorconfig
+D:\R61\Final Project_U\Final Project\Final Project_CORE\obj\Debug\net9.0\Final Project_CORE.AssemblyInfoInputs.cache
+D:\R61\Final Project_U\Final Project\Final Project_CORE\obj\Debug\net9.0\Final Project_CORE.AssemblyInfo.cs
+D:\R61\Final Project_U\Final Project\Final Project_CORE\obj\Debug\net9.0\Final Project_CORE.csproj.CoreCompileInputs.cache
+D:\R61\Final Project_U\Final Project\Final Project_CORE\obj\Debug\net9.0\Final Project_CORE.dll
+D:\R61\Final Project_U\Final Project\Final Project_CORE\obj\Debug\net9.0\refint\Final Project_CORE.dll
+D:\R61\Final Project_U\Final Project\Final Project_CORE\obj\Debug\net9.0\Final Project_CORE.pdb
+D:\R61\Final Project_U\Final Project\Final Project_CORE\obj\Debug\net9.0\ref\Final Project_CORE.dll
