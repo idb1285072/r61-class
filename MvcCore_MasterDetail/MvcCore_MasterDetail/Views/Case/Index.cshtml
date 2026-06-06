@@ -1,0 +1,82 @@
+﻿@model IEnumerable<MvcCore_MasterDetail.Models.CaseMaster>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<div class="row">
+    <div class="col-12">
+        <h3>case List</h3>
+        <div class="d-flex justify-content-end mb-1">
+
+
+            <a href="@Url.Action("Create", "Case")" class="btn btn-primary btn-sm">Create New</a>
+        </div>
+        <table class="table table-bordered table-striped">
+            <thead class="table-light">
+                <tr>
+                    <th></th>
+                    <th>Case Number</th>
+                    <th>Source</th>
+                    <th> Date</th>
+                    <th>Status</th>
+                    <th>...</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var a in Model)
+                {
+                    <tr style="vertical-align:middle">
+                        <td><img src="~/Pictures/@a.Picture" class="img-thumbnail rounded-circle" style="width:50px" /></td>
+                        <td>@a.CaseNumber</td>
+                        <td>@a.Source</td>
+                        <td>@a.CaseDate.ToString("yyyy-MM-dd")</td>
+                        <td>@(a.Status ? "Yes" : "No")</td>
+                        <td>
+                            <a asp-action="Edit" asp-controller="Applicants" asp-route-id="@a.Id" class="btn btn-success btn-sm">Edit</a>
+                            <a asp-action="Delete" asp-controller="Applicants" asp-route-id="@a.Id" class="btn btn-danger btn-sm">Delete</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td colspan="5">
+                            <h4>Details</h4>
+                            <div class="d-flex justify-content-end mb-1">
+                                <a asp-controller="Applicants" asp-action="CreateQualification" asp-route-applicantId="@a.Id" class="btn btn-primary btn-sm">Create New</a>
+                            </div>
+                            <table class="table table-bordered">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>Comment</th>
+                                        <th>Currentdate</th>
+                                        <th>Nextdate </th>
+                                      
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var q in a.CaseDetails)
+                                    {
+                                        <tr>
+                                            <td>@q.Comment</td>
+                                            <td>@q.CurrentHearingDate</td>
+                                            <td>@q.NextHearingDate</td>
+                                          
+                                            <td>
+                                                <a class="btn btn-primary btn-sm" asp-action="EditQualification" asp-route-id="@q.Id" asp-controller="Case">Edit</a>
+                                                <a class="btn btn-danger btn-sm" asp-action="DeleteDetails" asp-route-id="@q.Id" asp-controller="Case">Delete</a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+</div>

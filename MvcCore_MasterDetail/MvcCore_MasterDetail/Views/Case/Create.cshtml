@@ -1,0 +1,114 @@
+﻿@model MvcCore_MasterDetail.DTO.CaseMaster
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<div class="row">
+    <div class="col-12">
+        @Html.ValidationSummary()
+        <form asp-action="Create" asp-controller="Case" method="post" enctype="multipart/form-data">
+
+            <div class="form-group row mb-1">
+                <label asp-for="CaseNumber" class="col-form-label col-form-label-sm col-2 text-end"></label>
+                <div class="col-6">
+                    <input type="text" asp-for="CaseNumber" class="form-control form-control-sm" />
+                    <span asp-validation-for="CaseNumber" class="text-danger" style="font-size:small" />
+                </div>
+            </div>
+           
+            <div class="form-group row mb-1">
+                <label asp-for="Details" class="col-form-label col-form-label-sm col-2 text-end"></label>
+                <input type="text" asp-for="Details" />
+                </div>
+            <div class="form-group row mb-1">
+
+                <label asp-for="Source" class="col-form-label col-form-label-sm col-2 text-end"></label>
+                <div class="col-6">
+                    <select asp-for="Source" class="form-select form-select-sm" asp-items="Html.GetEnumSelectList<Source>()">
+                       
+                        
+                        <option value="" selected>Choose one</option>
+                    </select>
+
+                    <span asp-validation-for="Source" class="text-danger" style="font-size:small" />
+                </div>
+            </div>
+            <div class="form-group row mb-1">
+                <label asp-for="CaseDate" class="col-form-label col-form-label-sm col-2 text-end"></label>
+                <div class="col-6">
+                    <input type="date" asp-for="CaseDate" class="form-control form-control-sm" />
+                    <span asp-validation-for="CaseDate" class="text-danger" style="font-size:small" />
+                </div>
+            </div>
+        
+            <div class="form-group row mb-1">
+                <label asp-for="Picture" class="col-form-label col-form-label-sm col-2 text-end"></label>
+                <div class="col-6">
+                    <input type="file" asp-for="Picture" class="form-control form-control-sm" />
+                    <span asp-validation-for="Picture" class="text-danger" style="font-size:small" />
+                </div>
+            </div>
+            <div class="form-group row mb-1">
+
+                <div class="col-6 offset-2">
+                    <div class="form-check">
+                        <input type="checkbox" asp-for="Status">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Ready to work anywhere in country
+                        </label>
+                    </div>
+                    <span asp-validation-for="Status" class="text-danger" style="font-size:small" />
+                </div>
+            </div>
+            <div class="form-group row mb-1">
+                <div class="col-8">
+                    <h4>Case Details</h4>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                
+                                <th>Heiring Date</th>
+                                <th>Next Heiring Date Year</th>
+                                <th>Comment</th>
+                                <th>
+                                    <button type="submit" formnovalidate name="act" value="add" class="btn btn-sm btn-secondary">Add</button>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (var i = 0; i < Model.CaseDetails.Count; i++)
+                            {
+                                <tr>
+                                    <td>
+                                <input asp-for="@Model.CaseDetails[i].CurrentHearingDate" class="form-control form-control-sm" />
+                                <span asp-validation-for="@Model.CaseDetails[i].CurrentHearingDate" class="text-danger" style="font-size:small" />
+                                    </td>
+                                    <td>
+                                        <input asp-for="@Model.CaseDetails[i].NextHearingDate" class="form-control form-control-sm" />
+                                        <span asp-validation-for="@Model.CaseDetails[i].NextHearingDate" class="text-danger" style="font-size:small" />
+                                    </td>
+                                    <td>
+                                        <input asp-for="@Model.CaseDetails[i].Comment" class="form-control form-control-sm" />
+                                        <span asp-validation-for="@Model.CaseDetails[i].Comment" class="text-danger" style="font-size:small" />
+                                    </td>
+                                    
+                                    <td>
+                                        <button type="submit" class="btn btn-danger btn-sm" formnovalidate name="act" value="remove_@i">Del</button>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="form-group row mb-1">
+                <div class="col-8">
+                    <div class="d-flex justify-content-end">
+                        <button type="submit" class="btn btn-primary" name="act" value="insert">Save</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

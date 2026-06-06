@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\R61\\M10\\Students\\person_core_mvc\\person_core_mvc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7EE5F35-61CF-4742-9972-D534FB76536C}|person_core_mvc\\person_core_mvc.csproj|d:\\r61\\m10\\students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\views\\persons\\personsinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7EE5F35-61CF-4742-9972-D534FB76536C}|person_core_mvc\\person_core_mvc.csproj|solutionrelative:person_core_mvc\\views\\persons\\personsinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7EE5F35-61CF-4742-9972-D534FB76536C}|person_core_mvc\\person_core_mvc.csproj|d:\\r61\\m10\\students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\views\\persons\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7EE5F35-61CF-4742-9972-D534FB76536C}|person_core_mvc\\person_core_mvc.csproj|solutionrelative:person_core_mvc\\views\\persons\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7EE5F35-61CF-4742-9972-D534FB76536C}|person_core_mvc\\person_core_mvc.csproj|d:\\r61\\m10\\students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\controllers\\personscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7EE5F35-61CF-4742-9972-D534FB76536C}|person_core_mvc\\person_core_mvc.csproj|solutionrelative:person_core_mvc\\controllers\\personscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7EE5F35-61CF-4742-9972-D534FB76536C}|person_core_mvc\\person_core_mvc.csproj|d:\\r61\\m10\\students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\viewmodels\\personinfovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7EE5F35-61CF-4742-9972-D534FB76536C}|person_core_mvc\\person_core_mvc.csproj|solutionrelative:person_core_mvc\\viewmodels\\personinfovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7EE5F35-61CF-4742-9972-D534FB76536C}|person_core_mvc\\person_core_mvc.csproj|d:\\r61\\m10\\students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\models\\modelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7EE5F35-61CF-4742-9972-D534FB76536C}|person_core_mvc\\person_core_mvc.csproj|solutionrelative:person_core_mvc\\models\\modelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7EE5F35-61CF-4742-9972-D534FB76536C}|person_core_mvc\\person_core_mvc.csproj|d:\\r61\\m10\\students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7EE5F35-61CF-4742-9972-D534FB76536C}|person_core_mvc\\person_core_mvc.csproj|solutionrelative:person_core_mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7EE5F35-61CF-4742-9972-D534FB76536C}|person_core_mvc\\person_core_mvc.csproj|d:\\r61\\m10\\students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E7EE5F35-61CF-4742-9972-D534FB76536C}|person_core_mvc\\person_core_mvc.csproj|solutionrelative:person_core_mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7EE5F35-61CF-4742-9972-D534FB76536C}|person_core_mvc\\person_core_mvc.csproj|d:\\r61\\m10\\students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\person_core_mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E7EE5F35-61CF-4742-9972-D534FB76536C}|person_core_mvc\\person_core_mvc.csproj|solutionrelative:person_core_mvc\\person_core_mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7EE5F35-61CF-4742-9972-D534FB76536C}|person_core_mvc\\person_core_mvc.csproj|d:\\r61\\m10\\students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7EE5F35-61CF-4742-9972-D534FB76536C}|person_core_mvc\\person_core_mvc.csproj|solutionrelative:person_core_mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7EE5F35-61CF-4742-9972-D534FB76536C}|person_core_mvc\\person_core_mvc.csproj|d:\\r61\\m10\\students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\migrations\\20250203042137_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7EE5F35-61CF-4742-9972-D534FB76536C}|person_core_mvc\\person_core_mvc.csproj|solutionrelative:person_core_mvc\\migrations\\20250203042137_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersonsInfo.cshtml",
+              "DocumentMoniker": "D:\\R61\\M10\\Students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\Views\\Persons\\PersonsInfo.cshtml",
+              "RelativeDocumentMoniker": "person_core_mvc\\Views\\Persons\\PersonsInfo.cshtml",
+              "ToolTip": "D:\\R61\\M10\\Students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\Views\\Persons\\PersonsInfo.cshtml",
+              "RelativeToolTip": "person_core_mvc\\Views\\Persons\\PersonsInfo.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-03T07:03:21.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\R61\\M10\\Students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "person_core_mvc\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\R61\\M10\\Students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "person_core_mvc\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-03T06:49:22.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\R61\\M10\\Students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\Views\\Persons\\Index.cshtml",
+              "RelativeDocumentMoniker": "person_core_mvc\\Views\\Persons\\Index.cshtml",
+              "ToolTip": "D:\\R61\\M10\\Students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\Views\\Persons\\Index.cshtml",
+              "RelativeToolTip": "person_core_mvc\\Views\\Persons\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-03T06:44:50.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersonsController.cs",
+              "DocumentMoniker": "D:\\R61\\M10\\Students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\Controllers\\PersonsController.cs",
+              "RelativeDocumentMoniker": "person_core_mvc\\Controllers\\PersonsController.cs",
+              "ToolTip": "D:\\R61\\M10\\Students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\Controllers\\PersonsController.cs",
+              "RelativeToolTip": "person_core_mvc\\Controllers\\PersonsController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAIAwwBwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T06:05:55.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PersoninfoVM.cs",
+              "DocumentMoniker": "D:\\R61\\M10\\Students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\Viewmodels\\PersoninfoVM.cs",
+              "RelativeDocumentMoniker": "person_core_mvc\\Viewmodels\\PersoninfoVM.cs",
+              "ToolTip": "D:\\R61\\M10\\Students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\Viewmodels\\PersoninfoVM.cs",
+              "RelativeToolTip": "person_core_mvc\\Viewmodels\\PersoninfoVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T06:02:57.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250203042137_init.cs",
+              "DocumentMoniker": "D:\\R61\\M10\\Students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\Migrations\\20250203042137_init.cs",
+              "RelativeDocumentMoniker": "person_core_mvc\\Migrations\\20250203042137_init.cs",
+              "ToolTip": "D:\\R61\\M10\\Students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\Migrations\\20250203042137_init.cs",
+              "RelativeToolTip": "person_core_mvc\\Migrations\\20250203042137_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T04:21:38.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\R61\\M10\\Students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\Program.cs",
+              "RelativeDocumentMoniker": "person_core_mvc\\Program.cs",
+              "ToolTip": "D:\\R61\\M10\\Students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\Program.cs",
+              "RelativeToolTip": "person_core_mvc\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T04:11:06.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Modelcontext.cs",
+              "DocumentMoniker": "D:\\R61\\M10\\Students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\Models\\Modelcontext.cs",
+              "RelativeDocumentMoniker": "person_core_mvc\\Models\\Modelcontext.cs",
+              "ToolTip": "D:\\R61\\M10\\Students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\Models\\Modelcontext.cs",
+              "RelativeToolTip": "person_core_mvc\\Models\\Modelcontext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwBQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T04:04:11.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "person_core_mvc.csproj",
+              "DocumentMoniker": "D:\\R61\\M10\\Students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\person_core_mvc.csproj",
+              "RelativeDocumentMoniker": "person_core_mvc\\person_core_mvc.csproj",
+              "ToolTip": "D:\\R61\\M10\\Students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\person_core_mvc.csproj",
+              "RelativeToolTip": "person_core_mvc\\person_core_mvc.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-03T04:03:05.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\R61\\M10\\Students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\appsettings.json",
+              "RelativeDocumentMoniker": "person_core_mvc\\appsettings.json",
+              "ToolTip": "D:\\R61\\M10\\Students\\person_core_mvc\\person_core_mvc\\person_core_mvc\\appsettings.json",
+              "RelativeToolTip": "person_core_mvc\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-03T04:01:34.126Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

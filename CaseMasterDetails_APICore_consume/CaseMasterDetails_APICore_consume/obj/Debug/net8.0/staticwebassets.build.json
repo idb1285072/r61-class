@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "9c6GoxynmS/fkszy4Lq+B0yoHYGkPt5o9GK4X2y7Cpw=",
+  "Source": "CaseMasterDetails_APICore_consume",
+  "BasePath": "_content/CaseMasterDetails_APICore_consume",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

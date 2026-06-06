@@ -1,0 +1,208 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\R61\\M9\\Students\\Case\\Homework\\Sumaya\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\R61\\M9\\Students\\Case\\Homework\\Sumaya\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\Migrations\\20250203062810_k1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CaseMasterDetails_APICore_consume\\Migrations\\20250203062810_k1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC0B1F7-D6D6-4269-9527-832BB42A44AF}|CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume.csproj|d:\\r61\\m9\\students\\case\\homework\\sumaya\\casemasterdetails_apicore_consume\\casemasterdetails_apicore_consume\\casemasterdetails_apicore_consume\\models\\casecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC0B1F7-D6D6-4269-9527-832BB42A44AF}|CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume.csproj|solutionrelative:casemasterdetails_apicore_consume\\models\\casecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC0B1F7-D6D6-4269-9527-832BB42A44AF}|CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume.csproj|d:\\r61\\m9\\students\\case\\homework\\sumaya\\casemasterdetails_apicore_consume\\casemasterdetails_apicore_consume\\casemasterdetails_apicore_consume\\controllers\\mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC0B1F7-D6D6-4269-9527-832BB42A44AF}|CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume.csproj|solutionrelative:casemasterdetails_apicore_consume\\controllers\\mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62A20305-97EC-4C59-B6C3-C63CCB338F16}|MVCClient\\MVCClient.csproj|d:\\r61\\m9\\students\\case\\homework\\sumaya\\casemasterdetails_apicore_consume\\casemasterdetails_apicore_consume\\mvcclient\\dto\\casevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62A20305-97EC-4C59-B6C3-C63CCB338F16}|MVCClient\\MVCClient.csproj|solutionrelative:mvcclient\\dto\\casevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62A20305-97EC-4C59-B6C3-C63CCB338F16}|MVCClient\\MVCClient.csproj|d:\\r61\\m9\\students\\case\\homework\\sumaya\\casemasterdetails_apicore_consume\\casemasterdetails_apicore_consume\\mvcclient\\controllers\\casecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62A20305-97EC-4C59-B6C3-C63CCB338F16}|MVCClient\\MVCClient.csproj|solutionrelative:mvcclient\\controllers\\casecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC0B1F7-D6D6-4269-9527-832BB42A44AF}|CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume.csproj|d:\\r61\\m9\\students\\case\\homework\\sumaya\\casemasterdetails_apicore_consume\\casemasterdetails_apicore_consume\\casemasterdetails_apicore_consume\\controllers\\casemasterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC0B1F7-D6D6-4269-9527-832BB42A44AF}|CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume.csproj|solutionrelative:casemasterdetails_apicore_consume\\controllers\\casemasterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\R61\\M9\\Students\\Case\\Homework\\Sumaya\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\Migrations\\20250203062142_kk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CaseMasterDetails_APICore_consume\\Migrations\\20250203062142_kk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62A20305-97EC-4C59-B6C3-C63CCB338F16}|MVCClient\\MVCClient.csproj|d:\\r61\\m9\\students\\case\\homework\\sumaya\\casemasterdetails_apicore_consume\\casemasterdetails_apicore_consume\\mvcclient\\views\\case\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62A20305-97EC-4C59-B6C3-C63CCB338F16}|MVCClient\\MVCClient.csproj|solutionrelative:mvcclient\\views\\case\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC0B1F7-D6D6-4269-9527-832BB42A44AF}|CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume.csproj|d:\\r61\\m9\\students\\case\\homework\\sumaya\\casemasterdetails_apicore_consume\\casemasterdetails_apicore_consume\\casemasterdetails_apicore_consume\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC0B1F7-D6D6-4269-9527-832BB42A44AF}|CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume.csproj|solutionrelative:casemasterdetails_apicore_consume\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC0B1F7-D6D6-4269-9527-832BB42A44AF}|CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume.csproj|d:\\r61\\m9\\students\\case\\homework\\sumaya\\casemasterdetails_apicore_consume\\casemasterdetails_apicore_consume\\casemasterdetails_apicore_consume\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BBC0B1F7-D6D6-4269-9527-832BB42A44AF}|CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume.csproj|solutionrelative:casemasterdetails_apicore_consume\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62A20305-97EC-4C59-B6C3-C63CCB338F16}|MVCClient\\MVCClient.csproj|d:\\r61\\m9\\students\\case\\homework\\sumaya\\casemasterdetails_apicore_consume\\casemasterdetails_apicore_consume\\mvcclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62A20305-97EC-4C59-B6C3-C63CCB338F16}|MVCClient\\MVCClient.csproj|solutionrelative:mvcclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CaseController.cs",
+              "DocumentMoniker": "D:\\R61\\M9\\Students\\Case\\Homework\\Sumaya\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\MVCClient\\Controllers\\CaseController.cs",
+              "RelativeDocumentMoniker": "MVCClient\\Controllers\\CaseController.cs",
+              "ToolTip": "D:\\R61\\M9\\Students\\Case\\Homework\\Sumaya\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\MVCClient\\Controllers\\CaseController.cs",
+              "RelativeToolTip": "MVCClient\\Controllers\\CaseController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAqwEQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T06:07:23.104Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250203062810_k1.cs",
+              "DocumentMoniker": "D:\\R61\\M9\\Students\\Case\\Homework\\Sumaya\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\Migrations\\20250203062810_k1.cs",
+              "RelativeDocumentMoniker": "CaseMasterDetails_APICore_consume\\Migrations\\20250203062810_k1.cs",
+              "ToolTip": "D:\\R61\\M9\\Students\\Case\\Homework\\Sumaya\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\Migrations\\20250203062810_k1.cs",
+              "RelativeToolTip": "CaseMasterDetails_APICore_consume\\Migrations\\20250203062810_k1.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T06:28:10.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CaseContext.cs",
+              "DocumentMoniker": "D:\\R61\\M9\\Students\\Case\\Homework\\Sumaya\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\Models\\CaseContext.cs",
+              "RelativeDocumentMoniker": "CaseMasterDetails_APICore_consume\\Models\\CaseContext.cs",
+              "ToolTip": "D:\\R61\\M9\\Students\\Case\\Homework\\Sumaya\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\Models\\CaseContext.cs",
+              "RelativeToolTip": "CaseMasterDetails_APICore_consume\\Models\\CaseContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwBgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T06:09:14.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\R61\\M9\\Students\\Case\\Homework\\Sumaya\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\Program.cs",
+              "RelativeDocumentMoniker": "CaseMasterDetails_APICore_consume\\Program.cs",
+              "ToolTip": "D:\\R61\\M9\\Students\\Case\\Homework\\Sumaya\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\Program.cs",
+              "RelativeToolTip": "CaseMasterDetails_APICore_consume\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T06:08:08.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\R61\\M9\\Students\\Case\\Homework\\Sumaya\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\appsettings.json",
+              "RelativeDocumentMoniker": "CaseMasterDetails_APICore_consume\\appsettings.json",
+              "ToolTip": "D:\\R61\\M9\\Students\\Case\\Homework\\Sumaya\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\appsettings.json",
+              "RelativeToolTip": "CaseMasterDetails_APICore_consume\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-03T06:08:06.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\R61\\M9\\Students\\Case\\Homework\\Sumaya\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\MVCClient\\Program.cs",
+              "RelativeDocumentMoniker": "MVCClient\\Program.cs",
+              "ToolTip": "D:\\R61\\M9\\Students\\Case\\Homework\\Sumaya\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\MVCClient\\Program.cs",
+              "RelativeToolTip": "MVCClient\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T06:07:58.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CaseMastersController.cs",
+              "DocumentMoniker": "D:\\R61\\M9\\Students\\Case\\Homework\\Sumaya\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\Controllers\\CaseMastersController.cs",
+              "RelativeDocumentMoniker": "CaseMasterDetails_APICore_consume\\Controllers\\CaseMastersController.cs",
+              "ToolTip": "D:\\R61\\M9\\Students\\Case\\Homework\\Sumaya\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\Controllers\\CaseMastersController.cs",
+              "RelativeToolTip": "CaseMasterDetails_APICore_consume\\Controllers\\CaseMastersController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwFIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T06:19:50.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\R61\\M9\\Students\\Case\\Homework\\Sumaya\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\MVCClient\\Views\\Case\\Create.cshtml",
+              "RelativeDocumentMoniker": "MVCClient\\Views\\Case\\Create.cshtml",
+              "ToolTip": "D:\\R61\\M9\\Students\\Case\\Homework\\Sumaya\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\MVCClient\\Views\\Case\\Create.cshtml",
+              "RelativeToolTip": "MVCClient\\Views\\Case\\Create.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-03T06:18:15.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MasterController.cs",
+              "DocumentMoniker": "D:\\R61\\M9\\Students\\Case\\Homework\\Sumaya\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\Controllers\\MasterController.cs",
+              "RelativeDocumentMoniker": "CaseMasterDetails_APICore_consume\\Controllers\\MasterController.cs",
+              "ToolTip": "D:\\R61\\M9\\Students\\Case\\Homework\\Sumaya\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\Controllers\\MasterController.cs",
+              "RelativeToolTip": "CaseMasterDetails_APICore_consume\\Controllers\\MasterController.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAmwIEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T06:18:43.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CaseVM.cs",
+              "DocumentMoniker": "D:\\R61\\M9\\Students\\Case\\Homework\\Sumaya\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\MVCClient\\DTO\\CaseVM.cs",
+              "RelativeDocumentMoniker": "MVCClient\\DTO\\CaseVM.cs",
+              "ToolTip": "D:\\R61\\M9\\Students\\Case\\Homework\\Sumaya\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\MVCClient\\DTO\\CaseVM.cs",
+              "RelativeToolTip": "MVCClient\\DTO\\CaseVM.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T06:08:57.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250203062142_kk.cs",
+              "DocumentMoniker": "D:\\R61\\M9\\Students\\Case\\Homework\\Sumaya\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\Migrations\\20250203062142_kk.cs",
+              "RelativeDocumentMoniker": "CaseMasterDetails_APICore_consume\\Migrations\\20250203062142_kk.cs",
+              "ToolTip": "D:\\R61\\M9\\Students\\Case\\Homework\\Sumaya\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\CaseMasterDetails_APICore_consume\\Migrations\\20250203062142_kk.cs",
+              "RelativeToolTip": "CaseMasterDetails_APICore_consume\\Migrations\\20250203062142_kk.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T06:21:42.866Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
