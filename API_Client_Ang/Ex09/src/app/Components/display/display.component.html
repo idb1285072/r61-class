@@ -1,0 +1,64 @@
+
+<table class="table table-dark">
+    <tr *ngFor="let d of detail; let i = index">
+      <td>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Customer</th>
+              <th scope="col">Date</th>
+              <th scope="col">ISDelivered</th>
+              <th scope="col">Picture</th>
+              <th>...</th>
+            </tr>
+          </thead>
+          <tr>
+            <th scope="row">{{ i + 1 }}</th>
+            <td>{{ d.customerName }}</td>
+            <td>{{ d.orderDate }}</td>
+            <td>{{ d.isDelivered?"Delivered":"Pending" }}</td>
+            <td>
+               
+                <img src="https://localhost:7078/{{d.picture}}" height="200" width="250" />
+
+            </td>
+<td>
+    <a routerLink="/sale/{{d.id}}">Edit</a>||
+    <a (click)='delete(d.id)' mat-button
+    class="btn btn-sm btn-success text-white">
+    <i class="fa fa-plus">Delete</i>
+</a>
+    
+</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td colspan="3">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                   
+                    <th scope="col">product</th>
+             
+                    <th scope="col">Price</th>
+                 
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let t of d.details; let i = index">
+                     
+                    <td>{{ t.productName }}</td>
+                   
+                    <td>{{ t.price }}</td>
+                   
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  

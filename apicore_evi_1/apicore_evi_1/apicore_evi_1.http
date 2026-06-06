@@ -1,0 +1,6 @@
+@apicore_evi_1_HostAddress = http://localhost:5147
+
+GET {{apicore_evi_1_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,13 @@
+wwwroot\Pictures\.JPG
+wwwroot\Pictures\abul ahmed.PNG
+wwwroot\Pictures\abul.PNG
+wwwroot\Pictures\farhan.JPG
+wwwroot\Pictures\ff.JPG
+wwwroot\Pictures\fffaaaa.JPG
+wwwroot\Pictures\fyyf.JPG
+wwwroot\Pictures\gggggg.JPG
+wwwroot\Pictures\redoy.JPG
+wwwroot\Pictures\rr.JPG
+wwwroot\Pictures\sadiq.JPG
+wwwroot\Pictures\string.jpeg
+wwwroot\Pictures\uuuu.JPG

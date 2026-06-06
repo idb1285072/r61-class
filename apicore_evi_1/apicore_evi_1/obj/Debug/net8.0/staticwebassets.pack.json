@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\wwwroot\\Pictures\\.JPG",
+      "PackagePath": "staticwebassets\\Pictures\\.JPG"
+    },
+    {
+      "Id": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\wwwroot\\Pictures\\abul ahmed.PNG",
+      "PackagePath": "staticwebassets\\Pictures\\abul ahmed.PNG"
+    },
+    {
+      "Id": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\wwwroot\\Pictures\\abul.PNG",
+      "PackagePath": "staticwebassets\\Pictures\\abul.PNG"
+    },
+    {
+      "Id": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\wwwroot\\Pictures\\farhan.JPG",
+      "PackagePath": "staticwebassets\\Pictures\\farhan.JPG"
+    },
+    {
+      "Id": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\wwwroot\\Pictures\\ff.JPG",
+      "PackagePath": "staticwebassets\\Pictures\\ff.JPG"
+    },
+    {
+      "Id": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\wwwroot\\Pictures\\fffaaaa.JPG",
+      "PackagePath": "staticwebassets\\Pictures\\fffaaaa.JPG"
+    },
+    {
+      "Id": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\wwwroot\\Pictures\\fyyf.JPG",
+      "PackagePath": "staticwebassets\\Pictures\\fyyf.JPG"
+    },
+    {
+      "Id": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\wwwroot\\Pictures\\gggggg.JPG",
+      "PackagePath": "staticwebassets\\Pictures\\gggggg.JPG"
+    },
+    {
+      "Id": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\wwwroot\\Pictures\\redoy.JPG",
+      "PackagePath": "staticwebassets\\Pictures\\redoy.JPG"
+    },
+    {
+      "Id": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\wwwroot\\Pictures\\rr.JPG",
+      "PackagePath": "staticwebassets\\Pictures\\rr.JPG"
+    },
+    {
+      "Id": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\wwwroot\\Pictures\\sadiq.JPG",
+      "PackagePath": "staticwebassets\\Pictures\\sadiq.JPG"
+    },
+    {
+      "Id": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\wwwroot\\Pictures\\string.jpeg",
+      "PackagePath": "staticwebassets\\Pictures\\string.jpeg"
+    },
+    {
+      "Id": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\wwwroot\\Pictures\\uuuu.JPG",
+      "PackagePath": "staticwebassets\\Pictures\\uuuu.JPG"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.apicore_evi_1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.apicore_evi_1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.apicore_evi_1.props",
+      "PackagePath": "build\\apicore_evi_1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.apicore_evi_1.props",
+      "PackagePath": "buildMultiTargeting\\apicore_evi_1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.apicore_evi_1.props",
+      "PackagePath": "buildTransitive\\apicore_evi_1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

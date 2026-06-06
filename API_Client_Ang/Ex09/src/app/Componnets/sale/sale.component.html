@@ -1,0 +1,113 @@
+ 
+<div class="row">
+    <div class="col-md-12">
+        <form #form='ngForm'    autocomplete="off" (submit)="onSubmit()">
+            <input type="text" type="hidden"  [(ngModel)]= 'sSrv.sale.id' name="Id" />
+          <div class="col-md-6 col-sm-12"  >
+ 
+            <div class=" ">
+                <label>Customer</label>
+            <div class="input-group">
+            <div class="input-group-prepend">
+                <input type="text" class="form-control"  [(ngModel)]= 'sSrv.sale.customerName' name="customerName" />
+            </div>
+            </div>
+    
+            </div>
+            <div class=" ">
+                <label>Sale Date</label>
+            <div class="input-group">
+            <div class="input-group-prepend">
+                
+                <input type="date" class="form-control"  [(ngModel)]= 'sSrv.sale.orderDate' name="name" />
+            </div>
+            </div>
+    
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+        <div class=" ">
+            
+        <div class="input-group">
+        <div class="input-group-prepend">
+            
+            <input type="checkbox"   class="form-control" [(ngModel)]="sSrv.sale.isDelivered"    name="Is Delivered" />Is Delivered
+        </div>
+        </div>
+          </div>
+
+          <div class=" ">
+                <label>Picture</label>
+            <div class="input-group">
+            <div class="input-group-prepend">
+                <input type="file" class="form-control"   accept="image/*"  (change)="selectFiles($event)"  />
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div style="widows: 100%">
+                <table class="table table-borderless">
+                        <thead class="thead-light">
+                            <tr>
+                                <th>Product</th>
+                              
+                                <th>price</th>
+                               
+                                <th>
+                                        <a (click)='addoreditItem()' mat-button
+                                                class="btn btn-sm btn-success text-white">
+                                                <i class="fa fa-plus">Add</i>
+                                        </a>
+                                </th></tr>
+                        </thead>
+                        <tbody>
+                                <tr *ngIf="sSrv.sale.details.length==0">
+                                        <td colspan="5" class="font-italic text-center"
+                                                [class.text-danger]="sSrv.sale.details.length ==0">
+                                                No  item found for selected order</td>
+                                </tr>
+                                <tr *ngFor='let item of sSrv.sale.details;let i=index'>
+                                    <!-- <td>
+                                        {{i}}
+                                </td>     -->
+                                    <td>
+                                                {{item.productName}}
+                                        </td>
+                                        <td>
+                                                {{item.price}}  
+                                        </td>
+                                       
+                                     
+                                        <td>
+                                                <a (click)='addoreditItem(i,item.id)'
+                                                        class="btn btn-sm btn-info text-white">
+                                                        <!-- <i class="fa fa-pencil"></i> -->
+        Edit
+                                                </a>
+                                                <a (click)='deleteItem(item.id,i)'
+                                                        class="btn btn-sm btn-danger text-white ml-1">
+                                                        <!-- <i class="fa fa-trash"></i> -->
+                                                        Delete
+                                                </a>
+                                        </td>
+                                </tr>
+                        </tbody>
+                </table>
+        </div> 
+        </div>
+        <div class="col-md-12">
+            <button  class="btn btn-success mt-2" type="submit"   >
+                <i class="fa fa-plus-square"    >Add</i>
+            </button>
+            <a  class="btn btn-success ms-5 mt-2" type="button" routerLink="/saleDp"   >
+                <i class="fa fa-plus-square"    >Back To List</i>
+            </a>
+            <button  class="btn btn-success ms-5 mt-2" type="button" (click)="clearAll()"   >
+                <i class="fa fa-plus-square"    >Clear</i>
+            </button>
+        </div>
+        </form>
+    </div>
+   
+</div>

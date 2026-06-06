@@ -1,0 +1,218 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|d:\\r61\\m12\\evidence_api_ang\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|solutionrelative:apicore_evi_1\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|d:\\r61\\m12\\evidence_api_ang\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\models\\modelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|solutionrelative:apicore_evi_1\\models\\modelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|d:\\r61\\m12\\evidence_api_ang\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|solutionrelative:apicore_evi_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|d:\\r61\\m12\\evidence_api_ang\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|solutionrelative:apicore_evi_1\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|d:\\r61\\m12\\evidence_api_ang\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|solutionrelative:apicore_evi_1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|d:\\r61\\m12\\evidence_api_ang\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|solutionrelative:apicore_evi_1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|d:\\r61\\m12\\evidence_api_ang\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\secutity\\tokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|solutionrelative:apicore_evi_1\\secutity\\tokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|d:\\r61\\m12\\evidence_api_ang\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|solutionrelative:apicore_evi_1\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|d:\\r61\\m12\\evidence_api_ang\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|solutionrelative:apicore_evi_1\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|d:\\r61\\m12\\evidence_api_ang\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|solutionrelative:apicore_evi_1\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|d:\\r61\\m12\\evidence_api_ang\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|solutionrelative:apicore_evi_1\\apicore_evi_1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|d:\\r61\\m12\\evidence_api_ang\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\migrations\\20250301104217_yy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|solutionrelative:apicore_evi_1\\migrations\\20250301104217_yy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "apicore_evi_1\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "apicore_evi_1\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T03:38:38.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TokenManager.cs",
+              "DocumentMoniker": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\Secutity\\TokenManager.cs",
+              "RelativeDocumentMoniker": "apicore_evi_1\\Secutity\\TokenManager.cs",
+              "ToolTip": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\Secutity\\TokenManager.cs",
+              "RelativeToolTip": "apicore_evi_1\\Secutity\\TokenManager.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T10:53:44.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250301104217_yy.cs",
+              "DocumentMoniker": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\Migrations\\20250301104217_yy.cs",
+              "RelativeDocumentMoniker": "apicore_evi_1\\Migrations\\20250301104217_yy.cs",
+              "ToolTip": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\Migrations\\20250301104217_yy.cs",
+              "RelativeToolTip": "apicore_evi_1\\Migrations\\20250301104217_yy.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T10:42:17.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "apicore_evi_1\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "apicore_evi_1\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T10:33:21.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SalesController.cs",
+              "DocumentMoniker": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\Controllers\\SalesController.cs",
+              "RelativeDocumentMoniker": "apicore_evi_1\\Controllers\\SalesController.cs",
+              "ToolTip": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\Controllers\\SalesController.cs",
+              "RelativeToolTip": "apicore_evi_1\\Controllers\\SalesController.cs",
+              "ViewState": "AgIAAKUAAAAAAAAAAAASwH4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T17:09:38.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "orderDTO.cs",
+              "DocumentMoniker": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\DTO\\orderDTO.cs",
+              "RelativeDocumentMoniker": "apicore_evi_1\\DTO\\orderDTO.cs",
+              "ToolTip": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\DTO\\orderDTO.cs",
+              "RelativeToolTip": "apicore_evi_1\\DTO\\orderDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T17:08:01.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\appsettings.json",
+              "RelativeDocumentMoniker": "apicore_evi_1\\appsettings.json",
+              "ToolTip": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\appsettings.json",
+              "RelativeToolTip": "apicore_evi_1\\appsettings.json",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-28T17:06:05.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\Program.cs",
+              "RelativeDocumentMoniker": "apicore_evi_1\\Program.cs",
+              "ToolTip": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\Program.cs",
+              "RelativeToolTip": "apicore_evi_1\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAASwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T17:04:06.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ModelContext.cs",
+              "DocumentMoniker": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\Models\\ModelContext.cs",
+              "RelativeDocumentMoniker": "apicore_evi_1\\Models\\ModelContext.cs",
+              "ToolTip": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\Models\\ModelContext.cs",
+              "RelativeToolTip": "apicore_evi_1\\Models\\ModelContext.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAA2wDQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T17:02:06.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "apicore_evi_1\\DTO\\UserDTO.cs",
+              "ToolTip": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "apicore_evi_1\\DTO\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T10:56:10.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "apicore_evi_1\\Controllers\\AccountsController.cs",
+              "ToolTip": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "apicore_evi_1\\Controllers\\AccountsController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwE8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T11:01:06.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "apicore_evi_1.csproj",
+              "DocumentMoniker": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1.csproj",
+              "RelativeDocumentMoniker": "apicore_evi_1\\apicore_evi_1.csproj",
+              "ToolTip": "D:\\R61\\M12\\Evidence_API_ANG\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1.csproj",
+              "RelativeToolTip": "apicore_evi_1\\apicore_evi_1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-28T17:00:45.232Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
