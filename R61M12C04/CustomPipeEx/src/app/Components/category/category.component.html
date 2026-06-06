@@ -1,0 +1,58 @@
+
+
+<div>
+    <div>
+        <form #form='ngForm'    autocomplete="off" (submit)="onSubmit(form)">
+            <input type="text" type="hidden" name="OrderId" #OrderId='ngModel' [(ngModel)]= 'category.id' />
+            
+        <div class="form-group">
+            <label>Parent Category</label>
+            <select type="text" class="form-control" name="PrdID"   #ParentCategory='ngModel' [(ngModel)]= 'category.parentCategory'  >
+            <option value="0"> Select item</option>
+                <option *ngFor='let item of categories' value="{{item.id}}">{{item.name}}</option>
+        </select>
+        
+        </div>
+         
+         
+        <div class=" ">
+            <label>Name</label>
+        <div class="input-group">
+        <div class="input-group-prepend">
+            
+            <input type="text" class="form-control" name="Name"
+             #Name='ngModel' [(ngModel)]= 'category.name' />
+        </div>
+        </div>
+          
+        </div>
+        
+        
+        
+           
+            <button  class="btn btn-success " type="submit" >
+                <i class="fa fa-plus-square"    >Add</i>
+            </button>
+          
+        
+        </form>
+    </div>
+    <div>
+        <table >
+            <tr>
+                <th>Parent Name</th>
+                <th>Name</th>
+                
+            </tr>
+            <tr *ngFor="let e of categories">
+                <td>
+                    {{e.parentCategory}}
+                </td>
+                <td>
+                    {{e.name}}
+                </td>
+               
+            </tr>
+        </table>
+    </div>
+</div>
