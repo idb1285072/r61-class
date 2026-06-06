@@ -1,0 +1,191 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\USB Drive\\Class\\2025-01-28\\R61_1285072\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{892F0ACA-D648-43FC-B074-191686C9C006}|R61_1285072\\R61_1285072.csproj|e:\\usb drive\\class\\2025-01-28\\r61_1285072\\r61_1285072\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892F0ACA-D648-43FC-B074-191686C9C006}|R61_1285072\\R61_1285072.csproj|solutionrelative:r61_1285072\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892F0ACA-D648-43FC-B074-191686C9C006}|R61_1285072\\R61_1285072.csproj|E:\\USB Drive\\Class\\2025-01-28\\R61_1285072\\r61_1285072\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892F0ACA-D648-43FC-B074-191686C9C006}|R61_1285072\\R61_1285072.csproj|solutionrelative:r61_1285072\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892F0ACA-D648-43FC-B074-191686C9C006}|R61_1285072\\R61_1285072.csproj|E:\\USB Drive\\Class\\2025-01-28\\R61_1285072\\r61_1285072\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892F0ACA-D648-43FC-B074-191686C9C006}|R61_1285072\\R61_1285072.csproj|solutionrelative:r61_1285072\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892F0ACA-D648-43FC-B074-191686C9C006}|R61_1285072\\R61_1285072.csproj|E:\\USB Drive\\Class\\2025-01-28\\R61_1285072\\r61_1285072\\provider\\apiauthorizationserverprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892F0ACA-D648-43FC-B074-191686C9C006}|R61_1285072\\R61_1285072.csproj|solutionrelative:r61_1285072\\provider\\apiauthorizationserverprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892F0ACA-D648-43FC-B074-191686C9C006}|R61_1285072\\R61_1285072.csproj|E:\\USB Drive\\Class\\2025-01-28\\R61_1285072\\r61_1285072\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892F0ACA-D648-43FC-B074-191686C9C006}|R61_1285072\\R61_1285072.csproj|solutionrelative:r61_1285072\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892F0ACA-D648-43FC-B074-191686C9C006}|R61_1285072\\R61_1285072.csproj|E:\\USB Drive\\Class\\2025-01-28\\R61_1285072\\r61_1285072\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{892F0ACA-D648-43FC-B074-191686C9C006}|R61_1285072\\R61_1285072.csproj|solutionrelative:r61_1285072\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892F0ACA-D648-43FC-B074-191686C9C006}|R61_1285072\\R61_1285072.csproj|E:\\USB Drive\\Class\\2025-01-28\\R61_1285072\\r61_1285072\\dtos\\salesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892F0ACA-D648-43FC-B074-191686C9C006}|R61_1285072\\R61_1285072.csproj|solutionrelative:r61_1285072\\dtos\\salesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892F0ACA-D648-43FC-B074-191686C9C006}|R61_1285072\\R61_1285072.csproj|E:\\USB Drive\\Class\\2025-01-28\\R61_1285072\\r61_1285072\\models\\dbinvcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892F0ACA-D648-43FC-B074-191686C9C006}|R61_1285072\\R61_1285072.csproj|solutionrelative:r61_1285072\\models\\dbinvcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/DbInv8/True/SqlTable/dbo.Details.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/DbInv8/True/SqlTable/dbo.Sales.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892F0ACA-D648-43FC-B074-191686C9C006}|R61_1285072\\R61_1285072.csproj|E:\\USB Drive\\Class\\2025-01-28\\R61_1285072\\r61_1285072\\migrations\\202501280521077_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892F0ACA-D648-43FC-B074-191686C9C006}|R61_1285072\\R61_1285072.csproj|solutionrelative:r61_1285072\\migrations\\202501280521077_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "E:\\USB Drive\\Class\\2025-01-28\\R61_1285072\\R61_1285072\\Startup.cs",
+              "RelativeDocumentMoniker": "R61_1285072\\Startup.cs",
+              "ToolTip": "E:\\USB Drive\\Class\\2025-01-28\\R61_1285072\\R61_1285072\\Startup.cs",
+              "RelativeToolTip": "R61_1285072\\Startup.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T03:39:24.451Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "dbo.Details.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/DbInv8/True/SqlTable/dbo.Details.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/DbInv8/True/SqlTable/dbo.Details.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-28T05:34:17.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "dbo.Sales.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/DbInv8/True/SqlTable/dbo.Sales.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/DbInv8/True/SqlTable/dbo.Sales.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-28T05:34:04.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "202501280521077_init.cs",
+              "DocumentMoniker": "E:\\USB Drive\\Class\\2025-01-28\\R61_1285072\\R61_1285072\\Migrations\\202501280521077_init.cs",
+              "RelativeDocumentMoniker": "R61_1285072\\Migrations\\202501280521077_init.cs",
+              "ToolTip": "E:\\USB Drive\\Class\\2025-01-28\\R61_1285072\\R61_1285072\\Migrations\\202501280521077_init.cs",
+              "RelativeToolTip": "R61_1285072\\Migrations\\202501280521077_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T05:21:11.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "E:\\USB Drive\\Class\\2025-01-28\\R61_1285072\\R61_1285072\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "R61_1285072\\Migrations\\Configuration.cs",
+              "ToolTip": "E:\\USB Drive\\Class\\2025-01-28\\R61_1285072\\R61_1285072\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "R61_1285072\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T05:18:42.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "APIAUTHORIZATIONSERVERPROVIDER.cs",
+              "DocumentMoniker": "E:\\USB Drive\\Class\\2025-01-28\\R61_1285072\\R61_1285072\\Provider\\APIAUTHORIZATIONSERVERPROVIDER.cs",
+              "RelativeDocumentMoniker": "R61_1285072\\Provider\\APIAUTHORIZATIONSERVERPROVIDER.cs",
+              "ToolTip": "E:\\USB Drive\\Class\\2025-01-28\\R61_1285072\\R61_1285072\\Provider\\APIAUTHORIZATIONSERVERPROVIDER.cs",
+              "RelativeToolTip": "R61_1285072\\Provider\\APIAUTHORIZATIONSERVERPROVIDER.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T03:37:51.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SalesController.cs",
+              "DocumentMoniker": "E:\\USB Drive\\Class\\2025-01-28\\R61_1285072\\R61_1285072\\Controllers\\SalesController.cs",
+              "RelativeDocumentMoniker": "R61_1285072\\Controllers\\SalesController.cs",
+              "ToolTip": "E:\\USB Drive\\Class\\2025-01-28\\R61_1285072\\R61_1285072\\Controllers\\SalesController.cs",
+              "RelativeToolTip": "R61_1285072\\Controllers\\SalesController.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAiwNIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T03:36:10.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "E:\\USB Drive\\Class\\2025-01-28\\R61_1285072\\R61_1285072\\Global.asax.cs",
+              "RelativeDocumentMoniker": "R61_1285072\\Global.asax.cs",
+              "ToolTip": "E:\\USB Drive\\Class\\2025-01-28\\R61_1285072\\R61_1285072\\Global.asax.cs",
+              "RelativeToolTip": "R61_1285072\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T03:31:41.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Web.config",
+              "DocumentMoniker": "E:\\USB Drive\\Class\\2025-01-28\\R61_1285072\\R61_1285072\\Web.config",
+              "RelativeDocumentMoniker": "R61_1285072\\Web.config",
+              "ToolTip": "E:\\USB Drive\\Class\\2025-01-28\\R61_1285072\\R61_1285072\\Web.config",
+              "RelativeToolTip": "R61_1285072\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-28T03:30:49.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SalesDTO.cs",
+              "DocumentMoniker": "E:\\USB Drive\\Class\\2025-01-28\\R61_1285072\\R61_1285072\\DTOs\\SalesDTO.cs",
+              "RelativeDocumentMoniker": "R61_1285072\\DTOs\\SalesDTO.cs",
+              "ToolTip": "E:\\USB Drive\\Class\\2025-01-28\\R61_1285072\\R61_1285072\\DTOs\\SalesDTO.cs",
+              "RelativeToolTip": "R61_1285072\\DTOs\\SalesDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T03:29:44.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DbInvContext.cs",
+              "DocumentMoniker": "E:\\USB Drive\\Class\\2025-01-28\\R61_1285072\\R61_1285072\\Models\\DbInvContext.cs",
+              "RelativeDocumentMoniker": "R61_1285072\\Models\\DbInvContext.cs",
+              "ToolTip": "E:\\USB Drive\\Class\\2025-01-28\\R61_1285072\\R61_1285072\\Models\\DbInvContext.cs",
+              "RelativeToolTip": "R61_1285072\\Models\\DbInvContext.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAA6wCoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T03:24:19.127Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
