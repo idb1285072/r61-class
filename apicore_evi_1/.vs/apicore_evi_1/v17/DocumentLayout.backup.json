@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\New folder\\apicore_evi_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|c:\\users\\dell\\desktop\\new folder\\apicore_evi_1\\apicore_evi_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|solutionrelative:apicore_evi_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|c:\\users\\dell\\desktop\\new folder\\apicore_evi_1\\apicore_evi_1\\secutity\\tokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|solutionrelative:apicore_evi_1\\secutity\\tokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|c:\\users\\dell\\desktop\\new folder\\apicore_evi_1\\apicore_evi_1\\models\\modelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|solutionrelative:apicore_evi_1\\models\\modelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|c:\\users\\dell\\desktop\\new folder\\apicore_evi_1\\apicore_evi_1\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|solutionrelative:apicore_evi_1\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|c:\\users\\dell\\desktop\\new folder\\apicore_evi_1\\apicore_evi_1\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|solutionrelative:apicore_evi_1\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|c:\\users\\dell\\desktop\\new folder\\apicore_evi_1\\apicore_evi_1\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|solutionrelative:apicore_evi_1\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|c:\\users\\dell\\desktop\\new folder\\apicore_evi_1\\apicore_evi_1\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|solutionrelative:apicore_evi_1\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|c:\\users\\dell\\desktop\\new folder\\apicore_evi_1\\apicore_evi_1\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|solutionrelative:apicore_evi_1\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|c:\\users\\dell\\desktop\\new folder\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|solutionrelative:apicore_evi_1\\apicore_evi_1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\New folder\\apicore_evi_1\\apicore_evi_1\\Migrations\\20250301104217_yy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:apicore_evi_1\\Migrations\\20250301104217_yy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|c:\\users\\dell\\desktop\\new folder\\apicore_evi_1\\apicore_evi_1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EFDE80AA-4E4A-4218-B603-11410D342D7E}|apicore_evi_1\\apicore_evi_1.csproj|solutionrelative:apicore_evi_1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\New folder\\apicore_evi_1\\apicore_evi_1\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "apicore_evi_1\\Controllers\\AccountsController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\New folder\\apicore_evi_1\\apicore_evi_1\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "apicore_evi_1\\Controllers\\AccountsController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAE8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T11:01:06.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\New folder\\apicore_evi_1\\apicore_evi_1\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "apicore_evi_1\\DTO\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\New folder\\apicore_evi_1\\apicore_evi_1\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "apicore_evi_1\\DTO\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T10:56:10.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TokenManager.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\New folder\\apicore_evi_1\\apicore_evi_1\\Secutity\\TokenManager.cs",
+              "RelativeDocumentMoniker": "apicore_evi_1\\Secutity\\TokenManager.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\New folder\\apicore_evi_1\\apicore_evi_1\\Secutity\\TokenManager.cs",
+              "RelativeToolTip": "apicore_evi_1\\Secutity\\TokenManager.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T10:53:44.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250301104217_yy.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\New folder\\apicore_evi_1\\apicore_evi_1\\Migrations\\20250301104217_yy.cs",
+              "RelativeDocumentMoniker": "apicore_evi_1\\Migrations\\20250301104217_yy.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\New folder\\apicore_evi_1\\apicore_evi_1\\Migrations\\20250301104217_yy.cs",
+              "RelativeToolTip": "apicore_evi_1\\Migrations\\20250301104217_yy.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T10:42:17.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\New folder\\apicore_evi_1\\apicore_evi_1\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "apicore_evi_1\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\New folder\\apicore_evi_1\\apicore_evi_1\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "apicore_evi_1\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T10:33:21.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SalesController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\New folder\\apicore_evi_1\\apicore_evi_1\\Controllers\\SalesController.cs",
+              "RelativeDocumentMoniker": "apicore_evi_1\\Controllers\\SalesController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\New folder\\apicore_evi_1\\apicore_evi_1\\Controllers\\SalesController.cs",
+              "RelativeToolTip": "apicore_evi_1\\Controllers\\SalesController.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAcwAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T17:09:38.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "orderDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\New folder\\apicore_evi_1\\apicore_evi_1\\DTO\\orderDTO.cs",
+              "RelativeDocumentMoniker": "apicore_evi_1\\DTO\\orderDTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\New folder\\apicore_evi_1\\apicore_evi_1\\DTO\\orderDTO.cs",
+              "RelativeToolTip": "apicore_evi_1\\DTO\\orderDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T17:08:01.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\New folder\\apicore_evi_1\\apicore_evi_1\\appsettings.json",
+              "RelativeDocumentMoniker": "apicore_evi_1\\appsettings.json",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\New folder\\apicore_evi_1\\apicore_evi_1\\appsettings.json",
+              "RelativeToolTip": "apicore_evi_1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-28T17:06:05.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\New folder\\apicore_evi_1\\apicore_evi_1\\Program.cs",
+              "RelativeDocumentMoniker": "apicore_evi_1\\Program.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\New folder\\apicore_evi_1\\apicore_evi_1\\Program.cs",
+              "RelativeToolTip": "apicore_evi_1\\Program.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T17:04:06.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModelContext.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\New folder\\apicore_evi_1\\apicore_evi_1\\Models\\ModelContext.cs",
+              "RelativeDocumentMoniker": "apicore_evi_1\\Models\\ModelContext.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\New folder\\apicore_evi_1\\apicore_evi_1\\Models\\ModelContext.cs",
+              "RelativeToolTip": "apicore_evi_1\\Models\\ModelContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T17:02:06.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "apicore_evi_1.csproj",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\New folder\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1.csproj",
+              "RelativeDocumentMoniker": "apicore_evi_1\\apicore_evi_1.csproj",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\New folder\\apicore_evi_1\\apicore_evi_1\\apicore_evi_1.csproj",
+              "RelativeToolTip": "apicore_evi_1\\apicore_evi_1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-28T17:00:45.232Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

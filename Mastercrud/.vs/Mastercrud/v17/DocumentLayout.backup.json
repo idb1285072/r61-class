@@ -1,0 +1,208 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\class\\2025-02-17\\Mastercrud\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78E3572C-0F26-48F7-9519-51A45A3A6AA4}|Mastercrud\\Mastercrud.csproj|e:\\class\\2025-02-17\\mastercrud\\mastercrud\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78E3572C-0F26-48F7-9519-51A45A3A6AA4}|Mastercrud\\Mastercrud.csproj|solutionrelative:mastercrud\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78E3572C-0F26-48F7-9519-51A45A3A6AA4}|Mastercrud\\Mastercrud.csproj|e:\\class\\2025-02-17\\mastercrud\\mastercrud\\dtos\\patientcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78E3572C-0F26-48F7-9519-51A45A3A6AA4}|Mastercrud\\Mastercrud.csproj|solutionrelative:mastercrud\\dtos\\patientcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/dbHospital/True/SqlTable/dbo.Doctors.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/dbHospital/True/SqlTable/dbo.Patients.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/dbHospital/True/SqlTable/dbo.Appointments.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78E3572C-0F26-48F7-9519-51A45A3A6AA4}|Mastercrud\\Mastercrud.csproj|e:\\class\\2025-02-17\\mastercrud\\mastercrud\\models\\dbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78E3572C-0F26-48F7-9519-51A45A3A6AA4}|Mastercrud\\Mastercrud.csproj|solutionrelative:mastercrud\\models\\dbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/dbwebcrud/True/SqlTable/dbo.Patients.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78E3572C-0F26-48F7-9519-51A45A3A6AA4}|Mastercrud\\Mastercrud.csproj|e:\\class\\2025-02-17\\mastercrud\\mastercrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78E3572C-0F26-48F7-9519-51A45A3A6AA4}|Mastercrud\\Mastercrud.csproj|solutionrelative:mastercrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78E3572C-0F26-48F7-9519-51A45A3A6AA4}|Mastercrud\\Mastercrud.csproj|e:\\class\\2025-02-17\\mastercrud\\mastercrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{78E3572C-0F26-48F7-9519-51A45A3A6AA4}|Mastercrud\\Mastercrud.csproj|solutionrelative:mastercrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/dbwebcrud/True/SqlTable/dbo.Appointments.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/dbwebcrud/True/SqlTable/dbo.Doctors.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78E3572C-0F26-48F7-9519-51A45A3A6AA4}|Mastercrud\\Mastercrud.csproj|e:\\class\\2025-02-17\\mastercrud\\mastercrud\\migrations\\20250217033558_init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78E3572C-0F26-48F7-9519-51A45A3A6AA4}|Mastercrud\\Mastercrud.csproj|solutionrelative:mastercrud\\migrations\\20250217033558_init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.Patients [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/dbHospital/True/SqlTable/dbo.Patients.sql",
+              "ToolTip": "dbo.Patients [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-01T08:17:35.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dbo.Doctors [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/dbHospital/True/SqlTable/dbo.Doctors.sql",
+              "ToolTip": "dbo.Doctors [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-01T08:17:26.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "ViewState": "AgIAAIECAAAAAAAAAAAcwJUCAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-02-17T05:35:46.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PatientCreateDTO.cs",
+              "DocumentMoniker": "E:\\class\\2025-02-17\\Mastercrud\\Mastercrud\\DTOs\\PatientCreateDTO.cs",
+              "RelativeDocumentMoniker": "Mastercrud\\DTOs\\PatientCreateDTO.cs",
+              "ToolTip": "E:\\class\\2025-02-17\\Mastercrud\\Mastercrud\\DTOs\\PatientCreateDTO.cs",
+              "RelativeToolTip": "Mastercrud\\DTOs\\PatientCreateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T05:13:14.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatientsController.cs",
+              "DocumentMoniker": "E:\\class\\2025-02-17\\Mastercrud\\Mastercrud\\Controllers\\PatientsController.cs",
+              "RelativeDocumentMoniker": "Mastercrud\\Controllers\\PatientsController.cs",
+              "ToolTip": "E:\\class\\2025-02-17\\Mastercrud\\Mastercrud\\Controllers\\PatientsController.cs*",
+              "RelativeToolTip": "Mastercrud\\Controllers\\PatientsController.cs*",
+              "ViewState": "AgIAACcAAAAAAAAAAAAtwDEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T03:40:24.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.Appointments [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/dbHospital/True/SqlTable/dbo.Appointments.sql",
+              "ToolTip": "dbo.Appointments [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-01T08:17:46.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "dbo.Appointments.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/dbwebcrud/True/SqlTable/dbo.Appointments.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/dbwebcrud/True/SqlTable/dbo.Appointments.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-17T03:38:17.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "dbo.Patients.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/dbwebcrud/True/SqlTable/dbo.Patients.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/dbwebcrud/True/SqlTable/dbo.Patients.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-17T03:37:23.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "dbo.Doctors.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/dbwebcrud/True/SqlTable/dbo.Doctors.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/dbwebcrud/True/SqlTable/dbo.Doctors.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-17T03:36:49.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250217033558_init1.cs",
+              "DocumentMoniker": "E:\\class\\2025-02-17\\Mastercrud\\Mastercrud\\Migrations\\20250217033558_init1.cs",
+              "RelativeDocumentMoniker": "Mastercrud\\Migrations\\20250217033558_init1.cs",
+              "ToolTip": "E:\\class\\2025-02-17\\Mastercrud\\Mastercrud\\Migrations\\20250217033558_init1.cs",
+              "RelativeToolTip": "Mastercrud\\Migrations\\20250217033558_init1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T03:35:58.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DbModel.cs",
+              "DocumentMoniker": "E:\\class\\2025-02-17\\Mastercrud\\Mastercrud\\Models\\DbModel.cs",
+              "RelativeDocumentMoniker": "Mastercrud\\Models\\DbModel.cs",
+              "ToolTip": "E:\\class\\2025-02-17\\Mastercrud\\Mastercrud\\Models\\DbModel.cs",
+              "RelativeToolTip": "Mastercrud\\Models\\DbModel.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAtwBgAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T03:21:17.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\class\\2025-02-17\\Mastercrud\\Mastercrud\\appsettings.json",
+              "RelativeDocumentMoniker": "Mastercrud\\appsettings.json",
+              "ToolTip": "E:\\class\\2025-02-17\\Mastercrud\\Mastercrud\\appsettings.json",
+              "RelativeToolTip": "Mastercrud\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-17T03:23:27.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\class\\2025-02-17\\Mastercrud\\Mastercrud\\Program.cs",
+              "RelativeDocumentMoniker": "Mastercrud\\Program.cs",
+              "ToolTip": "E:\\class\\2025-02-17\\Mastercrud\\Mastercrud\\Program.cs",
+              "RelativeToolTip": "Mastercrud\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T03:22:08.354Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

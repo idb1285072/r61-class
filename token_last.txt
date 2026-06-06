@@ -1,0 +1,395 @@
+1. Package-install and update
+install-package Microsoft.aspnet.identity.entityframework
+install-package Microsoft.owin.host.systemweb
+install-package Microsoft.owin.security.oauth
+install-package Microsoft.owin.cors
+update-package
+
+2. DbInvContext -> Models
+public class DbInvContext : IdentityDbContext
+{
+    public DbInvContext() : base("DbInvContext")
+    {
+
+    }
+    public DbSet<Product> Products { get; set; }
+    public DbSet<Sales> Sales { get; set; }
+    public DbSet<Details> Details { get; set; }
+}
+public class Product
+{
+    public int ID { get; set; }
+    [Required, MaxLength(128)]
+    public string Name { get; set; }
+}
+public class Sales
+{
+    public int ID { get; set; }
+    [Required, MaxLength(20, ErrorMessage = "Name is must")]
+    public string Name { get; set; }
+    [Required, DataType(DataType.Date)]
+    public DateTime OrderDate { get; set; }
+    [MaxLength(200)]
+    public string Picture { get; set; }
+
+    public bool Status { get; set; }
+    public List<Details> Details { get; set; }
+
+}
+public class Details
+{
+    public int ID { get; set; }
+    [ForeignKey(nameof(Product))]
+    public int ProductId { get; set; }
+    [ForeignKey(nameof(Sales))]
+    public int OrderId { get; set; }
+    [Required, DataType(DataType.Currency)]
+    public double Price { get; set; }
+    public Product Product { get; set; }
+    public Sales Sales { get; set; }
+}
+
+
+3. DTOs
+public class SalesDTO
+{
+    public Sales Sales { get; set; }
+    public HttpPostedFileBase PicFile { get; set; }
+}
+
+4. ConnectionString
+	<connectionStrings>
+		<add connectionString="Data Source=(localdb)\mssqllocaldb;AttachDBFileName=|DataDirectory|\DbInv8.mdf ;Initial Catalog=DbInv8; Trusted_Connection=true;" name="DbInvContext" providerName="system.data.sqlclient" />
+	</connectionStrings>
+
+4. Global.asax
+protected void Application_Start()
+{
+    GlobalConfiguration.Configure(WebApiConfig.Register);
+    GlobalConfiguration.Configuration.Formatters.JsonFormatter.SerializerSettings.Re‌​ferenceLoopHandling = ReferenceLoopHandling.Ignore;
+}
+
+
+5. enable-migrations
+6. seed
+var userManagre = new UserManager<IdentityUser>(new UserStore<IdentityUser>(new DbInvContext()));
+userManagre.Create(new IdentityUser
+{
+    UserName = "a@a.com",
+    Email = "a@a.com",
+    PhoneNumber = "01445563216",
+
+}, "@Ps123");
+userManagre.Create(new IdentityUser
+{
+    UserName = "b@b.com",
+    Email = "b@b.com",
+    PhoneNumber = "01445563216",
+
+}, "@Ps123");
+context.Products.AddRange(
+    new List<Product>
+    {
+        new Product { Name="P1" },
+        new Product { Name="P2" },
+        new Product { Name="P3" } 
+    });
+context.Sales.Add(new Models.Sales
+{
+    Name = "C1",
+    OrderDate = DateTime.Now,
+    Status = true,
+    Picture = "~/Pictures/1.jpeg",
+    Details = new List<Models.Details>{
+    new Models.Details{ProductId=1,OrderId=1,Price=343},new Models.Details{ProductId=2,OrderId=1,Price=333} }
+});
+context.SaveChanges();
+
+
+7. add-migration init
+8. update database
+9. controller
+ private readonly DbInvContext db = new DbInvContext();
+ 
+ public IHttpActionResult Get()
+ {
+     try
+     {
+         var model = db.Sales
+       .Include("Details")
+       .Select(s => new
+       {
+           s.ID,
+           s.Name,
+           s.OrderDate,
+           s.Status,
+           s.Picture,
+           Details = s.Details.Select(d => new
+           {
+               d.ProductId,
+               d.OrderId,
+               d.Price,
+               ProductName = d.Product.Name
+           })
+       })
+       .ToList();
+
+         if (!model.Any())
+             return Ok("No records are found");
+
+         return Ok(model);
+     }
+     catch (Exception ex)
+     {
+         return InternalServerError(ex);
+     }
+ }
+
+ public IHttpActionResult Get(int id)
+ {
+     try
+     {
+         var model = db.Sales
+             .Include("Details")
+             .Where(s => s.ID == id)
+             .Select(s => new
+             {
+                 s.ID,
+                 s.Name,
+                 s.OrderDate,
+                 s.Status,
+                 s.Picture,
+                 Details = s.Details.Select(d => new
+                 {
+                     d.ProductId,
+                     d.OrderId,
+                     d.Price,
+                     ProductName = d.Product.Name
+                 })
+             })
+             .FirstOrDefault();
+
+         if (model == null)
+             return NotFound();
+
+         return Ok(model);
+     }
+     catch (Exception ex)
+     {
+         return InternalServerError(ex); 
+     }
+ }
+
+
+ public IHttpActionResult Post()
+ {
+     try
+     {
+         string filePath = "";
+         var httpRequest = HttpContext.Current.Request;
+         var f = httpRequest.Files[0];
+         var o = httpRequest.Form["sales"];
+         var entity = JsonConvert.DeserializeObject<SalesDTO>(o);
+         if (f.FileName.Length > 0)
+         {
+             string root = HttpContext.Current.Server.MapPath("~/Pictures");
+             string filetoSave = Path.Combine(root, f.FileName);
+             f.SaveAs(filetoSave);
+             filePath = "~/Pictures/" + f.FileName;
+
+             var sales = new Sales
+             {
+                 Name = entity.Sales.Name,
+                 OrderDate = entity.Sales.OrderDate,
+                 Status = entity.Sales.Status,
+                 Details = entity.Sales.Details,
+                 Picture = filePath
+             };
+             db.Sales.Add(sales);
+             if (db.SaveChanges() > 0)
+             {
+                 return Ok("Saved Successfully");
+             }
+             else
+             {
+                 return BadRequest("Save failed");
+             }
+         }
+         else
+         {
+             return BadRequest("no pic found");
+         }
+     }
+     catch (Exception ex)
+     {
+         return InternalServerError(ex);
+     }
+ }
+
+
+ public IHttpActionResult Put()
+ {
+     try
+     {
+         string filePath = string.Empty;
+         var httpRequest = HttpContext.Current.Request;
+         if (httpRequest.Form["sales"] == null)
+         {
+             return BadRequest("Sales data is missing.");
+         }
+         var entity = JsonConvert.DeserializeObject<SalesDTO>(httpRequest.Form["sales"]);
+         var existingSales = db.Sales.Find(entity.Sales.ID);
+         if (existingSales == null)
+         {
+             return NotFound();
+         }
+         if (httpRequest.Files.Count > 0)
+         {
+             var file = httpRequest.Files[0];
+
+             if (file.FileName.Length > 0)
+             {
+                 string rootPath = HttpContext.Current.Server.MapPath("~/Pictures");
+                 string uniqueFileName = Guid.NewGuid() + Path.GetExtension(file.FileName);
+                 string fileToSave = Path.Combine(rootPath, uniqueFileName);
+                 file.SaveAs(fileToSave);
+                 filePath = "~/Pictures/" + uniqueFileName;
+             }
+         }
+         existingSales.Name = entity.Sales.Name;
+         existingSales.OrderDate = entity.Sales.OrderDate;
+         existingSales.Status = entity.Sales.Status;
+         db.Details.RemoveRange(db.Details.Where(d => d.OrderId == existingSales.ID).ToList());
+         existingSales.Details = entity.Sales.Details;
+         existingSales.Picture = string.IsNullOrEmpty(filePath) ? existingSales.Picture : filePath;
+         db.Entry(existingSales).State = System.Data.Entity.EntityState.Modified;
+         if (db.SaveChanges() > 0)
+         {
+             return Ok("Updated successfully.");
+         }
+         else
+         {
+             return BadRequest("Failed to update sales record.");
+         }
+     }
+     catch (Exception ex)
+     {
+         return InternalServerError(ex);
+     }
+ }
+
+ public IHttpActionResult Delete(int id)
+ {
+     try
+     {
+         var salesRecord = db.Sales.Find(id);
+
+         if (salesRecord == null)
+         {
+             return NotFound();
+         }
+         db.Sales.Remove(salesRecord);
+         if (db.SaveChanges() > 0)
+         {
+             return Ok("Deleted Successfully");
+         }
+         return BadRequest("Delete Failed");
+     }
+     catch (Exception ex)
+     {
+         return InternalServerError(ex);
+     }
+ }
+
+
+10. Provider Folder
+public class APIAUTHORIZATIONSERVERPROVIDER : OAuthAuthorizationServerProvider
+{
+    public override async Task ValidateClientAuthentication(OAuthValidateClientAuthenticationContext context)
+    {
+        // return base.ValidateClientAuthentication(context);
+        context.Validated();
+    }
+    public override async Task GrantResourceOwnerCredentials(OAuthGrantResourceOwnerCredentialsContext context)
+    {
+        // return base.GrantResourceOwnerCredentials(context);
+        var userManager = new UserManager<IdentityUser>(new UserStore<IdentityUser>(new DbInvContext()));
+        IdentityUser user = await userManager.FindAsync(context.UserName, context.Password);
+
+        if (user == null)
+        {
+            context.SetError("invalid_grant", "The user name or password is incorrect.");
+            return;
+        }
+        var identity = new ClaimsIdentity(context.Options.AuthenticationType);
+        identity.AddClaim(new Claim(ClaimTypes.Name, context.UserName));
+        context.Validated(identity);
+    }
+}
+
+
+11. Startup class
+[assembly: OwinStartup(typeof(R61_1285072.Startup))]
+namespace R61_1285072
+{
+    public class Startup
+    {
+        public void Configuration(IAppBuilder app)
+        {
+            app.UseCors(Microsoft.Owin.Cors.CorsOptions.AllowAll);
+
+            var myProvider = new APIAUTHORIZATIONSERVERPROVIDER();
+
+            var options = new OAuthAuthorizationServerOptions
+            {
+                AllowInsecureHttp = true,
+                TokenEndpointPath = new PathString("/token"),
+                AccessTokenExpireTimeSpan = TimeSpan.FromDays(1),
+                Provider = myProvider
+            };
+
+            app.UseOAuthAuthorizationServer(options);
+            app.UseOAuthBearerAuthentication(new OAuthBearerAuthenticationOptions());
+
+            var config = new HttpConfiguration();
+            WebApiConfig.Register(config);
+        }
+    }
+}
+
+
+12. Post  -> body -> formdata
+13. Put
+14. Delete
+15. Controller [Authorize]
+16. Startup [assembly:Owin.Startup(typeof[namespace.startup])]
+
+17. body -> www-form-urlencoded
+18. UserName, Password, grant_type
+19. Authorization -> Type -> bearertoken
+
+
+----------------------------------------------------------
+POST - 
+authorization->Type-bearertoken 
+body->form-data -> file and sales
+----------------------------------------------------------
+{ 
+"Sales":{"ID":5,
+        "Name": "C1",
+        "OrderDate": "2025-01-28",
+        "Status": true,
+        "Details": [
+            {
+                "Price": 343.0,
+                "ProductId": 1,
+               
+            },
+            {
+                "Price": 333.0,
+                "ProductId": 2
+            }
+        ]
+    }
+}
+----------------------------------------------------------

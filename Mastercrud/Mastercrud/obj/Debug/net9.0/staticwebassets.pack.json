@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\class\\2025-02-17\\Mastercrud\\Mastercrud\\wwwroot\\Pictures\\1.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\1.jpg"
+    },
+    {
+      "Id": "E:\\class\\2025-02-17\\Mastercrud\\Mastercrud\\wwwroot\\Pictures\\202502170687.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\202502170687.jpg"
+    },
+    {
+      "Id": "E:\\class\\2025-02-17\\Mastercrud\\Mastercrud\\wwwroot\\Pictures\\202502172057.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\202502172057.jpg"
+    },
+    {
+      "Id": "E:\\class\\2025-02-17\\Mastercrud\\Mastercrud\\wwwroot\\Pictures\\202502172930.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\202502172930.jpg"
+    },
+    {
+      "Id": "E:\\class\\2025-02-17\\Mastercrud\\Mastercrud\\wwwroot\\Pictures\\202502173012.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\202502173012.jpg"
+    },
+    {
+      "Id": "E:\\class\\2025-02-17\\Mastercrud\\Mastercrud\\wwwroot\\Pictures\\202502173029.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\202502173029.jpg"
+    },
+    {
+      "Id": "E:\\class\\2025-02-17\\Mastercrud\\Mastercrud\\wwwroot\\Pictures\\202502174127.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\202502174127.jpg"
+    },
+    {
+      "Id": "E:\\class\\2025-02-17\\Mastercrud\\Mastercrud\\wwwroot\\Pictures\\202502176064.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\202502176064.jpg"
+    },
+    {
+      "Id": "E:\\class\\2025-02-17\\Mastercrud\\Mastercrud\\wwwroot\\Pictures\\202502176252.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\202502176252.jpg"
+    },
+    {
+      "Id": "E:\\class\\2025-02-17\\Mastercrud\\Mastercrud\\wwwroot\\Pictures\\202502179100.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\202502179100.jpg"
+    },
+    {
+      "Id": "E:\\class\\2025-02-17\\Mastercrud\\Mastercrud\\wwwroot\\Pictures\\202503017385.png",
+      "PackagePath": "staticwebassets\\Pictures\\202503017385.png"
+    },
+    {
+      "Id": "E:\\class\\2025-02-17\\Mastercrud\\Mastercrud\\wwwroot\\Pictures\\202503018375.png",
+      "PackagePath": "staticwebassets\\Pictures\\202503018375.png"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Mastercrud.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Mastercrud.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Mastercrud.props",
+      "PackagePath": "build\\Mastercrud.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Mastercrud.props",
+      "PackagePath": "buildMultiTargeting\\Mastercrud.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Mastercrud.props",
+      "PackagePath": "buildTransitive\\Mastercrud.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
