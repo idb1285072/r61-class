@@ -1,0 +1,33 @@
+{{students|json}}
+<div class="my-2">
+    <label>Tax Rate:</label>
+    <select class="form-select" [value]="taxRate || 0"
+    (change)="taxRate=$any($event).target.value">
+    <option value="0">None</option>
+    <option value="10">10%</option>
+    <option value="20">20%</option>
+    <option value="50">50%</option>
+    </select>
+    </div>
+<table >
+    <tr>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Fee</th>
+        <th>Fee with tax</th>
+    </tr>
+    <tr *ngFor="let e of students">
+        <td>
+            {{e.Name|addTitle:e.Gender}}
+        </td>
+        <td>
+            {{e.Gender|lowercase}}
+        </td>
+        <td>
+            {{e.Fee|number}}
+        </td>
+        <td>
+            {{e.Fee|addTax:(taxRate||0)}}
+        </td>
+    </tr>
+</table>
