@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        div > img {
+            width: 250px;
+             /* border: solid 4px red;  */
+             
+            border-radius: 10px;
+            margin: 16px;
+        }
+        figure {
+            margin: 8px;
+            width: 266px;
+            display: inline-block;
+        }
+        figure > img {
+            width: 250px;
+            margin: 8px;
+            border-radius: 10px;
+        }
+       figcaption {
+            text-align: center;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        
+        <img src="Images/bandor.jpg" title="Common monkey" />
+        <img src="Images/viper.webp" title="Russel's Viper" />
+        <img src="Images/tiger.jpg" title="Royal Bangal Tiger" />
+    </div>
+    <div>
+        <figure>
+            <img src="Images/hills.jpeg"  />
+            <figcaption>Panaromic Hils View</figcaption>
+        </figure>
+        <figure>
+            <img src="Images/viper.webp"  />
+            <figcaption>Russel's Viper</figcaption>
+        </figure>
+        <figure>
+            <img src="Images/tiger.jpg"  />
+            <figcaption>Royal Bengal Tiger</figcaption>
+        </figure>
+    </div>
+</body>
+</html>
