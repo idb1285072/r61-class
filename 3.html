@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wrap {
+            padding: 0;
+            margin: 0 auto;
+            width: 450px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <canvas id="canvas" width="450px" height="230px">
+            Browser does not support canvas
+        </canvas>
+    </div>
+    <script>
+         var ctx = document
+        .getElementById('canvas')
+        .getContext('2d');
+        
+        if(ctx) {
+            ctx.fillStyle = 'lightgray';
+            ctx.fillRect(0, 0, 450, 230);
+
+            ctx.fillStyle = 'red';
+            ctx.strokeStyle ='blue';
+            ctx.lineWidth = 7.5;
+            ctx.lineJoin= 'round';
+            
+            ctx.arc(60, 60, 50, 0, 2*Math.PI);
+            ctx.fill();
+            ctx.stroke();
+            ctx.beginPath();
+            ctx.ellipse(180, 60, 50, 50, 0, 0, 2*Math.PI);
+            ctx.fill();
+            ctx.stroke();
+            ctx.beginPath();
+            ctx.moveTo(240, 100);
+            ctx.lineTo(340, 100);
+            ctx.lineTo(290, 30);
+            ctx.closePath();
+            ctx.fill();
+            ctx.stroke();
+            //ctx.fill();
+            
+        }
+    </script>
+</body>
+</html>

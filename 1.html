@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wrap {
+            padding: 0;
+            margin: 0 auto;
+            width: 450px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <canvas id="canvas" width="450px" height="230px">
+            Browser does not support canvas
+        </canvas>
+    </div>
+    <script>
+        var ctx = document
+        .getElementById('canvas')
+        .getContext('2d');
+        
+        if(ctx) {
+            ctx.fillStyle = 'lightgray';
+            ctx.fillRect(0, 0, 450, 230);
+           
+            ctx.strokeStyle = 'red';
+            ctx.lineWidth = 5;
+            ctx.beginPath();
+            ctx.moveTo(10, 10);
+            ctx.lineTo(110, 10);
+            ctx.stroke();
+            ctx.moveTo(120, 10);
+            ctx.lineTo(220, 10);
+            ctx.stroke();
+            ctx.moveTo(230, 10);
+            ctx.lineTo(330, 10);
+            ctx.stroke();
+            ctx.moveTo(340, 10);
+            ctx.lineTo(440, 10);
+            ctx.stroke();
+           
+            ctx.beginPath();
+            ctx.strokeStyle = 'blue';
+            ctx.moveTo(10, 10);
+            ctx.lineTo(440, 220);
+            ctx.stroke();
+            ctx.moveTo(440, 10);
+            ctx.lineTo(10, 220);
+            ctx.stroke();
+            ctx.beginPath();
+            ctx.strokeStyle = 'green';
+            ctx.moveTo(10, 220);
+            ctx.lineTo(440, 220);
+            ctx.stroke(); 
+            //ctx.clearRect(0, 0, 450, 230);
+        }
+    </script>
+</body>
+</html>
