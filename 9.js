@@ -1,0 +1,17 @@
+let dt1 = new Date();
+let dt2 = new Date(1971, 11, 16);
+let diff = dt1 - dt2;
+let y= (diff/(1000*60*60*24))/365;
+let d= (diff/(1000*60*60*24))%365;
+let m = d/30;
+d= d%30;
+console.log(Math.round(y));
+console.log(Math.round(m));
+console.log(Math.round(d));
+console.log(`${Math.round(y)} year ${Math.round(m)} months ${Math.round(d)} days`);
+console.log(new Intl.DateTimeFormat('en-US').format(dt1));
+console.log(new Intl.DateTimeFormat('en-UK').format(dt1));
+console.log(new Intl.DateTimeFormat('bn-BD').format(dt1));
+console.log(new Intl.DateTimeFormat('ar-SA').format(dt1));
+console.log(new Intl.DateTimeFormat('hi-IN').format(dt1));
+console.log(new Intl.DateTimeFormat('de-DE').format(dt1));
