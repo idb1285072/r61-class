@@ -1,0 +1,55 @@
+1. Write a query to retrieve last 5 those invoices record whose invoice total is equal to the sum of
+payment total & credit total. – 3
+2. Write a query to retrieve those invoices record whose date is later then 01/01/2016 or invoice
+total is more than 500 and invoice total must be greater than sum of payment total and credit
+total. – 3
+3. Write a query to retrieve those invoices whose vendor states are all except ‘CA’, ‘NV’, ‘OR’ and
+invoice dates are later than 01/01/2016. – 3
+4. Write a query to retrieve invoices from 01/05/2016 to 31/05/2016. – 2
+5. Write a query to retrieve vendors whose vendor city starts with ‘SAN’. – 1
+6. Write a query to retrieve vendors whose contact name has one of the following characters: a, e,
+i, o, u. – 1
+7. Write a query to find all vendors whose first letter of state starts with N and the next letter is
+one of A through J. – 1
+8. Write a query to find all vendors whose first letter of state starts with N and the next letter is
+not in K through Y. – 1
+9. Write a query to retrieve 11 through 20 records of vendors. – 2
+10. Write a group query to retrieve invoices those average of invoice total is more than 2000. – 5
+11. Give an example of CUBE operator. – 3
+12. Give an example of ROLLUP operator. – 3
+13. Give an example of GROUPING SETS operator. – 3
+14. Give an example of OVER clause. – 3
+15. Write a subquery to retrieve vendors who have invoices. – 3
+16. Give an example of ANY keyword. – 1
+17. Give an example of ALL keyword. – 1
+18. Give an example of SOME keyword. – 1
+19. Give an example of correlated subquery. – 3
+20. Give an example of EXISTS operator. – 1
+21. Give an example on CTE. – 4
+22. Insert a vendor record. – 1
+23. Delete a vendor record. 
+24. select statement that uses a searched CASE function.
+25. select statement to cast 01-June-2019 10:00 AM as 2019-06-01
+26. select statement to convert 01-June-2019 10:00 AM to 10:00:00
+27. Give an example on RANK, DENS_RANK, NTILE on any table
+28. Write a SELECT INTO statement.
+29. Write an update query. 
+30. Write a delete query.
+31. Write a query that uses TOP clause and IN operator.
+32. Write a query that uses the DISTINCT keyword and the BETWEEN operator.
+33. Write a summary query that
+	a. uses the ROLLUP operator
+	b. uses the OVER clause 
+34. Find out InvoiceNumber , InvoiceTotal, CreditTotal [PaymentTotal + CreditTotal], Balance [PaymentOtal -CrediTotal]
+Only return those rows with a balance due greater than 1000. Sort
+the result set by lnvoiceTotal, with the largest invoice first.
+35. Write down a summary query that shows lnvoiceCount is the count of the number of
+invoices, and lnvoiceSum is the sum of the lnvoiceTotal and sorted on highest to lowest number
+36. Write a SELECT statement that returns three columns: AccountDescription,
+LineltemCount, and LineltemSum. LineltemCount is the number of entries in
+the lnvoiceLineltems table that have that AccountNo. LineltemSum is the sum
+of the lnvoiceLineltemAmount column for that AccountNo. Filter the result
+set to include only those rows with LineltemCount greater than 1. Group the
+result set by account description, and sort it by descending LineltemCount.
+37. Show the examples of functions
+CHARINDEX, PATINDEX, CONCAT, SUBSTRING, ISNUMERIC, ROUND, DATEPART, DATEADD, DATEDIFF
