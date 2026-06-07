@@ -1,0 +1,2 @@
+--CREATE A PROC that shows current date only not time part
+--CREATE A PROC that shows current time
