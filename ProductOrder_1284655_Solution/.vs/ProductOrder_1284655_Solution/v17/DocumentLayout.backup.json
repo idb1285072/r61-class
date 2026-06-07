@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\R61\\M3\\Projects\\ProductOrder_1284655_Solution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5FC69D-DA09-40D2-9549-702835AFA6F2}|ProductOrder_1284655\\ProductOrder_1284655.csproj|d:\\r61\\m3\\projects\\productorder_1284655_solution\\productorder_1284655\\dependecyinjectiontest\\test2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5FC69D-DA09-40D2-9549-702835AFA6F2}|ProductOrder_1284655\\ProductOrder_1284655.csproj|solutionrelative:productorder_1284655\\dependecyinjectiontest\\test2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5FC69D-DA09-40D2-9549-702835AFA6F2}|ProductOrder_1284655\\ProductOrder_1284655.csproj|d:\\r61\\m3\\projects\\productorder_1284655_solution\\productorder_1284655\\factories\\igenericrepositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5FC69D-DA09-40D2-9549-702835AFA6F2}|ProductOrder_1284655\\ProductOrder_1284655.csproj|solutionrelative:productorder_1284655\\factories\\igenericrepositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5FC69D-DA09-40D2-9549-702835AFA6F2}|ProductOrder_1284655\\ProductOrder_1284655.csproj|D:\\R61\\M3\\Projects\\ProductOrder_1284655_Solution\\productorder_1284655\\model\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5FC69D-DA09-40D2-9549-702835AFA6F2}|ProductOrder_1284655\\ProductOrder_1284655.csproj|solutionrelative:productorder_1284655\\model\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5FC69D-DA09-40D2-9549-702835AFA6F2}|ProductOrder_1284655\\ProductOrder_1284655.csproj|d:\\r61\\m3\\projects\\productorder_1284655_solution\\productorder_1284655\\dependecyinjectiontest\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5FC69D-DA09-40D2-9549-702835AFA6F2}|ProductOrder_1284655\\ProductOrder_1284655.csproj|solutionrelative:productorder_1284655\\dependecyinjectiontest\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5FC69D-DA09-40D2-9549-702835AFA6F2}|ProductOrder_1284655\\ProductOrder_1284655.csproj|d:\\r61\\m3\\projects\\productorder_1284655_solution\\productorder_1284655\\model\\debitcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5FC69D-DA09-40D2-9549-702835AFA6F2}|ProductOrder_1284655\\ProductOrder_1284655.csproj|solutionrelative:productorder_1284655\\model\\debitcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5FC69D-DA09-40D2-9549-702835AFA6F2}|ProductOrder_1284655\\ProductOrder_1284655.csproj|d:\\r61\\m3\\projects\\productorder_1284655_solution\\productorder_1284655\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5FC69D-DA09-40D2-9549-702835AFA6F2}|ProductOrder_1284655\\ProductOrder_1284655.csproj|solutionrelative:productorder_1284655\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5FC69D-DA09-40D2-9549-702835AFA6F2}|ProductOrder_1284655\\ProductOrder_1284655.csproj|d:\\r61\\m3\\projects\\productorder_1284655_solution\\productorder_1284655\\factories\\genericrepositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5FC69D-DA09-40D2-9549-702835AFA6F2}|ProductOrder_1284655\\ProductOrder_1284655.csproj|solutionrelative:productorder_1284655\\factories\\genericrepositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5FC69D-DA09-40D2-9549-702835AFA6F2}|ProductOrder_1284655\\ProductOrder_1284655.csproj|d:\\r61\\m3\\projects\\productorder_1284655_solution\\productorder_1284655\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5FC69D-DA09-40D2-9549-702835AFA6F2}|ProductOrder_1284655\\ProductOrder_1284655.csproj|solutionrelative:productorder_1284655\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DebitCard.cs",
+              "DocumentMoniker": "D:\\R61\\M3\\Projects\\ProductOrder_1284655_Solution\\ProductOrder_1284655\\Model\\DebitCard.cs",
+              "RelativeDocumentMoniker": "ProductOrder_1284655\\Model\\DebitCard.cs",
+              "ToolTip": "D:\\R61\\M3\\Projects\\ProductOrder_1284655_Solution\\ProductOrder_1284655\\Model\\DebitCard.cs",
+              "RelativeToolTip": "ProductOrder_1284655\\Model\\DebitCard.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBgAAACUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T04:11:21.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test2.cs",
+              "DocumentMoniker": "D:\\R61\\M3\\Projects\\ProductOrder_1284655_Solution\\ProductOrder_1284655\\DependecyInjectionTest\\Test2.cs",
+              "RelativeDocumentMoniker": "ProductOrder_1284655\\DependecyInjectionTest\\Test2.cs",
+              "ToolTip": "D:\\R61\\M3\\Projects\\ProductOrder_1284655_Solution\\ProductOrder_1284655\\DependecyInjectionTest\\Test2.cs",
+              "RelativeToolTip": "ProductOrder_1284655\\DependecyInjectionTest\\Test2.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T04:06:29.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Test1.cs",
+              "DocumentMoniker": "D:\\R61\\M3\\Projects\\ProductOrder_1284655_Solution\\ProductOrder_1284655\\DependecyInjectionTest\\Test1.cs",
+              "RelativeDocumentMoniker": "ProductOrder_1284655\\DependecyInjectionTest\\Test1.cs",
+              "ToolTip": "D:\\R61\\M3\\Projects\\ProductOrder_1284655_Solution\\ProductOrder_1284655\\DependecyInjectionTest\\Test1.cs",
+              "RelativeToolTip": "ProductOrder_1284655\\DependecyInjectionTest\\Test1.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAwwB8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T03:50:28.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GenericRepositoryFactory.cs",
+              "DocumentMoniker": "D:\\R61\\M3\\Projects\\ProductOrder_1284655_Solution\\ProductOrder_1284655\\Factories\\GenericRepositoryFactory.cs",
+              "RelativeDocumentMoniker": "ProductOrder_1284655\\Factories\\GenericRepositoryFactory.cs",
+              "ToolTip": "D:\\R61\\M3\\Projects\\ProductOrder_1284655_Solution\\ProductOrder_1284655\\Factories\\GenericRepositoryFactory.cs",
+              "RelativeToolTip": "ProductOrder_1284655\\Factories\\GenericRepositoryFactory.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T03:48:24.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IGenericRepositoryFactory.cs",
+              "DocumentMoniker": "D:\\R61\\M3\\Projects\\ProductOrder_1284655_Solution\\ProductOrder_1284655\\Factories\\IGenericRepositoryFactory.cs",
+              "RelativeDocumentMoniker": "ProductOrder_1284655\\Factories\\IGenericRepositoryFactory.cs",
+              "ToolTip": "D:\\R61\\M3\\Projects\\ProductOrder_1284655_Solution\\ProductOrder_1284655\\Factories\\IGenericRepositoryFactory.cs",
+              "RelativeToolTip": "ProductOrder_1284655\\Factories\\IGenericRepositoryFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T03:47:23.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\R61\\M3\\Projects\\ProductOrder_1284655_Solution\\ProductOrder_1284655\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "ProductOrder_1284655\\Repositories\\GenericRepository.cs",
+              "ToolTip": "D:\\R61\\M3\\Projects\\ProductOrder_1284655_Solution\\ProductOrder_1284655\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "ProductOrder_1284655\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T03:40:31.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "D:\\R61\\M3\\Projects\\ProductOrder_1284655_Solution\\ProductOrder_1284655\\Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "ProductOrder_1284655\\Repositories\\IGenericRepository.cs",
+              "ToolTip": "D:\\R61\\M3\\Projects\\ProductOrder_1284655_Solution\\ProductOrder_1284655\\Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "ProductOrder_1284655\\Repositories\\IGenericRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T03:38:10.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "D:\\R61\\M3\\Projects\\ProductOrder_1284655_Solution\\ProductOrder_1284655\\Model\\BankAccount.cs",
+              "RelativeDocumentMoniker": "ProductOrder_1284655\\Model\\BankAccount.cs",
+              "ToolTip": "D:\\R61\\M3\\Projects\\ProductOrder_1284655_Solution\\ProductOrder_1284655\\Model\\BankAccount.cs",
+              "RelativeToolTip": "ProductOrder_1284655\\Model\\BankAccount.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAACfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T03:18:06.174Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
