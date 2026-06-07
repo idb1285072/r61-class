@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        div > div {
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div style="margin: 16px;">
+        <div>
+            <input type="text" id="name" placeholder="name.." />
+            <input type="tex" id="location" placeholder="city..." />
+            <button id="ls">Save to localStorage</button>
+            <button id="ss">Save to sessionStorage</button>
+        </div>
+        <div>
+            <div id="output"></div>
+            <div>
+                <button id="rls">Read from localStorage</button>
+                <button id="rss">Read sessionStorage</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('ls').addEventListener('click', ()=>{
+            let data = {
+                name: document.getElementById('name').value,
+                city: document.getElementById('location').value
+            };
+            localStorage.setItem('mydata', JSON.stringify(data))
+        }, false);
+        document.getElementById('ss').addEventListener('click', ()=>{
+            let data = {
+                name: document.getElementById('name').value,
+                city: document.getElementById('location').value
+            };
+            sessionStorage.setItem('mydata', JSON.stringify(data))
+        }, false);
+        document.getElementById('rls').addEventListener('click', ()=>{
+           let data= localStorage.getItem('mydata');
+           if(data){
+                data = JSON.parse(data);
+                document.getElementById('output').innerHTML=`Name: ${data.name}, city=${data.city}`;
+           }
+        }, false);
+        document.getElementById('rss').addEventListener('click', ()=>{
+           let data= sessionStorage.getItem('mydata');
+           if(data){
+                data = JSON.parse(data);
+                document.getElementById('output').innerHTML=`Name: ${data.name}, city=${data.city}`;
+           }
+        }, false);
+    </script>
+</body>
+</html>

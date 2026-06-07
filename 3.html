@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .main {
+            margin: 16px auto;
+            padding: .5rem;
+        }
+        .main::before {
+            content: '"';
+        }
+        .main::after {
+            content: '"';
+        }
+        .main::first-letter {
+            font-size: 1.75rem;
+            font-weight: 700;
+        }
+        :disabled {
+            border: solid 1px #ccc;
+            color: black;
+        }
+        :disabled::after{
+            content: 'x';
+        }
+        input:required {
+            border: solid 1px red; 
+        }
+        input:required + span::after{
+            
+            content: "*";
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="main">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nobis nisi debitis deserunt? Reprehenderit, mollitia! Quaerat, sit iste inventore, odit quas voluptatibus beatae, repudiandae nesciunt tempora accusamus totam natus magnam.
+    </div>
+    <button disabled>Ok</button>
+    <input type="text" required/> <span></span>
+    <br>
+    <input type="text"  /><span></span>
+    <br>
+    <input type="text" required /><span></span>
+</body>
+</html>
