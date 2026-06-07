@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button id="b1">Hide</button>
+    </div>
+    <p id="p">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, veritatis recusandae assumenda quae dicta vel eum est repudiandae dolorem aspernatur ab rem quas laborum blanditiis. Ipsum culpa vero quod aut.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti sit odit cumque similique cupiditate consequatur odio cum, sequi quisquam, sint magni vel, tempore facilis itaque repudiandae officiis maxime. Provident, adipisci?
+    </p>
+    <script>
+        
+        document.getElementById("b1").addEventListener("click", function(){
+            //console.log(this.innerText);
+            var p = document.getElementById("p");
+            if(p.classList.contains('hide')) p.classList.remove('hide')
+            else p.classList.add('hide');
+            if(this.innerText == 'Hide') this.innerText='Show';
+            else this.innerText='Hide';
+            
+        });
+    </script>
+</body>
+</html>

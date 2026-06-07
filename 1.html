@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .form-wrap {
+            width: 560px;
+            margin: 8px auto;
+            padding: 5px;
+        }
+        .form {
+            width: 550px;
+            margin: 8px;
+        }
+        .row {
+            display: grid;
+            grid-template-columns: 120px auto;
+            margin-bottom: 8px;
+        }
+        .b-row {
+            display: flex;
+          
+            column-gap: 4px;
+        }
+        .filler {
+            flex: 1 1 auto;
+        }
+        input:invalid {
+            border: solid 3px red;
+        }
+        input:out-of-range {
+            border: solid 3px yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-wrap">
+        <h2>New HTML 5 inputs</h2>
+        <form>
+            <div class="row">
+                <label>Text</label>
+                <input type="text" name="text"  required maxlength="10" minlength="3" />
+            </div>
+            <div class="row">
+                <label>Email</label>
+                <input type="email" name="email" required />
+            </div>
+            <div class="row">
+                <label>Number</label>
+                <input type="number" name="number" min="1" max="10" required />
+            </div>
+            <div class="row">
+                <label>Date</label>
+                <input type="date" name="date" required />
+            </div>
+            <div class="row">
+                <label>Time</label>
+                <input type="time" name="time" />
+            </div>
+            <div class="row">
+                <label>Date/Time</label>
+                <input type="datetime-local" name="datetime" />
+            </div>
+            <div class="row">
+                <label>Color</label>
+                <input type="color" name="color" required  />
+            </div>
+            <div class="row">
+                <label>Pattern</label>
+                <input type="text" name="code" pattern="[A-Z][0-9]{3}" required  />
+            </div>
+            <div class="b-row">
+                <button type="reset">Cancel</button>
+                <span class="filler"></span>
+                <button type="submit" style="width: 120px;text-align:center;">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
