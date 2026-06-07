@@ -1,0 +1,14 @@
+D:\R61\M3\Class 24\R61_M3_Class_24_Works\R61_M3_Class_24_Work_01\bin\Debug\net8.0\R61_M3_Class_24_Work_01.exe
+D:\R61\M3\Class 24\R61_M3_Class_24_Works\R61_M3_Class_24_Work_01\bin\Debug\net8.0\R61_M3_Class_24_Work_01.deps.json
+D:\R61\M3\Class 24\R61_M3_Class_24_Works\R61_M3_Class_24_Work_01\bin\Debug\net8.0\R61_M3_Class_24_Work_01.runtimeconfig.json
+D:\R61\M3\Class 24\R61_M3_Class_24_Works\R61_M3_Class_24_Work_01\bin\Debug\net8.0\R61_M3_Class_24_Work_01.dll
+D:\R61\M3\Class 24\R61_M3_Class_24_Works\R61_M3_Class_24_Work_01\bin\Debug\net8.0\R61_M3_Class_24_Work_01.pdb
+D:\R61\M3\Class 24\R61_M3_Class_24_Works\R61_M3_Class_24_Work_01\obj\Debug\net8.0\R61_M3_Class_24_Work_01.GeneratedMSBuildEditorConfig.editorconfig
+D:\R61\M3\Class 24\R61_M3_Class_24_Works\R61_M3_Class_24_Work_01\obj\Debug\net8.0\R61_M3_Class_24_Work_01.AssemblyInfoInputs.cache
+D:\R61\M3\Class 24\R61_M3_Class_24_Works\R61_M3_Class_24_Work_01\obj\Debug\net8.0\R61_M3_Class_24_Work_01.AssemblyInfo.cs
+D:\R61\M3\Class 24\R61_M3_Class_24_Works\R61_M3_Class_24_Work_01\obj\Debug\net8.0\R61_M3_Class_24_Work_01.csproj.CoreCompileInputs.cache
+D:\R61\M3\Class 24\R61_M3_Class_24_Works\R61_M3_Class_24_Work_01\obj\Debug\net8.0\R61_M3_Class_24_Work_01.dll
+D:\R61\M3\Class 24\R61_M3_Class_24_Works\R61_M3_Class_24_Work_01\obj\Debug\net8.0\refint\R61_M3_Class_24_Work_01.dll
+D:\R61\M3\Class 24\R61_M3_Class_24_Works\R61_M3_Class_24_Work_01\obj\Debug\net8.0\R61_M3_Class_24_Work_01.pdb
+D:\R61\M3\Class 24\R61_M3_Class_24_Works\R61_M3_Class_24_Work_01\obj\Debug\net8.0\R61_M3_Class_24_Work_01.genruntimeconfig.cache
+D:\R61\M3\Class 24\R61_M3_Class_24_Works\R61_M3_Class_24_Work_01\obj\Debug\net8.0\ref\R61_M3_Class_24_Work_01.dll
