@@ -1,0 +1,31 @@
+CREATE DATABASE R61
+GO
+USE R61
+GO
+CREATE TABLE products
+(
+	id INT IDENTITY NOT NULL,
+	[name] NVARCHAR(30) NOT NULL,
+	price MONEY NOT NULL  DEFAULT 0,
+	mfgdate DATE NULL DEFAULT GETDATE(),
+	madein NVARCHAR(30) NULL DEFAULT 'NA'
+)
+GO
+EXEC sp_helpconstraint products
+GO
+INSERT INTO products ([name]) VALUES ('P1')
+GO
+SELECT * FROM products
+GO
+INSERT INTO products VALUES 
+('P2', 19.99, DEFAULT, DEFAULT),
+('P3', 9.99, NULL, DEFAULT)
+GO
+ALTER TABLE products
+DROP CONSTRAINT DF__products__price__34C8D9D1
+GO
+EXEC sp_helpconstraint products
+GO
+ALTER TABLE products
+ADD DEFAULT 0 FOR price
+GO
