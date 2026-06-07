@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #container, #dropzone
+        {
+            width: 97.5%;
+            margin: 16px auto;
+            display: flex;
+            flex-direction: rows;
+            justify-content: flex-start;
+            align-items: center;
+            border: solid 3px red;
+            padding: 8px;
+            height: 150px;
+        }
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: 100px;
+            margin: 1.25rem;
+            font-size: 1.5rem;
+            border: solid 3px rgba(255, 0, 0, .5);
+            border-radius: .5rem;
+        }
+        .dragging 
+        {
+            background-color: rgba(255, 0, 0, .2);
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="box" id="b5" draggable="true">5</div>
+        <div class="box" id="b1" draggable="true">1</div>
+        <div class="box" id="b4" draggable="true">4</div>
+        <div class="box" id="b2" draggable="true">2</div>
+        <div class="box" id="b3" draggable="true">3</div>      
+        <div class="box" id="b6" draggable="true">6</div>
+        <div class="box" id="b8" draggable="true">8</div>
+        <div class="box" id="b7" draggable="true">7</div>      
+        <div class="box" id="b9" draggable="true">9</div>
+    </div>
+    <div id="dropzone">
+        
+    </div>
+    <script>
+        let dragContainer = document.getElementById("container");
+        let dropZone = document.getElementById('dropzone');
+        dragContainer.ondragstart = evt=>{
+            evt.target.classList.add('dragging');
+            evt.dataTransfer.setData('text/plain', evt.target.id);
+           //console.log(`${evt.target.id} drag started`);
+        }
+       
+        //////////////////
+        dropZone.ondragenter = evt=>{
+            evt.preventDefault();
+            //console.log(`${evt.target.id} drag enter`)
+        }
+        dropZone.ondragover = evt=>{
+            evt.preventDefault();
+            //console.log(`${evt.target} drag over`)
+        }
+        
+        dropZone.ondrop = evt=>{
+            let bid =evt.dataTransfer.getData('text/plain');
+            document.getElementById('dropzone').appendChild(document.getElementById(bid));
+            document.getElementById(bid).classList.remove('dragging');
+            //console.log(`${evt.target.id} dropped`);
+        }
+    </script>
+</body>
+</html>

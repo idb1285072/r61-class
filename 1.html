@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #d {
+            position: absolute;
+            left: -100px;
+            top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <span id="d"></span>
+    <script>
+        addEventListener("resize", ()=>{
+            console.log('resize')
+        }, false);
+        addEventListener('mousemove', evt=>{
+            //console.log(`(${evt.x}, ${evt.y})`);
+            let span = document.getElementById('d')
+            span.innerHTML=`(${evt.x}, ${evt.y})`;
+            span.style.left = `${evt.x+5}px`;
+            span.style.top = `${evt.y-8}px`;
+        })
+    </script>
+</body>
+</html>
