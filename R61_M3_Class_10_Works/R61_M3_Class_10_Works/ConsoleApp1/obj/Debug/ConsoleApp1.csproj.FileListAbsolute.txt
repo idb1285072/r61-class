@@ -1,0 +1,7 @@
+D:\R61\M3\Class 10\R61_M3_Class_10_Works\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\R61\M3\Class 10\R61_M3_Class_10_Works\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\R61\M3\Class 10\R61_M3_Class_10_Works\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\R61\M3\Class 10\R61_M3_Class_10_Works\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+D:\R61\M3\Class 10\R61_M3_Class_10_Works\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\R61\M3\Class 10\R61_M3_Class_10_Works\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\R61\M3\Class 10\R61_M3_Class_10_Works\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
