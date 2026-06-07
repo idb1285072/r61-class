@@ -1,0 +1,36 @@
+USE R61
+GO
+CREATE TABLE accounts
+(
+	id INT IDENTITY PRIMARY KEY,
+	accname NVARCHAR(30) NOT NULL,
+	balance MONEY CHECK (balance >= 500)
+)
+GO
+INSERT INTO accounts VALUES
+('Acc 1', 2500), ('Acc 2', 2000), ('Acc 3', 1500)
+GO
+BEGIN TRANSACTION
+BEGIN TRY
+	--1
+	UPDATE accounts
+	SET balance = balance+500
+	WHERE id=3	
+	--2
+	UPDATE accounts
+	SET balance = balance-500
+	WHERE id=2
+	--SELECT * FROM accounts
+	COMMIT TRAN
+END TRY
+BEGIN CATCH 
+	ROLLBACK TRAN
+	DECLARE @msg NVARCHAR(500)= ERROR_MESSAGE()
+	RAISERROR(@msg, 16, 1)
+END CATCH
+GO
+SELECT * FROM accounts
+GO
+SELECT * FROM sys.messages
+GO
+
