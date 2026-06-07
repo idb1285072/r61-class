@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\R61\\M3\\Class 03\\R61_M3_Class_03_Works\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05271874-49A6-471D-A4D9-4BA3EC1FFDE8}|R61_M3_Class_03_Work_04\\R61_M3_Class_03_Work_04.csproj|d:\\r61\\m3\\class 03\\r61_m3_class_03_works\\r61_m3_class_03_work_04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05271874-49A6-471D-A4D9-4BA3EC1FFDE8}|R61_M3_Class_03_Work_04\\R61_M3_Class_03_Work_04.csproj|solutionrelative:r61_m3_class_03_work_04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA1F218-BAD5-4788-9BFC-663259221A96}|R61_M3_Class_03_Work_03\\R61_M3_Class_03_Work_03.csproj|d:\\r61\\m3\\class 03\\r61_m3_class_03_works\\r61_m3_class_03_work_03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEA1F218-BAD5-4788-9BFC-663259221A96}|R61_M3_Class_03_Work_03\\R61_M3_Class_03_Work_03.csproj|solutionrelative:r61_m3_class_03_work_03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D6BF375-FA9D-4CCA-BE34-0EE84120B685}|R61_M3_Class_03_Work_02\\R61_M3_Class_03_Work_02.csproj|d:\\r61\\m3\\class 03\\r61_m3_class_03_works\\r61_m3_class_03_work_02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D6BF375-FA9D-4CCA-BE34-0EE84120B685}|R61_M3_Class_03_Work_02\\R61_M3_Class_03_Work_02.csproj|solutionrelative:r61_m3_class_03_work_02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\R61\\M3\\Class 03\\R61_M3_Class_03_Works\\R61_M3_Class_03_Work_04\\Program.cs",
+              "RelativeDocumentMoniker": "R61_M3_Class_03_Work_04\\Program.cs",
+              "ToolTip": "D:\\R61\\M3\\Class 03\\R61_M3_Class_03_Works\\R61_M3_Class_03_Work_04\\Program.cs",
+              "RelativeToolTip": "R61_M3_Class_03_Work_04\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T05:46:33.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\R61\\M3\\Class 03\\R61_M3_Class_03_Works\\R61_M3_Class_03_Work_03\\Program.cs",
+              "RelativeDocumentMoniker": "R61_M3_Class_03_Work_03\\Program.cs",
+              "ToolTip": "D:\\R61\\M3\\Class 03\\R61_M3_Class_03_Works\\R61_M3_Class_03_Work_03\\Program.cs",
+              "RelativeToolTip": "R61_M3_Class_03_Work_03\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAnwA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T05:37:47.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\R61\\M3\\Class 03\\R61_M3_Class_03_Works\\R61_M3_Class_03_Work_02\\Program.cs",
+              "RelativeDocumentMoniker": "R61_M3_Class_03_Work_02\\Program.cs",
+              "ToolTip": "D:\\R61\\M3\\Class 03\\R61_M3_Class_03_Works\\R61_M3_Class_03_Work_02\\Program.cs",
+              "RelativeToolTip": "R61_M3_Class_03_Work_02\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T04:09:30.515Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
