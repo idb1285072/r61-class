@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wrap {
+            padding: 0;
+            margin: 0 auto;
+            width: 450px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <canvas id="canvas" width="450px" height="230px">
+            Browser does not support canvas
+        </canvas>
+    </div>
+    <script>
+        var ctx = document
+                .getElementById('canvas')
+                .getContext('2d');
+        
+        if(ctx) {
+            ctx.fillStyle = 'lightgray';
+            ctx.fillRect(0, 0, 450, 230);
+            
+            var g1 = ctx.createLinearGradient(10, 10, 110, 10);
+            g1.addColorStop(0, 'red');
+            g1.addColorStop(.5, 'yellow');
+            g1.addColorStop(1, 'blue');
+            ctx.fillStyle =g1;
+            ctx.fillRect(10, 10, 100, 100);
+            var g2 = ctx.createLinearGradient(120, 10, 120, 110);
+            g2.addColorStop(0, 'red');
+            g2.addColorStop(.5, 'yellow');
+            g2.addColorStop(1, 'blue');
+            ctx.fillStyle =g2;
+            ctx.fillRect(120, 10, 100, 100);
+            var g3 = ctx.createLinearGradient(230, 10, 330, 110);
+            g3.addColorStop(0, 'red');
+            g3.addColorStop(.5, 'yellow');
+            g3.addColorStop(1, 'blue');
+            ctx.fillStyle =g3;
+            ctx.fillRect(230, 10, 100, 100);
+            var g4 = ctx.createLinearGradient(440, 10, 340, 110);
+            g4.addColorStop(0, 'red');
+            g4.addColorStop(.33, 'yellow');
+            g4.addColorStop(.66, 'green');
+            g4.addColorStop(1, 'blue');
+            ctx.fillStyle =g4;
+            ctx.fillRect(340, 10, 100, 100);
+            
+        }
+    </script>
+</body>
+</html>
