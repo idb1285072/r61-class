@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .dropzone {
+            width: 97.5%;
+            margin: 25px auto;
+            height: 200px;
+            border: solid 3px #ccc;
+            display: flex;
+            border-radius: 8px;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="dropzone" id="drop">
+        Drop files here
+    </div>
+    <div id="files">
+
+    </div>
+    <script>
+        document.getElementById('drop').ondragenter = evt =>{
+            evt.preventDefault();
+        }
+        document.getElementById('drop').ondragover = evt =>{
+            evt.preventDefault();
+        }
+        document.getElementById('drop').ondrop = evt =>{
+            evt.preventDefault();
+            let files = evt.dataTransfer.files;
+            //console.log(files);
+            document.getElementById('files').innerHTML='<ul>';
+            for(let i=0; i< files.length;i++){
+                document.getElementById('files').innerHTML += `<li>File: ${files[i].name} Size: ${getSize(files[i].size)} type: ${files[i].type}</li>`;   
+            }
+            document.getElementById('files').innerHTML +='</ul>';
+            
+        }
+        function getSize(size){
+            if(size >= 1024*1024){
+                return `${(size/(1024*1024)).toFixed(2)}MB`;
+            }
+            else if(size>=1024){
+                return `${(size/1024).toFixed(2)}KB`;
+            }
+            else
+            {
+                return `${size}Bytes`;
+            }
+        }
+    </script>
+</body>
+</html>
