@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\R61\\M3\\Class 02\\R61_M3_Class_02_Works\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6128090D-1842-4357-B763-63FDE634014C}|R61_M3_Class_02_Work_04\\R61_M3_Class_02_Work_04.csproj|d:\\r61\\m3\\class 02\\r61_m3_class_02_works\\r61_m3_class_02_work_04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6128090D-1842-4357-B763-63FDE634014C}|R61_M3_Class_02_Work_04\\R61_M3_Class_02_Work_04.csproj|solutionrelative:r61_m3_class_02_work_04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC4BB7CF-107A-4075-87B6-BA34030F8395}|R61_M3_Class_02_Work_03\\R61_M3_Class_02_Work_03.csproj|d:\\r61\\m3\\class 02\\r61_m3_class_02_works\\r61_m3_class_02_work_03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC4BB7CF-107A-4075-87B6-BA34030F8395}|R61_M3_Class_02_Work_03\\R61_M3_Class_02_Work_03.csproj|solutionrelative:r61_m3_class_02_work_03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4C372F8-AE47-4ACD-BB93-4A82A6013DC6}|R61_M3_Class_02_Work_02\\R61_M3_Class_02_Work_02.csproj|d:\\r61\\m3\\class 02\\r61_m3_class_02_works\\r61_m3_class_02_work_02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4C372F8-AE47-4ACD-BB93-4A82A6013DC6}|R61_M3_Class_02_Work_02\\R61_M3_Class_02_Work_02.csproj|solutionrelative:r61_m3_class_02_work_02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70C0048-ABCB-49F6-BDC4-7332F516440B}|R61_M3_Class_02_Work_01\\R61_M3_Class_02_Work_01.csproj|D:\\R61\\M3\\Class 02\\R61_M3_Class_02_Works\\r61_m3_class_02_work_01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D70C0048-ABCB-49F6-BDC4-7332F516440B}|R61_M3_Class_02_Work_01\\R61_M3_Class_02_Work_01.csproj|solutionrelative:r61_m3_class_02_work_01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\R61\\M3\\Class 02\\R61_M3_Class_02_Works\\R61_M3_Class_02_Work_04\\Program.cs",
+              "RelativeDocumentMoniker": "R61_M3_Class_02_Work_04\\Program.cs",
+              "ToolTip": "D:\\R61\\M3\\Class 02\\R61_M3_Class_02_Works\\R61_M3_Class_02_Work_04\\Program.cs",
+              "RelativeToolTip": "R61_M3_Class_02_Work_04\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T05:16:04.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\R61\\M3\\Class 02\\R61_M3_Class_02_Works\\R61_M3_Class_02_Work_03\\Program.cs",
+              "RelativeDocumentMoniker": "R61_M3_Class_02_Work_03\\Program.cs",
+              "ToolTip": "D:\\R61\\M3\\Class 02\\R61_M3_Class_02_Works\\R61_M3_Class_02_Work_03\\Program.cs",
+              "RelativeToolTip": "R61_M3_Class_02_Work_03\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA7wA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T04:29:10.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\R61\\M3\\Class 02\\R61_M3_Class_02_Works\\R61_M3_Class_02_Work_02\\Program.cs",
+              "RelativeDocumentMoniker": "R61_M3_Class_02_Work_02\\Program.cs",
+              "ToolTip": "D:\\R61\\M3\\Class 02\\R61_M3_Class_02_Works\\R61_M3_Class_02_Work_02\\Program.cs",
+              "RelativeToolTip": "R61_M3_Class_02_Work_02\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAvwCcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T03:38:11.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\R61\\M3\\Class 02\\R61_M3_Class_02_Works\\R61_M3_Class_02_Work_01\\Program.cs",
+              "RelativeDocumentMoniker": "R61_M3_Class_02_Work_01\\Program.cs",
+              "ToolTip": "D:\\R61\\M3\\Class 02\\R61_M3_Class_02_Works\\R61_M3_Class_02_Work_01\\Program.cs",
+              "RelativeToolTip": "R61_M3_Class_02_Work_01\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T03:26:30.766Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

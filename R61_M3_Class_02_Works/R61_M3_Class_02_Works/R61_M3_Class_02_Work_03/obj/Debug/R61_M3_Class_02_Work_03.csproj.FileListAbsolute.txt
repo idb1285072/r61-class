@@ -1,0 +1,7 @@
+D:\R61\M3\Class 02\R61_M3_Class_02_Works\R61_M3_Class_02_Work_03\bin\Debug\R61_M3_Class_02_Work_03.exe.config
+D:\R61\M3\Class 02\R61_M3_Class_02_Works\R61_M3_Class_02_Work_03\bin\Debug\R61_M3_Class_02_Work_03.exe
+D:\R61\M3\Class 02\R61_M3_Class_02_Works\R61_M3_Class_02_Work_03\bin\Debug\R61_M3_Class_02_Work_03.pdb
+D:\R61\M3\Class 02\R61_M3_Class_02_Works\R61_M3_Class_02_Work_03\obj\Debug\R61_M3_Class_02_Work_03.csproj.AssemblyReference.cache
+D:\R61\M3\Class 02\R61_M3_Class_02_Works\R61_M3_Class_02_Work_03\obj\Debug\R61_M3_Class_02_Work_03.csproj.CoreCompileInputs.cache
+D:\R61\M3\Class 02\R61_M3_Class_02_Works\R61_M3_Class_02_Work_03\obj\Debug\R61_M3_Class_02_Work_03.exe
+D:\R61\M3\Class 02\R61_M3_Class_02_Works\R61_M3_Class_02_Work_03\obj\Debug\R61_M3_Class_02_Work_03.pdb
