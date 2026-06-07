@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .form-div {
+        width: 550px;
+        margin: 16px auto;
+      }
+      .fld {
+        display: grid;
+        grid-template-columns: 90px 1fr;
+        column-gap: 8px;
+        row-gap: 8px;
+      }
+      fieldset {
+        padding: 0.5rem;
+        border: none;
+        border-top: solid 1px #ccc;
+      }
+      .btn {
+        padding: 0.25rem 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form-div">
+      <form action="process.aspx" method="post">
+        <h3>Registeration form</h3>
+        <fieldset>
+          <legend>Personal info</legend>
+          <div class="fld">
+            <label for="fname">Full name</label>
+            <input name="fname" id="fname" />
+
+            <label for="address">Address</label>
+            <textarea name="address" id="address" rows="3"></textarea>
+
+            <label for="city">City</label>
+            <select name="city" id="city">
+              <option value="dhk">Dhaka</option>
+              <option value="ctg">Chittagong</option>
+              <option value="syl">Sylhet</option>
+              <option value="raj">Rajshahi</option>
+              <option value="" selected>Select one</option>
+            </select>
+
+            <label>Gender</label>
+            <div>
+              <label
+                ><input type="radio" name="gender" id="male" value="M" />
+                Male</label
+              >
+              <label>
+                <input type="radio" name="gender" id="female" value="F" />
+                Female</label
+              >
+            </div>
+          </div>
+          <div style="margin-top: 8px">
+            <label
+              ><input type="checkbox" name="terms" /> I agree to terms and
+              condition</label
+            >
+          </div>
+          <div style="margin-top: 8px; text-align: right">
+            <button class="btn" type="reset">Reset</button>
+            <button class="btn" type="submit">Register</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
