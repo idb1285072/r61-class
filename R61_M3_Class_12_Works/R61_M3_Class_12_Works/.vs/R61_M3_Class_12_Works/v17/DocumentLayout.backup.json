@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\R61\\M3\\Class 12\\R61_M3_Class_12_Works\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85F580FA-D0AF-4A66-9D08-3DF81E812ECE}|R61_M3_Class_12_Work_03\\R61_M3_Class_12_Work_03.csproj|d:\\r61\\m3\\class 12\\r61_m3_class_12_works\\r61_m3_class_12_work_03\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F580FA-D0AF-4A66-9D08-3DF81E812ECE}|R61_M3_Class_12_Work_03\\R61_M3_Class_12_Work_03.csproj|solutionrelative:r61_m3_class_12_work_03\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F580FA-D0AF-4A66-9D08-3DF81E812ECE}|R61_M3_Class_12_Work_03\\R61_M3_Class_12_Work_03.csproj|d:\\r61\\m3\\class 12\\r61_m3_class_12_works\\r61_m3_class_12_work_03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F580FA-D0AF-4A66-9D08-3DF81E812ECE}|R61_M3_Class_12_Work_03\\R61_M3_Class_12_Work_03.csproj|solutionrelative:r61_m3_class_12_work_03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F580FA-D0AF-4A66-9D08-3DF81E812ECE}|R61_M3_Class_12_Work_03\\R61_M3_Class_12_Work_03.csproj|d:\\r61\\m3\\class 12\\r61_m3_class_12_works\\r61_m3_class_12_work_03\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F580FA-D0AF-4A66-9D08-3DF81E812ECE}|R61_M3_Class_12_Work_03\\R61_M3_Class_12_Work_03.csproj|solutionrelative:r61_m3_class_12_work_03\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F580FA-D0AF-4A66-9D08-3DF81E812ECE}|R61_M3_Class_12_Work_03\\R61_M3_Class_12_Work_03.csproj|d:\\r61\\m3\\class 12\\r61_m3_class_12_works\\r61_m3_class_12_work_03\\models\\irole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F580FA-D0AF-4A66-9D08-3DF81E812ECE}|R61_M3_Class_12_Work_03\\R61_M3_Class_12_Work_03.csproj|solutionrelative:r61_m3_class_12_work_03\\models\\irole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F580FA-D0AF-4A66-9D08-3DF81E812ECE}|R61_M3_Class_12_Work_03\\R61_M3_Class_12_Work_03.csproj|d:\\r61\\m3\\class 12\\r61_m3_class_12_works\\r61_m3_class_12_work_03\\models\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F580FA-D0AF-4A66-9D08-3DF81E812ECE}|R61_M3_Class_12_Work_03\\R61_M3_Class_12_Work_03.csproj|solutionrelative:r61_m3_class_12_work_03\\models\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\R61\\M3\\Class 12\\R61_M3_Class_12_Works\\R61_M3_Class_12_Work_03\\Program.cs",
+              "RelativeDocumentMoniker": "R61_M3_Class_12_Work_03\\Program.cs",
+              "ToolTip": "D:\\R61\\M3\\Class 12\\R61_M3_Class_12_Works\\R61_M3_Class_12_Work_03\\Program.cs",
+              "RelativeToolTip": "R61_M3_Class_12_Work_03\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T05:55:02.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "D:\\R61\\M3\\Class 12\\R61_M3_Class_12_Works\\R61_M3_Class_12_Work_03\\Models\\Constants.cs",
+              "RelativeDocumentMoniker": "R61_M3_Class_12_Work_03\\Models\\Constants.cs",
+              "ToolTip": "D:\\R61\\M3\\Class 12\\R61_M3_Class_12_Works\\R61_M3_Class_12_Work_03\\Models\\Constants.cs",
+              "RelativeToolTip": "R61_M3_Class_12_Work_03\\Models\\Constants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T05:42:23.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRole.cs",
+              "DocumentMoniker": "D:\\R61\\M3\\Class 12\\R61_M3_Class_12_Works\\R61_M3_Class_12_Work_03\\Models\\IRole.cs",
+              "RelativeDocumentMoniker": "R61_M3_Class_12_Work_03\\Models\\IRole.cs",
+              "ToolTip": "D:\\R61\\M3\\Class 12\\R61_M3_Class_12_Works\\R61_M3_Class_12_Work_03\\Models\\IRole.cs",
+              "RelativeToolTip": "R61_M3_Class_12_Work_03\\Models\\IRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T05:42:05.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\R61\\M3\\Class 12\\R61_M3_Class_12_Works\\R61_M3_Class_12_Work_03\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "R61_M3_Class_12_Work_03\\Models\\Employee.cs",
+              "ToolTip": "D:\\R61\\M3\\Class 12\\R61_M3_Class_12_Works\\R61_M3_Class_12_Work_03\\Models\\Employee.cs*",
+              "RelativeToolTip": "R61_M3_Class_12_Work_03\\Models\\Employee.cs*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAuwCYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T05:41:55.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Person.cs",
+              "DocumentMoniker": "D:\\R61\\M3\\Class 12\\R61_M3_Class_12_Works\\R61_M3_Class_12_Work_03\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "R61_M3_Class_12_Work_03\\Models\\Person.cs",
+              "ToolTip": "D:\\R61\\M3\\Class 12\\R61_M3_Class_12_Works\\R61_M3_Class_12_Work_03\\Models\\Person.cs",
+              "RelativeToolTip": "R61_M3_Class_12_Work_03\\Models\\Person.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T05:41:44.487Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

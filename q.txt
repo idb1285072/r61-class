@@ -1,0 +1,11 @@
+Create C# console application to take and print the following –
+a. Employee information: Id, Name, Date of birth, Join Date, Grade, Role plays
+c. Apply object approach of OOP.
+ 
+The application will follow the following instructions strictly:
+a. Principle of OOP must be followed/used to develop the application. 
+b. Employee must inherit Person.
+c. Roles must be implemented. Roles unlimited
+d. Enum will be used for Grade.
+e. Person cannot be instantiated.
+f. Employee cannot be inherited.
