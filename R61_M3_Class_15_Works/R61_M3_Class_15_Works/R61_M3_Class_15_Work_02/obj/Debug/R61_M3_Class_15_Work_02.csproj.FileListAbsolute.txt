@@ -1,0 +1,10 @@
+D:\R61\M3\Class 15\R61_M3_Class_15_Works\R61_M3_Class_15_Work_02\bin\Debug\R61_M3_Class_15_Work_02.exe.config
+D:\R61\M3\Class 15\R61_M3_Class_15_Works\R61_M3_Class_15_Work_02\bin\Debug\R61_M3_Class_15_Work_02.exe
+D:\R61\M3\Class 15\R61_M3_Class_15_Works\R61_M3_Class_15_Work_02\bin\Debug\R61_M3_Class_15_Work_02.pdb
+D:\R61\M3\Class 15\R61_M3_Class_15_Works\R61_M3_Class_15_Work_02\obj\Debug\R61_M3_Class_15_Work_02.csproj.AssemblyReference.cache
+D:\R61\M3\Class 15\R61_M3_Class_15_Works\R61_M3_Class_15_Work_02\obj\Debug\R61_M3_Class_15_Work_02.Form1.resources
+D:\R61\M3\Class 15\R61_M3_Class_15_Works\R61_M3_Class_15_Work_02\obj\Debug\R61_M3_Class_15_Work_02.Properties.Resources.resources
+D:\R61\M3\Class 15\R61_M3_Class_15_Works\R61_M3_Class_15_Work_02\obj\Debug\R61_M3_Class_15_Work_02.csproj.GenerateResource.cache
+D:\R61\M3\Class 15\R61_M3_Class_15_Works\R61_M3_Class_15_Work_02\obj\Debug\R61_M3_Class_15_Work_02.csproj.CoreCompileInputs.cache
+D:\R61\M3\Class 15\R61_M3_Class_15_Works\R61_M3_Class_15_Work_02\obj\Debug\R61_M3_Class_15_Work_02.exe
+D:\R61\M3\Class 15\R61_M3_Class_15_Works\R61_M3_Class_15_Work_02\obj\Debug\R61_M3_Class_15_Work_02.pdb
