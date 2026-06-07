@@ -1,0 +1,14 @@
+D:\R61\M3\Class 11\R61_M3_Class_11_Works\R61_M3_Class_11_Work_02\bin\Debug\net8.0\R61_M3_Class_11_Work_02.exe
+D:\R61\M3\Class 11\R61_M3_Class_11_Works\R61_M3_Class_11_Work_02\bin\Debug\net8.0\R61_M3_Class_11_Work_02.deps.json
+D:\R61\M3\Class 11\R61_M3_Class_11_Works\R61_M3_Class_11_Work_02\bin\Debug\net8.0\R61_M3_Class_11_Work_02.runtimeconfig.json
+D:\R61\M3\Class 11\R61_M3_Class_11_Works\R61_M3_Class_11_Work_02\bin\Debug\net8.0\R61_M3_Class_11_Work_02.dll
+D:\R61\M3\Class 11\R61_M3_Class_11_Works\R61_M3_Class_11_Work_02\bin\Debug\net8.0\R61_M3_Class_11_Work_02.pdb
+D:\R61\M3\Class 11\R61_M3_Class_11_Works\R61_M3_Class_11_Work_02\obj\Debug\net8.0\R61_M3_Class_11_Work_02.GeneratedMSBuildEditorConfig.editorconfig
+D:\R61\M3\Class 11\R61_M3_Class_11_Works\R61_M3_Class_11_Work_02\obj\Debug\net8.0\R61_M3_Class_11_Work_02.AssemblyInfoInputs.cache
+D:\R61\M3\Class 11\R61_M3_Class_11_Works\R61_M3_Class_11_Work_02\obj\Debug\net8.0\R61_M3_Class_11_Work_02.AssemblyInfo.cs
+D:\R61\M3\Class 11\R61_M3_Class_11_Works\R61_M3_Class_11_Work_02\obj\Debug\net8.0\R61_M3_Class_11_Work_02.csproj.CoreCompileInputs.cache
+D:\R61\M3\Class 11\R61_M3_Class_11_Works\R61_M3_Class_11_Work_02\obj\Debug\net8.0\R61_M3_Class_11_Work_02.dll
+D:\R61\M3\Class 11\R61_M3_Class_11_Works\R61_M3_Class_11_Work_02\obj\Debug\net8.0\refint\R61_M3_Class_11_Work_02.dll
+D:\R61\M3\Class 11\R61_M3_Class_11_Works\R61_M3_Class_11_Work_02\obj\Debug\net8.0\R61_M3_Class_11_Work_02.pdb
+D:\R61\M3\Class 11\R61_M3_Class_11_Works\R61_M3_Class_11_Work_02\obj\Debug\net8.0\R61_M3_Class_11_Work_02.genruntimeconfig.cache
+D:\R61\M3\Class 11\R61_M3_Class_11_Works\R61_M3_Class_11_Work_02\obj\Debug\net8.0\ref\R61_M3_Class_11_Work_02.dll
