@@ -1,1 +1,23 @@
-# R61 Class
+ADO - **missing**
+
+## Basic
+- SQL
+- C#
+
+## HTML CSS
+- JS
+- jQuery
+- XML
+- Crystal
+
+## MVC
+- ASP.NET Web API
+- ASP.NET Web API Core
+- ASP.NET Core in Action
+- EF6
+- EF Core
+
+## Tools
+- Angular
+- React
+- MAUI
